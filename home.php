@@ -12,11 +12,11 @@ Template Name: Home Page
 						<div class="container_12">
 						<div class="flexslider grid_9">
 							<ul class="slides">
-								<?php $images = getFieldOrder('slider-image'); 
+								<?php $images = getFieldOrder('slider_image'); 
 									if(is_array($images))
 									{foreach($images as $image)
 										{echo "<li>"; 
-										 echo get_image('slider-image',1,$image); 
+										 echo get_image('slider_image',1,$image); 
 										 echo "</li>";
 										}
 									}
@@ -26,16 +26,16 @@ Template Name: Home Page
                 
 						<div class="flexbuttons grid_2">
 							<ul>
-								<li class="buttons"><a href="#"><?php echo get('flex_button',1,1); ?></a></li>
-								<li class="buttons"><a href="#"><?php echo get('flex_button',1,2); ?></a></li>
+								<li class="buttons"><a href="<?php echo get('slider_button_link',1,1); ?>"><?php echo get('slider_button',1,1); ?></a></li>
+								<li class="buttons"><a href="<?php echo get('slider_button_link',1,2); ?>"><?php echo get('slider_button',1,2); ?></a></li>
 
 							</ul> 						
 						</div>
 						<div class="grid_12">
 							<ul class="minifeatured">
-								<li class="grid_3 mini"><a href="#"><img src="http://placehold.it/200x130&text=left"/></a></li>
-								<li class="grid_3 mini"><a href="#"><img src="http://placehold.it/200x130&text=center"/></a></li>
-								<li class="grid_3 mini"><a href="#"><img src="http://placehold.it/200x130&text=right"/></a></li>
+								<li class="grid_3 mini"><a href="<?php echo get('mini_featured_link',1,1); ?>"><img src="http://placehold.it/200x130&text=left"/></a></li>
+								<li class="grid_3 mini"><a href="<?php echo get('mini_featured_link',1,2); ?>"><img src="http://placehold.it/200x130&text=center"/></a></li>
+								<li class="grid_3 mini"><a href="<?php echo get('mini_featured_link',1,3); ?>"><img src="http://placehold.it/200x130&text=right"/></a></li>
 
 							</ul>
 						</div>

@@ -152,4 +152,3 @@ var ADAPT_CONFIG = {
 		 	</div>
 		   <div class="clear"></div> 
 		</header>
-	</div>

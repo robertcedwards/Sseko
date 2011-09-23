@@ -31,7 +31,7 @@ Template Name: Home Page
 
 							</ul> 						
 						</div>
-						
+						<div class="grid_12">
 							<ul class="minifeatured">
 								<li class="grid_3 mini"><a href="<?php echo get('mini_featured_link',1,1); ?>"><img src="<?php echo get('mini_featured_image',1,1); ?>"/></a></li>
 								<li class="grid_3 mini"><a href="<?php echo get('mini_featured_link',1,2); ?>"><img src="<?php echo get('mini_featured_image',1,2); ?>"/></a></li>

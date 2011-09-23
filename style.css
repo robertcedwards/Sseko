@@ -185,7 +185,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 .flex-control-nav{width: 50px; position: relative;}
 .flexbuttons li {padding-bottom:  25px;}
 .flexbuttons li a{ font: 22px "Droid Serif Italic", serif; color:#b27557; text-decoration: none; font-style: italic; }
-.mini{}
+.mini{float: left;padding: 10px 20px 0 0px;}
 .description {padding-top: 15px;}
 
 .post {}

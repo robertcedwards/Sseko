@@ -155,7 +155,7 @@ var ADAPT_CONFIG = {
 				<img src="<?php bloginfo('template_directory'); ?>/images/description.png"/>
 			</div>
 					 	
-		 	<div class="grid_8 nav">
+		 	<div class="grid_9 nav">
 				<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' ) ); ?>
 		 	</div>
 			<div class="clear"></div> 

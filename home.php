@@ -34,14 +34,12 @@ Template Name: Home Page
 						
 						<div class="clear"></div> 
 
-						<div class="grid_12">
 							<ul class="minifeatured">
 								<li class="grid_3 mini"><a href="<?php echo get('mini_featured_link',1,1); ?>"><img src="<?php echo get('mini_featured_image',1,1); ?>"/></a></li>
 								<li class="grid_3 mini"><a href="<?php echo get('mini_featured_link',1,2); ?>"><img src="<?php echo get('mini_featured_image',1,2); ?>"/></a></li>
 								<li class="grid_3 mini"><a href="<?php echo get('mini_featured_link',1,3); ?>"><img src="<?php echo get('mini_featured_image',1,3); ?>"/></a></li>
 								<li class="grid_3 mini"><a href="<?php echo get('mini_featured_link',1,4); ?>"><img src="<?php echo get('mini_featured_image',1,4); ?>"/></a></li>
 							</ul>
-						</div>
 						
 						<div class="clear"></div>	
 		</article>

@@ -156,7 +156,7 @@ var ADAPT_CONFIG = {
 			</div>
 					 	
 		 	<div class="grid_8 prefix_4 nav">
-				<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => '' ) ); ?>
+				<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' ) ); ?>
 		 	</div>
 			<div class="clear"></div> 
 		</header>

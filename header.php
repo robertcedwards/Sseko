@@ -110,9 +110,8 @@ var ADAPT_CONFIG = {
   // Separate ranges by "to" keyword.
   range: [
     '0px    to 760px  = mobile.min.css',
-    '760px  to 980px  = 720.min.css',
-    '980px  to 1280px = 960.min.css',
-    '1280px to 5000px = 1200.min.css',
+    '760px  to 960px  = 720.min.css',
+    '960px  to 5000px = 960.min.css',
   ]
 };
 </script> 

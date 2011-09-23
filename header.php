@@ -145,10 +145,20 @@ var ADAPT_CONFIG = {
 	
 	<div class="container_12 wrapper">
 		<header>
-			<div id="logo" class="grid_3"><a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png"/></a></div>
-			<div id="description" class="grid_5"><span style="display:none;">Every Sandal has a story</span><img src="<?php bloginfo('template_directory'); ?>/images/description.png"/></div>
-		 	<div class="grid_8 nav">
+			<div id="logo" class="grid_3">
+				<a href="<?php echo get_option('home'); ?>/">
+					<img src="<?php bloginfo('template_directory'); ?>/images/logo.png"/>
+				</a>
+			</div>
+			<div id="description" class="grid_5 suffix_4">
+				<span style="display:none;">Every Sandal has a story</span>
+				<img src="<?php bloginfo('template_directory'); ?>/images/description.png"/>
+			</div>
+			
+			<div class="clear"></div> 
+		 	
+		 	<div class="grid_8 prefix_4 nav">
 				<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => '' ) ); ?>
 		 	</div>
-		   <div class="clear"></div> 
+			<div class="clear"></div> 
 		</header>

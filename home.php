@@ -31,6 +31,9 @@ Template Name: Home Page
 
 							</ul> 						
 						</div>
+						
+						<div class="clear"></div> 
+
 						<div class="grid_12">
 							<ul class="minifeatured">
 								<li class="grid_3 mini"><a href="<?php echo get('mini_featured_link',1,1); ?>"><img src="<?php echo get('mini_featured_image',1,1); ?>"/></a></li>
@@ -39,8 +42,10 @@ Template Name: Home Page
 								<li class="grid_3 mini"><a href="<?php echo get('mini_featured_link',1,4); ?>"><img src="<?php echo get('mini_featured_image',1,4); ?>"/></a></li>
 							</ul>
 						</div>
+						
+						<div class="clear"></div>
+					
 					</div>	
-
 		</article>
 
 		<?php endwhile; endif; ?>

@@ -9,7 +9,7 @@ Template Name: Home Page
 			
 		<article  id="post-<?php the_ID(); ?>">
 				<?php the_content(); ?>						
-					<div class="grid_12">
+					
 						<div class="flexslider grid_10">
 							<ul class="slides">
 								<?php $images = getFieldOrder('slider_image'); 
@@ -43,9 +43,7 @@ Template Name: Home Page
 							</ul>
 						</div>
 						
-						<div class="clear"></div>
-					
-					</div>	
+						<div class="clear"></div>	
 		</article>
 
 		<?php endwhile; endif; ?>

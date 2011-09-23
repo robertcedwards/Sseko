@@ -150,12 +150,12 @@ var ADAPT_CONFIG = {
 					<img src="<?php bloginfo('template_directory'); ?>/images/logo.png"/>
 				</a>
 			</div>
-			<div id="description" class="grid_5 suffix_4">
+			<div id="description" class="grid_5">
 				<span style="display:none;">Every Sandal has a story</span>
 				<img src="<?php bloginfo('template_directory'); ?>/images/description.png"/>
 			</div>
 					 	
-		 	<div class="grid_8 prefix_4 nav">
+		 	<div class="grid_8nav">
 				<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' ) ); ?>
 		 	</div>
 			<div class="clear"></div> 

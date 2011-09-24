@@ -10,7 +10,7 @@ Template Name: Home Page
 		<article  id="post-<?php the_ID(); ?>">
 				<?php the_content(); ?>						
 					
-						<div class="flexslider grid_9">
+						<div class="flexslider blueberry grid_9">
 							<ul class="slides">
 								<?php $images = getFieldOrder('slider_image'); 
 									if(is_array($images))

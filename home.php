@@ -25,7 +25,7 @@ Template Name: Home Page
 						</div>
                 
 						<div class="flexbuttons grid_3">
-							<ul>
+							<ul class="pager">
 								<li class="buttons"><a href="<?php echo get('slider_button_link',1,1); ?>"><?php echo get('slider_button',1,1); ?></a></li>
 								<li class="buttons"><a href="<?php echo get('slider_button_link',1,2); ?>"><?php echo get('slider_button',1,2); ?></a></li>
 

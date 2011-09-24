@@ -10,7 +10,7 @@ Template Name: Home Page
 		<article  id="post-<?php the_ID(); ?>">
 				<?php the_content(); ?>						
 					
-						<div class="flexslider grid_10">
+						<div class="flexslider grid_9">
 							<ul class="slides">
 								<?php $images = getFieldOrder('slider_image'); 
 									if(is_array($images))
@@ -24,7 +24,7 @@ Template Name: Home Page
 							</ul> 						
 						</div>
                 
-						<div class="flexbuttons grid_2">
+						<div class="flexbuttons grid_3">
 							<ul>
 								<li class="buttons"><a href="<?php echo get('slider_button_link',1,1); ?>"><?php echo get('slider_button',1,1); ?></a></li>
 								<li class="buttons"><a href="<?php echo get('slider_button_link',1,2); ?>"><?php echo get('slider_button',1,2); ?></a></li>

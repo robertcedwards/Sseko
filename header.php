@@ -91,8 +91,7 @@
 		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
 		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
 	
-	<!-- CSS: screen, mobile & print are all in the same file -->
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/js/flexslider/flexslider.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/js/blueberry.css">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
 <script> 
@@ -116,28 +115,19 @@ var ADAPT_CONFIG = {
 };
 </script> 
 <script src="<?php bloginfo('template_directory'); ?>/_/js/adapt.min.js"></script>
-	<!-- CSS: Flex Slider addition -->
 	<script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script src="<?php bloginfo('template_directory'); ?>/_/js/flexslider/jquery.flexslider-min.js"></script>
 	<script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.backstretch.min.js"></script>
+	<script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.blueberry.js"></script>
+
+
 
 
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
-	<?php wp_head(); ?>
-	<script type="text/javascript" charset="utf-8">
-		$(window).load(function() {
-			$('.flexslider').flexslider({
-			animation: 'slide',
-			controlsContainer: '.flexbuttons',
-			directionNav: false,
-	
-			});
-		});
-	</script>
+	<?php wp_head(); ?
 
 </head>
 

@@ -128,7 +128,11 @@ var ADAPT_CONFIG = {
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
 	<?php wp_head(); ?>
-
+<script>
+$(window).load(function() {
+	$('.blueberry').blueberry();
+});
+</script>
 </head>
 
 <body <?php body_class(backstretch); ?>>

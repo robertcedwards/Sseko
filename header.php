@@ -6,7 +6,6 @@
 <!--[if IE 9 ]>    <html class="ie ie9 no-js" <?php language_attributes(); ?>> <![endif]-->
 <!--[if gt IE 9]><!--><html class="no-js" <?php language_attributes(); ?>><!--<![endif]-->
 <!-- the "no-js" class is for Modernizr. -->
-<!-- Adding time tracking for github and harvest -->
 <head id="www-sitename-com" data-template-set="html5-reset-wordpress-theme" profile="http://gmpg.org/xfn/11">
 
 	<meta charset="<?php bloginfo('charset'); ?>">
@@ -75,7 +74,7 @@
 	device-width : Occupy full width of the screen in its current orientation
 	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
 	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width -->
-	<!-- Uncomment to use; use thoughtfully!
+	<!-- Uncomment to use; use thoughtfully Here's another comment!
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	-->
 	

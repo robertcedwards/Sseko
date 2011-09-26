@@ -2,62 +2,46 @@
 /*
 Template Name: News
 */
-
-get_header(); ?>
-
-<div id="content" class="narrowcolumn">
-
-<?php
-if (is_page() ) {
-$category = get_post_meta($posts[0]->ID, 'category', true);
-}
-if ($category) {
-  $cat = get_cat_ID($category);
-  $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-  $post_per_page = 4; // -1 shows all posts
-  $do_not_show_stickies = 1; // 0 to show stickies
-  $args=array(
-    'category__in' => array($cat),
-    'orderby' => 'date',
-    'order' => 'DESC',
-    'paged' => $paged,
-    'posts_per_page' => $post_per_page,
-    'caller_get_posts' => $do_not_show_stickies
-  );
-  $temp = $wp_query;  // assign orginal query to temp variable for later use   
-  
-  global $wp_query = null;
-  global $wp_query = new WP_Query($args); 
-  if( have_posts() ) : 
-		while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-	    <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-        <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-        <small><?php the_time('F jS, Y') ?> <!-- by <?php the_author() ?> --></small>
-        <div class="entry">
-          <?php the_content('Read the rest of this entry »'); ?>
-        </div>
-        <p class="postmetadata"><?php the_tags('Tags: ', ', ', '<br />'); ?> Posted in <?php the_category(', ') ?> | <?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('No Comments »', '1 Comment »', '% Comments »'); ?></p>
-      </div>
-    <?php endwhile; ?>
-    <div class="navigation">
-      <div class="alignleft"><?php next_posts_link('« Older Entries') ?></div>
-      <div class="alignright"><?php previous_posts_link('Newer Entries »') ?></div>
-    </div>
-  <?php else : ?>
-
-		<h2 class="center">Not Found</h2>
-		<p class="center">Sorry, but you are looking for something that isn't here.</p>
-		<?php get_search_form(); ?>
-
-	<?php endif; 
-	
-	$wp_query = $temp;  //reset back to original query
-	
-}  // if ($category)
 ?>
 
-	</div>
-
-<?php get_sidebar(); ?>
-
-<?php get_footer(); ?>
+<?php get_header(); ?>
+ 
+	<div id="content">
+ 
+        <?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
+ 
+	<?php if( have_posts() ): ?>
+ 
+        <?php while( have_posts() ): the_post(); ?>
+ 
+	    <div id="post-<?php get_the_ID(); ?>" <?php post_class(); ?>>
+ 
+        	<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( array(200,220) ); ?></a>
+ 
+                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+ 
+                <span class="meta"><?php author_profile_avatar_link(48); ?> <strong><?php the_time('F jS, Y'); ?></strong> / <strong><?php the_author_link(); ?></strong> / <span class="comments"><?php comments_popup_link(__('0 comments','example'),__('1 comment','example'),__('% comments','example')); ?></span></span>
+ 
+		<?php the_excerpt(__('Continue reading &raquo;','example')); ?>
+ 
+            </div><!-- /#post-<?php get_the_ID(); ?> -->
+ 
+        <?php endwhile; ?>
+ 
+		<div class="navigation">
+			<span class="newer"><?php previous_posts_link(__('&laquo; Newer','example')) ?></span> <span class="older"><?php next_posts_link(__('Older &raquo;','example')) ?></span>
+		</div><!-- /.navigation -->
+ 
+	<?php else: ?>
+ 
+		<div id="post-404" class="noposts">
+ 
+		    <p><?php _e('None found.','example'); ?></p>
+ 
+	    </div><!-- /#post-404 -->
+ 
+	<?php endif; wp_reset_query(); ?>
+ 
+	</div><!-- /#content -->
+ 
+<?php get_footer() ?>

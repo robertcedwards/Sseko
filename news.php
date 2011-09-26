@@ -5,8 +5,13 @@ Template Name: Blog
 ?>
 <?php get_header(); ?>
 
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
+<?php
+$temp = $wp_query;
+$wp_query= null;
+$wp_query = new WP_Query();
+$wp_query->query('posts_per_page=5'.'&paged='.$paged);
+while ($wp_query->have_posts()) : $wp_query->the_post();
+?>
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 
 			<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
@@ -25,7 +30,6 @@ Template Name: Blog
 
 		</article>
 
-	<?php endwhile; ?>
 
 	<?php include (TEMPLATEPATH . '/_/inc/nav.php' ); ?>
 

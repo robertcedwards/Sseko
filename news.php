@@ -36,5 +36,3 @@ while ($wp_query->have_posts()) : $wp_query->the_post();
 
 
 <?php $wp_query = null; $wp_query = $temp;?>
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>

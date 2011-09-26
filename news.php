@@ -19,7 +19,7 @@ Template Name: News
  
                 <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
  
-                <span class="meta"><?php author_profile_avatar_link(48); ?> <strong><?php the_time('F jS, Y'); ?></strong> / <strong><?php the_author_link(); ?></strong> / <span class="comments"><?php comments_popup_link(__('0 comments','example'),__('1 comment','example'),__('% comments','example')); ?></span></span>
+                <span class="meta"><strong><?php the_time('F jS, Y'); ?></strong> / <strong><?php the_author_link(); ?></strong> / <span class="comments"><?php comments_popup_link(__('0 comments','example'),__('1 comment','example'),__('% comments','example')); ?></span></span>
  
 		<?php the_excerpt(__('Continue reading &raquo;','example')); ?>
  

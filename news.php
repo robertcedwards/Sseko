@@ -16,7 +16,6 @@ Template Name: News
  
 	    <div id="post-<?php get_the_ID(); ?>" <?php post_class(); ?>>
  
-        	<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( array(200,220) ); ?></a>
  
                 <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
  

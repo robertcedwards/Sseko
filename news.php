@@ -25,8 +25,9 @@ if ($category) {
     'caller_get_posts' => $do_not_show_stickies
   );
   $temp = $wp_query;  // assign orginal query to temp variable for later use   
-  $wp_query = null;
-  $wp_query = new WP_Query($args); 
+  
+  global $wp_query = null;
+  global $wp_query = new WP_Query($args); 
   if( have_posts() ) : 
 		while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 	    <div <?php post_class() ?> id="post-<?php the_ID(); ?>">

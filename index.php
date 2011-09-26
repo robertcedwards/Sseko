@@ -41,15 +41,9 @@ Template Name: Home Page
 								<li class="grid_3 mini">
 								<!-- Begin MailChimp Signup Form -->
 									<form action="http://ssekodesigns.us2.list-manage.com/subscribe/post?u=918f13b2195c1a617550a626a&amp;	id=b87be29ca1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-									<div class="mc-field-group">
 									<label for="mce-EMAIL">Email Address </label>
-									<input style="width:100%;" type="email" value="" name="EMAIL" class="required email " id="mce-EMAIL">
-									</div>
-									<div id="mce-responses">
-										<div class="response" id="mce-error-response" style="display:none"></div>
-										<div class="response" id="mce-success-response" style="display:none"></div>
-									</div>
-									<div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+									<input style="width:80%;" type="email" value="" name="EMAIL" class="required email " id="mce-EMAIL">
+									<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
 									</form>
 								
 								<!--End mc_embed_signup-->

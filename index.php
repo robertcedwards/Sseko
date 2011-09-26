@@ -40,7 +40,6 @@ Template Name: Home Page
 								<li class="grid_3 mini"><a href="<?php echo get('mini_featured_link',1,3); ?>"><img src="<?php echo get('mini_featured_image',1,3); ?>"/></a></li>
 								<li class="grid_3 mini">
 								<!-- Begin MailChimp Signup Form -->
-								<div id="mc_embed_signup">
 									<form action="http://ssekodesigns.us2.list-manage.com/subscribe/post?u=918f13b2195c1a617550a626a&amp;	id=b87be29ca1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
 									<div class="mc-field-group">
 									<label for="mce-EMAIL">Email Address </label>
@@ -52,7 +51,7 @@ Template Name: Home Page
 									</div>
 									<div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 									</form>
-								</div>
+								
 								<!--End mc_embed_signup-->
 								</li>
 							</ul>

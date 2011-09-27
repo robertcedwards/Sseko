@@ -16,8 +16,12 @@ Template Name: Home Page
 									if(is_array($images))
 									{foreach($images as $image)
 										{echo "<li>"; 
-										 echo "<a href= get('slider_button_link',1,$image);>echo get_image('slider_image',1,$image)"; 
-										 echo "</a></li>";
+										 echo "<a href=";
+										 echo get('slider_button_link',1,$image);
+										 
+										 echo get_image('slider_image',1,$image); 
+										 echo "</a>";
+										 echo "</li>";
 										}
 									}
 								?>
@@ -28,7 +32,7 @@ Template Name: Home Page
 							<ul class="pager">
 								<li class="buttons"><span><a href="<?php echo get('slider_button_link',1,1); ?>"><?php echo get('slider_button',1,1); ?></span></a></li>
 								<li class="buttons"><span><a href="<?php echo get('slider_button_link',1,2); ?>"><?php echo get('slider_button',1,2); ?></span></a></li>
-								<li class="buttons"><span><a href="<?php echo get('slider_button_link',1,3); ?>"><?php echo get('slider_button',1,3); ?></span></a></li>
+								<li class="buttons"><span><a href="<?php echo get('slider_button_link',1,2); ?>"><?php echo get('slider_button',1,2); ?></span></a></li>
 							</ul> 						
 						</div>
 						

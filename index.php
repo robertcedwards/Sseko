@@ -39,6 +39,7 @@ Template Name: Home Page
 								<li class="grid_3 mini"><a href="<?php echo get('mini_featured_link',1,2); ?>"><img src="<?php echo get('mini_featured_image',1,2); ?>"/></a></li>
 								<li class="grid_3 mini"><a href="<?php echo get('mini_featured_link',1,3); ?>"><img src="<?php echo get('mini_featured_image',1,3); ?>"/></a></li>
 								<li class="grid_3 mini font">
+								<hr style="color:#4a4848;">
 								<!-- Begin MailChimp Signup Form -->
 									<form action="http://ssekodesigns.us2.list-manage.com/subscribe/post?u=918f13b2195c1a617550a626a&amp;	id=b87be29ca1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
 									<label for="mce-EMAIL">Sign up</label><br><span style="font-size:smaller;">for our newsletter:</span>

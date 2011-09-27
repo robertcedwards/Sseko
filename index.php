@@ -16,9 +16,9 @@ Template Name: Home Page
 									if(is_array($images))
 									{foreach($images as $image)
 										{echo "<li>"; 
-										 echo "<a href=";
+										 echo "<a href='";
 										 echo get('slider_button_link',1,$image);
-										 
+										 echo "'"
 										 echo get_image('slider_image',1,$image); 
 										 echo "</a>";
 										 echo "</li>";

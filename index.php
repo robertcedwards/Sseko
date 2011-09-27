@@ -57,6 +57,7 @@ Template Name: Home Page
 
 										</ul>
 									</span>
+									<hr style="border-top-color:#c67655;">
 								</li>
 							</ul>
 						

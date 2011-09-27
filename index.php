@@ -50,10 +50,10 @@ Template Name: Home Page
 								<!--End mc_embed_signup-->
 									<span>
 										<ul class="social">
-											<li><a href="http://www.youtube.com"><img src="<?php bloginfo('template_directory'); ?>/images/youtube.png"/></a></li>
-											<li><a href="http://www.ssekodesigns.com/rss"><img src="<?php bloginfo('template_directory'); ?>/images/rss.png"/></a></li>
-											<li><a href="http://www.facebook.com/ssekodesigns"><img src="<?php bloginfo('template_directory'); ?>/images/facebook.png"/></a></li>
-											<li><a href="http://twitter.com/#!/ssekodesigns"><img src="<?php bloginfo('template_directory'); ?>/images/twitter.png"/></a></li>
+											<li><a href="http://www.youtube.com"><img src="<?php bloginfo('template_directory'); ?>/buttons/images/youtube.png"/></a></li>
+											<li><a href="http://www.ssekodesigns.com/rss"><img src="<?php bloginfo('template_directory'); ?>/buttons/images/rss.png"/></a></li>
+											<li><a href="http://www.facebook.com/ssekodesigns"><img src="<?php bloginfo('template_directory'); ?>/buttons/images/facebook.png"/></a></li>
+											<li><a href="http://twitter.com/#!/ssekodesigns"><img src="<?php bloginfo('template_directory'); ?>/buttons/images/twitter.png"/></a></li>
 
 										</ul>
 									</span>

@@ -189,8 +189,8 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 .description {padding-top: 15px;}
 .menu{float:right;}
 .post {}
- li.font{ display: inline; padding: 2px ; font: 22px "Droid Serif Italic", serif; color:#b27557; text-decoration: none; font-style: italic; }
-
+ li.font{  font: 22px "Droid Serif Italic", serif; color:#b27557; text-decoration: none; font-style: italic; }
+li.social{display: inline; padding: 2px ;}
 .entry-content {}
 .entry-content a {}
 .entry-content a:hover {}

@@ -130,6 +130,8 @@ var ADAPT_CONFIG = {
 <script>
 $(window).load(function() {
 	$('.blueberry').blueberry();
+	$.backstretch("../wp-content/themes/Sseko/images/bg.jpg", {centeredX: false}, {centeredY: false});
+
 });
 </script>
 </head>

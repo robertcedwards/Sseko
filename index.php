@@ -4,7 +4,7 @@ Template Name: Home Page
 */
 ?>
 <?php get_header(); ?>
-
+	<div id="content">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			
 		<article  id="post-<?php the_ID(); ?>">
@@ -65,6 +65,6 @@ Template Name: Home Page
 						
 						<div class="clear"></div>	
 		</article>
-
+	</div>	
 		<?php endwhile; endif; ?>
 <?php get_footer(); ?>

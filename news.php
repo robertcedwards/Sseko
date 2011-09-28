@@ -3,7 +3,6 @@
 Template Name: News
 */
 ?>
-
 <?php get_header(); ?>
  
 	<div id="content">

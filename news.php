@@ -18,10 +18,10 @@ Template Name: News
  
                 <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
  
-                <span class="meta"><strong><?php the_time('F jS, Y'); ?></strong> / <strong><?php the_author_link(); ?></strong> / <span class="comments"><?php comments_popup_link(__('0 comments','example'),__('1 comment','example'),__('% comments','example')); ?></span></span>
+               
  
-		<?php the_excerpt(__('Continue reading &raquo;','example')); ?>
- 
+				<?php the_content(); ?>
+  		<span class="comments"><?php comments_popup_link(__('0 comments','example'),__('1 comment','example'),__('% comments','example')); ?></span></span>
             </div><!-- /#post-<?php get_the_ID(); ?> -->
  
         <?php endwhile; ?>

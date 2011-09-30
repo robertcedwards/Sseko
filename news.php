@@ -21,7 +21,7 @@ Template Name: News
                
  
 				<?php the_content(); ?>
-  		<span class="comments"><?php comments_popup_link(__('0 comments','example'),__('1 comment','example'),__('% comments','example')); ?></span></span>
+  		<span class="comments"><?php comments_popup_link(__('0 comments','example'),__('1 comment','example'),__('% comments','example')); ?></span>
             </div><!-- /#post-<?php get_the_ID(); ?> -->
  
         <?php endwhile; ?>

@@ -108,9 +108,12 @@ var ADAPT_CONFIG = {
   // Separate ranges by "to" keyword.
   range: [
     '0px    to 760px  = mobile.min.css',
-    '760px  to 960px  = 720.min.css',
-    '960px  to 5000px = 960.min.css',
-  ]
+   '760px  to 980px  = 720.css',
+    '980px  to 1280px = 960.css',
+    '1280px to 1600px = 1200.css',
+    '1600px to 1920px = 1560.css',
+    '1940px to 2540px = 1920.css',
+    '2540px           = 2520.css'  ]
 };
 </script> 
 <script src="<?php bloginfo('template_directory'); ?>/_/js/adapt.min.js"></script>

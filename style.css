@@ -201,6 +201,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 .sidebar{background: url('images/slidersidebar.jpg'); background-position:left; overflow:hidden; background-repeat: no-repeat; padding: 10px 0px 10px 0px;}
 .sidebar ul {padding:10px;}
 .sidebar h2 {padding:3px 5px 3px 5px;}
+.sidebar a{text-decoration:none; color:#C96;}
 #meta {}
 .postmetadata {}
 

@@ -5,7 +5,7 @@ Template Name: News
 ?>
 <?php get_header(); ?>
  
-	<div id="content">
+	<div id="content" class="grid_12">
  
         <?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
  
@@ -26,11 +26,10 @@ Template Name: News
             </div><!-- /#post-<?php get_the_ID(); ?> -->
  
         <?php endwhile; ?>
- 
 		<div class="navigation">
 			<span class="newer"><?php previous_posts_link(__('&laquo; Newer','example')) ?></span> <span class="older"><?php next_posts_link(__('Older &raquo;','example')) ?></span>
 		</div><!-- /.navigation -->
- 
+ 		<?php get_sidebar(); ?>
 	<?php else: ?>
  
 		<div id="post-404" class="noposts">

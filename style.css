@@ -198,6 +198,8 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 .entry-meta {font-size: 11pt; color: #999; font-weight: 100; font-style: italic;}
 .entry-meta a {text-decoration:none; color:#cc9966; font-transform:uppercase;}
 
+#sidebar{background: url('images/slidersidebar.jpg'); background-position:right; overflow:hidden; background-repeat: no-repeat; padding: 10px 0px 10px 0px;}
+
 #meta {}
 .postmetadata {}
 

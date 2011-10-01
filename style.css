@@ -196,7 +196,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 .entry-content a:hover {}
 .entry-title a {font-size: 30px; color: #333; text-decoration: none; font-weight: 100;}
 .entry-meta {font-size: 11pt; color: #999; font-weight: 100; font-style: italic;}
-.entry-meta a {text-decoration:none; color:#cc9966; font-transform:uppercase;}
+.entry-meta a {text-decoration:none; color:#cc9966; text-transform:uppercase;}
 
 .sidebar{background: url('images/slidersidebar.jpg'); background-position:left; overflow:hidden; background-repeat: no-repeat; padding: 10px 0px 10px 0px;}
 .sidebar ul {padding:10px;}
@@ -215,7 +215,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 #searchsubmt {}
 
 .comments{ color:#cc9966; t}
-.comments a{text-decoration:none; color:#cc9966; font-transform:uppercase;}	
+.comments a{text-decoration:none; color:#cc9966; text-transform:uppercase;}	
 ol.commentlist {list-style: none;}
 ol.commentlist li {}
 ol.commentlist li.alt {}

@@ -15,15 +15,8 @@
         	<hr class="grid_8">
  			<div class="clear"></div>
  		</article>
-		<?php comments_template(); ?>
-	<?php else: ?>
- 
-		<div id="post-404" class="noposts">
- 
-		    <p><?php _e('None found.','example'); ?></p>
- 
-	    </div><!-- /#post-404 -->
- 
+	<?php comments_template(); ?>
+	
 	<?php endwhile; endif; ?>
 
 	</div><!-- /#content -->

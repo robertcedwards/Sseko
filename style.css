@@ -68,7 +68,7 @@ table {border-collapse: collapse; border-spacing: 0;}
 th {font-weight: bold; vertical-align: bottom;}
 td {font-weight: normal; vertical-align: top;}
 
-hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;}
+hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc;  padding: 0;}
 
 input, select {vertical-align: middle;}
 
@@ -191,6 +191,7 @@ body{background-image:url('images/bg.jpg');-webkit-background-size:100%; /*Saf3-
 .menu{float:right;}
 .post {}
  li.font{  font: 22px "Droid Serif Italic", serif; color:#b27557; text-decoration: none; font-style: italic; }
+.social ul {text-align:cen;}
 .social li{display: inline; padding: 2px ;}
 .entry-content {}
 .entry-content a {}

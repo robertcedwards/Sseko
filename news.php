@@ -12,8 +12,8 @@ Template Name: News
 	<?php if( have_posts() ): ?>
  
         <?php while( have_posts() ): the_post(); ?>
- 		
-	    <div id="post-<?php get_the_ID(); ?>" <?php post_class('grid_8 alpha pull_8'); ?>>
+ 		 <?php get_sidebar(); ?>
+	    <div id="post-<?php get_the_ID(); ?>" <?php post_class('grid_8 alpha'); ?>>
  
  
                 <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
@@ -26,7 +26,6 @@ Template Name: News
         </div><!-- /#post-<?php get_the_ID(); ?> -->
  		
         <?php endwhile; ?>
-     	<?php get_sidebar(); ?>
     
 	<?php else: ?>
  

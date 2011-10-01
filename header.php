@@ -6,7 +6,7 @@
 <!--[if IE 9 ]>    <html class="ie ie9 no-js" <?php language_attributes(); ?>> <![endif]-->
 <!--[if gt IE 9]><!--><html class="no-js" <?php language_attributes(); ?>><!--<![endif]-->
 <!-- the "no-js" class is for Modernizr. -->
-<head id="www-sitename-com" data-template-set="html5-reset-wordpress-theme" profile="http://gmpg.org/xfn/11">
+<head id="www-ssekodesigns-com" data-template-set="html5-reset-wordpress-theme" profile="http://gmpg.org/xfn/11">
 
 	<meta charset="<?php bloginfo('charset'); ?>">
 	
@@ -61,13 +61,13 @@
 	<meta name="google-site-verification" content="">
 	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
 	
-	<meta name="author" content="Your Name Here">
-	<meta name="Copyright" content="Copyright Your Name Here 2011. All Rights Reserved.">
+	<meta name="author" content="Sseko Designs">
+	<meta name="Copyright" content="Copyright Sseko Designs 2011. All Rights Reserved.">
 
 	<!-- Dublin Core Metadata : http://dublincore.org/ -->
-	<meta name="DC.title" content="Project Name">
-	<meta name="DC.subject" content="What you're about.">
-	<meta name="DC.creator" content="Who made this site.">
+	<meta name="DC.title" content="Sseko Designs">
+	<meta name="DC.subject" content="Every Sandal has a story">
+	<meta name="DC.creator" content="WeCreativeAgency.com">
 	
 	<!--  Mobile Viewport meta tag
 	j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
@@ -116,27 +116,16 @@ var ADAPT_CONFIG = {
 <script src="<?php bloginfo('template_directory'); ?>/_/js/adapt.min.js"></script>
 	<script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.backstretch.min.js"></script>
 	<script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.blueberry.js"></script>
-
-
-
 
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
 	<?php wp_head(); ?>
-<script>
-$(window).load(function() {
-	$('.blueberry').blueberry();
-	$.backstretch("../wp-content/themes/Sseko/images/bg.jpg", {centeredX: false}, {centeredY: false});
-
-});
-</script>
 </head>
 
-<body <?php body_class(backstretch); ?>>
+<body <?php body_class(); ?>>
 	
 	<div class="container_12 wrapper">
 		<header>

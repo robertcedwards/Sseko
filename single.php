@@ -1,31 +1,28 @@
 <?php get_header(); ?>
+ 
+	<div id="content" class="grid_8"> 
+	    <div id="post-<?php get_the_ID(); ?>" <?php post_class('grid_8'); ?>>
+ 
+            <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            <span class="entry-meta"><?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?></span>
+	       	<hr class="grid_4">
+ 			<div class="clear"></div>
+ 			<?php the_content(); ?>
+ 			<span class="comments"><?php comments_popup_link(__('0 comments','example'),__('1 comment','example'),__('% comments','example')); ?></span>
+        
+        </div><!-- /#post-<?php get_the_ID(); ?> -->
+        <hr class="grid_8">
+ 		<div class="clear"></div>
 
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
-			
-			<h1 class="entry-title"><?php the_title(); ?></h1>
-				
-			<div class="entry-content">
-				<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
-
-				<?php the_content(); ?>
-
-				<?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
-				
-				<?php the_tags( 'Tags: ', ', ', ''); ?>
-			
-
-			</div>
-			
-			<?php edit_post_link('Edit this entry','','.'); ?>
-			
-		</article>
-
-	<?php comments_template(); ?>
-
-	<?php endwhile; endif; ?>
-	
-<?php get_sidebar(); ?>
-
-<?php get_footer(); ?>
+ 
+		<div id="post-404" class="noposts">
+ 
+		    <p><?php _e('None found.','example'); ?></p>
+ 
+	    </div><!-- /#post-404 -->
+ 
+ 
+	</div><!-- /#content -->
+ 	<?php get_sidebar(); ?>
+ 	
+<?php get_footer() ?>

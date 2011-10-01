@@ -49,8 +49,8 @@ Template Name: Home Page
 									<br>
 									<hr style="border-top-color:#c67655;margin:0px; padding-top: 10px;">
 								<!--End mc_embed_signup-->
-									<span>
-										<ul class="social">
+									<span class="social">
+										<ul>
 											<li><a href="http://www.youtube.com"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/youtube.png"/></a></li>
 											<li><a href="http://www.ssekodesigns.com/rss"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/rss.png"/></a></li>
 											<li><a href="http://www.facebook.com/ssekodesigns"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/facebook.png"/></a></li>

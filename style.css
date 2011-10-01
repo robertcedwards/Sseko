@@ -210,7 +210,9 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 #searchform {}
 #s {}
 #searchsubmt {}
-	
+
+.comments{ color:#cc9966; t}
+.comments a{text-decoration:none; color:#cc9966; font-transform:uppercase;}	
 ol.commentlist {list-style: none;}
 ol.commentlist li {}
 ol.commentlist li.alt {}

@@ -4,5 +4,4 @@
 	</span>
 	<i>on </i> <time datetime="<?php echo date(DATE_W3C); ?>" pubdate class="updated"><?php the_time('l, F j') ?> in</time>
 	<i><?php the_category(', ') ?></i>
-	<?php comments_popup_link('No Comments', '1 Comment', '% Comments', 'comments-link', ''); ?>
 </footer>

@@ -158,7 +158,7 @@ body { font: 14px "Droid Serif", serif;}
 body, select, input, textarea {color: #333;}
 
 a {color: #03f;}
-a:hover {color: #69f;}
+a:hover {color: #69f;text-decoration:underline;}
 
 /* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
 ::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
@@ -174,7 +174,6 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 
 /* And here begins the Wordpress fun.
 -------------------------------------------------------------------------------*/
-a:hover{text-decoration:underline;}
 .wrapper { background-image: url('images/paint.jpg'); background-repeat: no-repeat; background-position: top right;background-color: white; }
 .nav {background: url('images/navbar.png'); background-position:right; overflow:hidden; background-repeat: no-repeat; padding: 10px 0px 10px 0px;}
 .nav ul{margin:0px; padding: 0px; list-style-type: none;list-style-image: none;}

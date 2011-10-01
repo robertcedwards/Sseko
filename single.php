@@ -21,8 +21,7 @@
         </div><!-- /#post-<?php get_the_ID(); ?> -->
         <hr class="grid_8">
  		<div class="clear"></div>
-        <?php endwhile; ?>
-
+ 		
 	<?php else: ?>
  
 		<div id="post-404" class="noposts">

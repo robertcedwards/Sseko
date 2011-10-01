@@ -26,9 +26,6 @@ Template Name: News
             </div><!-- /#post-<?php get_the_ID(); ?> -->
  
         <?php endwhile; ?>
-		<div class="navigation">
-			<span class="newer"><?php previous_posts_link(__('&laquo; Newer','example')) ?></span> <span class="older"><?php next_posts_link(__('Older &raquo;','example')) ?></span>
-		</div><!-- /.navigation -->
  		<?php get_sidebar(); ?>
 	<?php else: ?>
  

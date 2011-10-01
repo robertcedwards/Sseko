@@ -174,7 +174,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 
 /* And here begins the Wordpress fun.
 -------------------------------------------------------------------------------*/
-body{background-image:url('images/bg.jpg');-webkit-background-size: 100% 100%; /* Saf3-4 */-moz-background-size: 100% 100%; /* FF3.6 */background-size: 100% 100%;}
+body{background-image:url('images/bg.jpg');-webkit-background-size:100%; /*Saf3-4*/-moz-background-size:100%;/* FF3.6 */background-size:100%;}
 .wrapper { background-image: url('images/paint.jpg'); background-repeat: no-repeat; background-position: top right;background-color: white; }
 .nav {background: url('images/navbar.png'); background-position:right; overflow:hidden; background-repeat: no-repeat; padding: 10px 0px 10px 0px;}
 .nav ul{margin:0px; padding: 0px; list-style-type: none;list-style-image: none;}

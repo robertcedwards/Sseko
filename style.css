@@ -195,6 +195,8 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 .entry-content a {}
 .entry-content a:hover {}
 .entry-title a {font-size: 30px; color: #333; text-decoration: none; font-weight: 100;}
+.entry-meta {font-size: 11pt; color: #999; font-weight: 100; font-style: italic;}
+.entry-meta a {text-decoration:none; color:#cc9966; font-transform:uppercase;}
 
 #meta {}
 .postmetadata {}

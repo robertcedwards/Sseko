@@ -13,7 +13,7 @@ Template Name: News
  
         <?php while( have_posts() ): the_post(); ?>
  		 <?php get_sidebar(); ?>
-	    <div id="post-<?php get_the_ID(); ?>" <?php post_class('grid_8 alpha'); ?>>
+	    <div id="post-<?php get_the_ID(); ?>" <?php post_class('grid_8 alpha push_8'); ?>>
  
  
                 <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>

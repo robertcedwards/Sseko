@@ -34,7 +34,7 @@
 		<!-- If comments are open, but there are no comments. -->
 
 	 <?php else : // comments are closed ?>
-		<p>Comments are closed.</p>
+		<p class="grid_8">Comments are closed.</p>
 
 	<?php endif; ?>
 	
@@ -42,7 +42,7 @@
 
 <?php if ( comments_open() ) : ?>
 
-<div id="respond">
+<div id="respond" class="grid_8">
 
 	<h2><?php comment_form_title( 'Leave a Reply', 'Leave a Reply to %s' ); ?></h2>
 

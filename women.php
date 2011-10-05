@@ -24,6 +24,5 @@ Template Name: Women of Sseko
 						
 						<div class="clear"></div>	
 		</article>
-	</div>	
 		<?php endwhile; endif; ?>
 <?php get_footer(); ?>

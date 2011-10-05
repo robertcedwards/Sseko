@@ -12,7 +12,7 @@ Template Name: Women of Sseko
 				<?php $womens = getFieldOrder('image'); 
 									if(is_array($womens))
 									{foreach($womens as $women)
-										{echo "<a href="">"; 
+										{echo "<a>"; 
 										 echo get_image('image',1,$women); 
 										 echo "</a>";
 										}

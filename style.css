@@ -139,9 +139,8 @@ button {width: auto; overflow: visible;}
 body { font: 14px "Droid Serif", serif;}
 body p {
 	margin: 15px;
-	
+	text-indent:25px	
 }
-
 /* Bulletproof @font-face syntax: http://mky.be/font-face/bulletproof/ */
 @font-face {
   font-family: 'Droid Serif';
@@ -196,7 +195,6 @@ body{background-image:url('images/bg.jpg');-webkit-background-size:100%; /*Saf3-
 .menu{float:right;}
 .post {margin: 10px 10px 10px 20px;
 			line-height:160%;
-			text-indent: 40px;
 			}
  li.font{  font: 22px "Droid Serif Italic", serif; color:#b27557; text-decoration: none; font-style: italic; }
 .social ul {text-align:center;}
@@ -226,11 +224,12 @@ body{background-image:url('images/bg.jpg');-webkit-background-size:100%; /*Saf3-
     webkit-transition: color .25s linear;
     transition: color .25s linear;}
     .sidebar img{
-display: block;
-	margin: 10px 10px;
-	
+	margin: 10px 10px;	
 }   
-    
+.sidebar p {font-size: 11pt; color: #999; font-weight: 100; font-style: italic;}
+.sidebar p +a {
+margin-left:  100px;
+}    
 #meta {}
 .postmetadata {}
 

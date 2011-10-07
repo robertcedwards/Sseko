@@ -21,12 +21,12 @@ Template Name: Women of Sseko
 							</ul> 						
 						<div style="display:none">
 							<div id="info" class="grid_8">
-				<?php $lightboximages = getFieldOrder('image'); 
-									if(is_array($lightboximages))
-									{foreach($lightboximages as $lightboximage)
+			<?php $womens = getFieldOrder('image'); 
+									if(is_array($womens))
+									{foreach($womens as $women)
 										{ 
-										 echo get_image('image',1,$lightboximages); 
-										
+										 echo get_image('image',1,$women); 
+										 
 										}
 									}
 				?>

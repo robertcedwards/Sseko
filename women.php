@@ -17,9 +17,21 @@ Template Name: Women of Sseko
 										 echo "</a>";
 										}
 									}
-								?>
+				?>
 							</ul> 						
-						<div style="display:none"><div id="info"></div></div>
+						<div style="display:none">
+							<div id="info" class="grid_8">
+				<?php $lightboximages = getFieldOrder('image'); 
+									if(is_array($lightboximages))
+									{foreach($lightboximages as $lightboximage)
+										{echo "<a href='#info'class='grid_3 inline'>"; 
+										 echo get_image('image',1,$lightboximages); 
+										 echo "</a>";
+										}
+									}
+				?>
+							</div>
+						</div>
 
 						</div>
                 

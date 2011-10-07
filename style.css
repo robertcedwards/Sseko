@@ -161,8 +161,9 @@ body p {
 /* we like off-black for text */
 body, select, input, textarea {color: #333;}
 
-a {color: #03f;}
-a:hover {color: #69f;text-decoration:underline;}
+a {color: #cc9966; text-decoration:none;}
+a:hover {color: #cc9966;text-decoration:underline;}
+
 
 /* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
 ::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
@@ -224,6 +225,11 @@ body{background-image:url('images/bg.jpg');-webkit-background-size:100%; /*Saf3-
 .sidebar a:hover{color: #00d9ab;
     webkit-transition: color .25s linear;
     transition: color .25s linear;}
+    .sidebar img{
+display: block;
+	margin: 10px 10px;
+	
+}   
     
 #meta {}
 .postmetadata {}

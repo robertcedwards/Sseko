@@ -275,6 +275,10 @@ background-color: #e9c497;
           transition: all 0.3s ease-out; 
 }
 .sidebar img{ margin: 10px auto 10px auto; display:block;}
+.sidebar script{
+	margin: 10px;
+	font-style: normal;
+}
 #meta {}
 .postmetadata {}
 

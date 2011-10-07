@@ -23,7 +23,7 @@ Template Name: Women of Sseko
 			<?php $images = getFieldOrder('image'); 
 									if(is_array($images))
 									{foreach($images as $image)
-										{echo "<div style='display:none'><div id='info' class='grid_8'>"
+										{echo "<div style='display:none'><div id='info' class='grid_8'>";
 										 echo get_image('image',1,$image); 
 										 echo "</div></div>";
 										}

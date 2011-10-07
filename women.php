@@ -24,9 +24,9 @@ Template Name: Women of Sseko
 				<?php $lightboximages = getFieldOrder('image'); 
 									if(is_array($lightboximages))
 									{foreach($lightboximages as $lightboximage)
-										{echo "<a href='#info'class='grid_3 inline'>"; 
+										{ 
 										 echo get_image('image',1,$lightboximages); 
-										 echo "</a>";
+										
 										}
 									}
 				?>

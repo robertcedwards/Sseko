@@ -25,7 +25,7 @@ Template Name: Women of Sseko
 									{foreach($images as $image)
 										{echo "<div style='display:none'><div id='info' class='grid_8'>"
 										 echo get_image('image',1,$image); 
-										 echo "</div></div>"
+										 echo "</div></div>";
 										}
 									}
 				?>

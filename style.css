@@ -228,8 +228,9 @@ body{background-image:url('images/bg.jpg');-webkit-background-size:100%; /*Saf3-
 }   
 .sidebar p {font-size: 11pt; color: #999; font-weight: 100; font-style: italic;}
 .sidebar p +a {
-margin-left:  100px;
-}    
+margin: 10px auto 10px auto;
+} 
+.sidebar img{ margin: 10px auto 10px auto}
 #meta {}
 .postmetadata {}
 

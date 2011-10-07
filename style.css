@@ -275,9 +275,13 @@ background-color: #e9c497;
           transition: all 0.3s ease-out; 
 }
 .sidebar img{ margin: 10px auto 10px auto; display:block;}
-.sidebar script{
+#twitter{
 	margin: 10px;
-	font-style: normal;
+}          
+#twitter p{font-style: normal;
+	font-size: 10pt;
+	}
+	
 }
 #meta {}
 .postmetadata {}

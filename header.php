@@ -89,7 +89,6 @@
 		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
 		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
 		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
-	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/_/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/js/blueberry.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
 
@@ -120,6 +119,8 @@ var ADAPT_CONFIG = {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.blueberry.js"></script>
 <script>$(window).load(function() {$('.blueberry').blueberry();});</script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/_/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+
 
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 

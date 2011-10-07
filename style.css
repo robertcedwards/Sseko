@@ -222,15 +222,12 @@ body{background-image:url('images/bg.jpg');-webkit-background-size:100%; /*Saf3-
 .sidebar a{text-decoration:none; color:#C96;}
 .sidebar a:hover{color: #00d9ab;
     webkit-transition: color .25s linear;
-    transition: color .25s linear;}
-    .sidebar img{
-	margin: 10px 10px;	
-}   
+    transition: color .25s linear;}   
 .sidebar p {font-size: 11pt; color: #999; font-weight: 100; font-style: italic;}
 .sidebar p +a {
 margin: 10px auto 10px auto;
 } 
-.sidebar img{ margin: 10px auto 10px auto}
+.sidebar img{ margin: 10px auto 10px auto; display:block;}
 #meta {}
 .postmetadata {}
 

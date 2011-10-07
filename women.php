@@ -19,13 +19,13 @@ Template Name: Women of Sseko
 										 echo "<img class='grid_2'src='";
 										 echo get('image',1,$women);
 										 echo "'/>";
-										 echo "<ul class='grid_6'><li><stong>From:</strong>";
+										 echo "<ul class='grid_6'><li><strong>From:</strong>";
 										 echo get('from',1,$women);
 										 echo "</li>";
-										 echo "<li><stong>Educational Goals:</strong>";
+										 echo "<li><strong>Educational Goals:</strong>";
 										 echo get('educational_goals',1,$women);
 										 echo "</li>";
-										 echo "<li><stong>Message to the Sseko Family:</strong>";
+										 echo "<li><strong>Message to the Sseko Family:</strong>";
 										 echo get('message',1,$women);
 										 echo "</li>";
 										 echo "</ul>";

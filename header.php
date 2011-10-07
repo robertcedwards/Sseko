@@ -119,8 +119,8 @@ var ADAPT_CONFIG = {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.blueberry.js"></script>
 <script>$(window).load(function() {
-	$('.blueberry').blueberry();
-	$('a.inline').fancybox({'hideOnContentClick': true});}</script>
+	$('.blueberry').blueberry()
+	$('a.inline').fancybox({'hideOnContentClick': true});};);</script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/_/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 <script>	</script>
 

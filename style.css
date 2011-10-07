@@ -137,6 +137,10 @@ button {width: auto; overflow: visible;}
 
 /* new Linux- and Windows-friendly sans-serif font stack: http://mky.be/fontstack */
 body { font: 14px "Droid Serif", serif;}
+body p {
+	margin: 15px;
+	
+}
 
 /* Bulletproof @font-face syntax: http://mky.be/font-face/bulletproof/ */
 @font-face {
@@ -189,7 +193,10 @@ body{background-image:url('images/bg.jpg');-webkit-background-size:100%; /*Saf3-
 .mini{text-align:center;}
 .description {padding-top: 15px;}
 .menu{float:right;}
-.post {}
+.post {margin: 10px 10px 10px 20px;
+			line-height:160%;
+			text-indent: 40px;
+			}
  li.font{  font: 22px "Droid Serif Italic", serif; color:#b27557; text-decoration: none; font-style: italic; }
 .social ul {text-align:center;}
 .social li{display: inline; padding: 2px ;}
@@ -201,9 +208,22 @@ body{background-image:url('images/bg.jpg');-webkit-background-size:100%; /*Saf3-
 .entry-meta a {text-decoration:none; color:#cc9966; text-transform:uppercase;}
 
 .sidebar{background: url('images/slidersidebar.jpg');overflow:hidden; background-repeat: repeat; padding: 10px 0px 10px 0px;}
-.sidebar ul {padding:10px;}
-.sidebar h2 {padding:3px 5px 3px 5px;}
+.sidebar ul {padding:10px;
+			line-height:180%;
+			}
+.sidebar h2 {padding:3px 5px 3px 5px;
+    font-style: italic;
+	color: #535253;
+	font-weight: normal;
+	font-size: 20px;
+	border-bottom: 1px dotted #898989;
+	margin-left: 10px;
+}
 .sidebar a{text-decoration:none; color:#C96;}
+.sidebar a:hover{color: #00d9ab;
+    webkit-transition: color .25s linear;
+    transition: color .25s linear;}
+    
 #meta {}
 .postmetadata {}
 

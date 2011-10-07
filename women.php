@@ -12,13 +12,15 @@ Template Name: Women of Sseko
 				<?php $womens = getFieldOrder('image'); 
 									if(is_array($womens))
 									{foreach($womens as $women)
-										{echo "<a class='grid_3'>"; 
+										{echo "<a href="#info"class='grid_3 inline'>"; 
 										 echo get_image('image',1,$women); 
 										 echo "</a>";
 										}
 									}
 								?>
 							</ul> 						
+						<div style="display:none"><div id="info">test!</div></div>
+
 						</div>
                 
 						

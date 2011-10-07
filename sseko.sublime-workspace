@@ -1,0 +1,185 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 254.0,
+		"selected_items":
+		[
+			[
+				"css",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 620.0
+	},
+	"console":
+	{
+		"height": 143.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/roedward/Library/Caches/Cleanup At Startup/Transmit/A485356A-3802-493C-A5E4-A45644161DC6/wp-config.php",
+		"/Users/roedward/Library/Caches/Cleanup At Startup/Transmit/130F8834-3E0F-4FD4-9F0C-0A8F96A2D4B1/error.log.2011-10-05",
+		"/Users/roedward/Desktop/access.log.2011-10-06",
+		"/Users/roedward/Dropbox/Sites/sseko/wp-content/themes/sseko/women.php",
+		"/Users/roedward/Dropbox/Sites/sseko/wp-content/themes/sseko/_/js/css/mobile.min.css",
+		"/Users/roedward/Dropbox/Sites/sseko/wp-content/themes/sseko/single.php",
+		"/Users/roedward/Dropbox/Sites/sseko/wp-content/themes/sseko/page.php",
+		"/Users/roedward/Dropbox/Sites/sseko/wp-content/themes/sseko/index.php",
+		"/Users/roedward/Dropbox/Sites/sseko/wp-content/themes/sseko/header.php",
+		"/Users/roedward/Dropbox/Sites/sseko/wp-content/themes/sseko/footer.php",
+		"/Users/roedward/Dropbox/Sites/sseko/wp-content/themes/sseko/sidebar.php",
+		"/Users/roedward/Dropbox/Sites/sseko/wp-content/themes/sseko/style.css",
+		"/Users/roedward/Dropbox/Sites/sseko/wp-content/themes/sseko/news.php",
+		"/Users/roedward/Dropbox/Sites/sseko/wp-content/themes/sseko/_/js/css/960.min.css",
+		"/Users/roedward/Dropbox/Sites/sseko/wp-content/themes/sseko/_/js/css/960.css",
+		"/Users/roedward/Dropbox/Sites/sseko/wp-content/themes/sseko/_/inc/meta.php",
+		"/Users/roedward/Dropbox/Sites/lafoodheroes/wp-content/themes/LA-Food-Heroes/index.php",
+		"/Users/roedward/Dropbox/Sites/index.html",
+		"/private/etc/apache2/users/roedward.conf",
+		"/Users/roedward/Dropbox/Sites/sseko/wp-content/themes/sseko/blog.php",
+		"/Users/roedward/Dropbox/Sites/petsense/index.html",
+		"/Users/roedward/Dropbox/Sites/lafoodheroes/wp-content/themes/LA-Food-Heroes/header.php",
+		"/Users/roedward/Downloads/murtaugh-HTML5-Reset-Wordpress-Theme-8aa6329 2/index.php",
+		"/Users/roedward/Dropbox/Sites/sseko/wp-content/themes/sseko/home.php",
+		"/Users/roedward/Dropbox/Sites/wordpress/wp-content/themes/sseko/home.php",
+		"/Users/roedward/Dropbox/Sites/wordpress/wp-content/themes/sseko/style.css",
+		"/Users/roedward/Dropbox/Sites/wordpress/wp-content/themes/sseko/index.php",
+		"/Users/roedward/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/roedward/Dropbox/Sites/wordpress/wp-content/themes/sseko/pull.php"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 89.0,
+		"include_history":
+		[
+		],
+		"location_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$images",
+			".align",
+			"social",
+			"hr",
+			"body",
+			"bpdy",
+			"body",
+			"uppercase",
+			"nav",
+			"side",
+			".comments",
+			"hr",
+			"flex"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"inde",
+				"index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 178.0,
+	"status_bar_visible": true
+}

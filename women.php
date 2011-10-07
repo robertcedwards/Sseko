@@ -18,22 +18,18 @@ Template Name: Women of Sseko
 										}
 									}
 				?>
-							</ul> 						
-						<div style="display:none">
-							<div id="info" class="grid_8">
-			<?php $womens = getFieldOrder('image'); 
-									if(is_array($womens))
-									{foreach($womens as $women)
-										{ 
-										 echo get_image('image',1,$women); 
-										 
+							 						
+							
+			<?php $images = getFieldOrder('image'); 
+									if(is_array($images))
+									{foreach($images as $image)
+										{echo "<div style='display:none'><div id='info' class='grid_8'>"
+										 echo get_image('image',1,$image); 
+										 echo "</div></div>"
 										}
 									}
 				?>
-							</div>
-						</div>
-
-						</div>
+						
                 
 						
 						<div class="clear"></div>	

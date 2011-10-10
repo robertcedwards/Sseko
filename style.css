@@ -340,6 +340,24 @@ ol.commentlist li.thread-alt {}
 ol.commentlist li.thread-even {}
 ol.commentlist li.thread-odd {}
 
+/* Style Your Ssekos Page */
+#content h1 {
+	text-align:center;
+	font-size:50px;
+	font-weight:100;
+	margin-bottom:15px;
+	
+}
+#content h2 {
+	font-style:italic;
+	text-align:center;
+	font-weight:100;
+	color:#333;
+	font-size:24px;
+	
+}
+
+
 
 /* Print styles!
 -------------------------------------------------------------------------------*/

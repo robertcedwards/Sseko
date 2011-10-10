@@ -11,7 +11,7 @@ Template Name: Style your Ssekos
 				<?php the_content(); ?>						
 				<?php $styles = getFieldOrder('image'); 
 									if(is_array($styles))
-									{foreach($styles as $styles)
+									{foreach($styles as $style)
 										{
 										 echo "<div class='grid_3'>";
 										 echo "<h2>";

@@ -14,7 +14,8 @@ Template Name: Style your Ssekos
 									{foreach($womens as $women)
 										{
 										 echo "<h2>";
-										 echo get('name',1,$women); 
+										 echo get('name',1,$women);
+										 echo "</h2>"; 
 										 echo "<a href='#info$women'class='grid_3 inline'>"; 
 										 echo get_image('link',1,$women); 
 										 echo "</a>";

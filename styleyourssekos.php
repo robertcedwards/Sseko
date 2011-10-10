@@ -9,18 +9,19 @@ Template Name: Style your Ssekos
 			
 		<article  id="post-<?php the_ID(); ?>">
 				<?php the_content(); ?>						
-				<?php $womens = getFieldOrder('image'); 
-									if(is_array($womens))
-									{foreach($womens as $women)
+				<?php $styles = getFieldOrder('image'); 
+									if(is_array($styles))
+									{foreach($styles as $styles)
 										{
+										 echo "<div class='grid_3'>";
 										 echo "<h2>";
-										 echo get('name',1,$women);
+										 echo get('name',1,$style);
 										 echo "</h2>"; 
-										 echo "<a href='#info$women'class='grid_3 inline'>"; 
-										 echo get_image('image',1,$women); 
-										 echo "</a>";
-										 echo "<div style='display:none'><div id='info$women' class='grid_8'>";
-										 echo get('link',1,$women);
+										 echo "<a href='#info$style'class='inline'>"; 
+										 echo get_image('image',1,$style); 
+										 echo "</a></div>";
+										 echo "<div style='display:none'><div id='info$style' class='grid_8'>";
+										 echo get('link',1,$style);
 										 echo "</div></div>";
 
 										}

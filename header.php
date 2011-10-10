@@ -138,9 +138,9 @@ var ADAPT_CONFIG = {
 
 </head>
 
-<body <?php body_class(<?php wp_title(' ','true','right'); ?>); ?>>
+<body <?php body_class(page-id); ?>>
 	
-	<div class="container_12 wrapper">
+	<div class="container_12 wrapper page-<?php the_ID(); ?>">
 		<header>
 			<div id="logo" class="grid_3">
 				<a href="<?php echo get_option('home'); ?>/">

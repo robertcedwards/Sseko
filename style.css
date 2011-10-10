@@ -188,8 +188,9 @@ body{background-image:url('images/bg.jpg');-webkit-background-size:100%; /*Saf3-
 .nav li a {text-decoration: none; color:#4a4848; text-transform: uppercase; }
 .nav li a:hover {color:#b27557;
  }
-.nav li a:active {font-weight:bold;
- }
+.nav .current_page_item{
+	font-weight:bold;
+}
 .nav { font: 14px "Droid Serif", serif;}
 .flexslider {border:none;}
 .flexbuttons {background-image: url(images/slidersidebar.jpg); }

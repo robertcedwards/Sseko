@@ -401,6 +401,7 @@ ol.commentlist li.thread-odd {}
 	padding: 0 0 15px 0;
 	width: 35%;
 	border-bottom: 1px dotted #666;
+	border-top:0px;
 }
 
 /* Print styles!

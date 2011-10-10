@@ -138,7 +138,7 @@ var ADAPT_CONFIG = {
 
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(<?php wp_title(' ','true','right'); ?>); ?>>
 	
 	<div class="container_12 wrapper">
 		<header>

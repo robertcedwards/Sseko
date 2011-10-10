@@ -117,10 +117,18 @@ var ADAPT_CONFIG = {
 <script src="<?php bloginfo('template_directory'); ?>/_/js/adapt.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="_/js/jquery.stickysidebar.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.blueberry.js"></script>
 <script>$(window).load(function() {$('.blueberry').blueberry();});</script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/_/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 <script type="text/javascript">$(document).ready(function() {$("a.inline").fancybox({'hideOnContentClick': true});});</script>
+  <script>
+    (function($){
+      
+      $('.nav').stickyNav({marginTop: 0, });
+      
+    })(jQuery);
+  </script>
 
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 

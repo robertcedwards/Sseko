@@ -8,7 +8,8 @@ Template Name: Women of Sseko
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			
 		<article  id="post-<?php the_ID(); ?>">
-				<?php the_content(); ?>						
+				<?php the_content(); ?>	
+				<h1><?php wp_title(' ','true','right'); ?></h1>						
 				<?php $womens = getFieldOrder('image'); 
 									if(is_array($womens))
 									{foreach($womens as $women)

@@ -366,7 +366,8 @@ ol.commentlist li.thread-odd {}
   -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
   border: 3px solid #cccccc;
   padding:10px;
-
+  background-color:white;
+	
   
 }	
 

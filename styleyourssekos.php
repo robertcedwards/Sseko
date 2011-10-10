@@ -12,8 +12,10 @@ Template Name: Style your Ssekos
 				<?php $womens = getFieldOrder('image'); 
 									if(is_array($womens))
 									{foreach($womens as $women)
-										{echo "<a href='#info$women'class='grid_3 inline'>"; 
-										 echo get_image('image',1,$women); 
+										{
+										 echo "<h2>$women</h2>"; 
+										 echo "<a href='#info$women'class='grid_3 inline'>"; 
+										 echo get_image('link',1,$women); 
 										 echo "</a>";
 										 echo "<div style='display:none'><div id='info$women' class='grid_8'>";
 										 echo "<img class='grid_2'src='";

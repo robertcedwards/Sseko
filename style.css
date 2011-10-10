@@ -397,6 +397,11 @@ ol.commentlist li.thread-odd {}
 	font-size: 20pt;
 	font-weight:normal;
 }
+.lightbox hr{
+	padding: 0 0 15px 0;
+	width: 35%;
+	border-bottom: 1px dotted #666;
+}
 
 /* Print styles!
 -------------------------------------------------------------------------------*/

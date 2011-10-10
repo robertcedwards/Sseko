@@ -125,7 +125,7 @@ var ADAPT_CONFIG = {
   <script>
     (function($){
       
-      $('#sticky').stickyNav({marginTop: 25, });
+      $('.nav').jsticky({marginTop: 25, });
       
     })(jQuery);
   </script>

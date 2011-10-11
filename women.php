@@ -20,10 +20,10 @@ Template Name: Women of Sseko
 										 echo "<img class='grid_2'src='";
 										 echo get('image',1,$women);
 										 echo "'/>";
-										 echo "<h3 class='grid_6'>";
+										 echo "<h3>";
 										 echo get('name',1,$women);
 										 echo "</h3>";	
-										 echo "<ul class='grid_6'><li><strong>From:</strong>";
+										 echo "<ul><li><strong>From:</strong>";
 										 echo get('from',1,$women);
 										 echo "</li>";
 										 echo "<li><strong>Educational Goals:</strong>";

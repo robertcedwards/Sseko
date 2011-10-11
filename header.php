@@ -123,7 +123,10 @@ var ADAPT_CONFIG = {
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/_/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 <script type="text/javascript">$(document).ready(function() {$("a.inline").fancybox({'hideOnContentClick': true});});</script>
 <script>$(document).ready(function() {$('.nav').jsticky({marginTop: 0, });});</script>
-
+<script>$(document).ready(function ()
+$('iframe').each(function()
+var url = $(this).attr("src")
+$(this).attr("src",url+"?wmode=transparent")););</script>
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>

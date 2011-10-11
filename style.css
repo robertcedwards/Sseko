@@ -399,12 +399,9 @@ ol.commentlist li.thread-odd {}
 	border-bottom: 1px dotted #666;
 }
 .lightbox h3{
-	display:inline;
 	text-align:center;
 	font-size: 20pt;
 	font-weight:normal;
-	border-bottom: 1px dotted #666;
-	margin:10px auto 10px auto;
 
 }
 .lightbox hr{

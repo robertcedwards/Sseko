@@ -407,6 +407,8 @@ ol.commentlist li.thread-odd {}
 	text-align:center;
 	font-size: 20pt;
 	font-weight:normal;
+	border-bottom: 1px dotted #666;
+
 }
 .lightbox hr{
 	width: 35%;

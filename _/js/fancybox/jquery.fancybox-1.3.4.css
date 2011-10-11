@@ -1,4 +1,4 @@
-/*
+_/*
  * FancyBox - jQuery Plugin
  * Simple and fancy lightbox alternative
  *
@@ -93,7 +93,7 @@
 	z-index: 1101;
 }
 
-#fancybox-cl {
+#fancybox-close {
 	position: absolute;
 	top: -15px;
 	right: 15px;
@@ -256,7 +256,8 @@
 
 /* IE6 */
 
-.fancybox-ie6 #fancybox-close { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_close.png', sizingMethod='scale'); }
+.fancybox-ie6 #fancybox-close { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy
+ose.png', sizingMethod='scale'); }
 
 .fancybox-ie6 #fancybox-left-ico { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_nav_left.png', sizingMethod='scale'); }
 .fancybox-ie6 #fancybox-right-ico { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_nav_right.png', sizingMethod='scale'); }

@@ -146,9 +146,17 @@ var ADAPT_CONFIG = {
 				<img src="<?php bloginfo('template_directory'); ?>/images/description.png"/>
 			</div>
 			<?php if ( is_page_template('about.php') ) {
-<div class="grid_9 nav"><?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' ) ); ?></div><div class="grid_4 nav"><?php wp_nav_menu( array('menu' => 'Women' )); ?></div>
-} else { <div class="grid_9 nav"><?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' ) ); ?></div>}
-?>		 	
+				<div class="grid_9 nav">
+				<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' ) ); ?>
+				</div>
+				<div class="grid_4 nav">
+				<?php wp_nav_menu( array('menu' => 'Women' )); ?>
+				</div>} 
+			       else {
+				<div class="grid_9 nav">
+				<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' ) ); ?>
+				</div>}
+			?>		 	
 		 	
 			<div class="clear"></div> 
 		</header>

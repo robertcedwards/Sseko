@@ -1,437 +1,100 @@
-/*   
-Theme Name: Sseko Designs
-Theme URI: http://ssekodesigns.com
-Description: A site built for Sseko Designs
-Author: We Creative
-Author URI: http://wecreativeagency.com
-Version: 1
-*/
-/* Defaults
--------------------------------------------------------------------------------*/
-
-html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
-}									
-
-article, aside, figure, footer, header, hgroup, nav, section {display: block;}
-
-/* Responsive images and other embedded objects
-   Note: keeping IMG here will cause problems if you're using foreground images as sprites, like, say for Google Maps custom placemarkers. 
-   There has been a report of problems with standard Google maps as well, but we haven't been able to duplicate or diagnose the issue. */
-img,
-object,
-embed {max-width: 100%;}
-
-/* force a vertical scrollbar to prevent a jumpy page */
-html {overflow-y: scroll;}
-
-/* we use a lot of ULs that aren't bulleted. 
-	don't forget to restore the bullets within content. */
-ul {list-style: none;}
-
-blockquote, q {quotes: none;}
-
-blockquote:before, 
-blockquote:after, 
-q:before, 
-q:after {content: ''; content: none;}
-
-a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
-
-del {text-decoration: line-through;}
-
-abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
-
-/* tables still need cellspacing="0" in the markup */
-table {border-collapse: collapse; border-spacing: 0;}
-th {font-weight: bold; vertical-align: bottom;}
-td {font-weight: normal; vertical-align: top;}
-
-hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc;  padding: 0;}
-
-input, select {vertical-align: middle;}
-
-pre {
-	white-space: pre; /* CSS2 */
-	white-space: pre-wrap; /* CSS 2.1 */
-	white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
-	word-wrap: break-word; /* IE */
-}
-
-input[type="radio"] {vertical-align: text-bottom;}
-input[type="checkbox"] {vertical-align: bottom; *vertical-align: baseline;}
-.ie6 input {vertical-align: text-bottom;}
-
-select, input, textarea {font: 99% sans-serif;}
-
-table {font-size: inherit; font: 100%;}
- 
-/* Accessible focus treatment
-	people.opera.com/patrickl/experiments/keyboard/test */
-a:hover, a:active {outline: none;}
-
-small {font-size: 85%;}
-
-strong, th {font-weight: bold;}
-
-td, td img {vertical-align: top;} 
-
-/* Make sure sup and sub don't screw with your line-heights
-	gist.github.com/413930 */
-sub, sup {font-size: 75%; line-height: 0; position: relative;}
-sup {top: -0.5em;}
-sub {bottom: -0.25em;}
-
-/* standardize any monospaced elements */
-pre, code, kbd, samp {font-family: monospace, sans-serif;}
-
-/* hand cursor on clickable elements */
-.clickable,
-label, 
-input[type=button], 
-input[type=submit], 
-button {cursor: pointer;}
-
-/* Webkit browsers add a 2px margin outside the chrome of form elements */
-button, input, select, textarea {margin: 0;}
-
-/* make buttons play nice in IE */
-button {width: auto; overflow: visible;}
- 
-/* scale images in IE7 more attractively */
-.ie7 img {-ms-interpolation-mode: bicubic;}
-
-/* prevent BG image flicker upon hover */
-.ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
-
-/* let's clear some floats */
-.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
-.clearfix:after { clear: both; }  
-.clearfix { zoom: 1; }  
-
-
-
-/* Ok, this is where the fun starts.
--------------------------------------------------------------------------------*/
-
-/* new Linux- and Windows-friendly sans-serif font stack: http://mky.be/fontstack */
-body { font: 16px "Droid Serif", serif;}
-body p {
-	margin: 15px;
-	text-indent:25px	
-}
-/* Bulletproof @font-face syntax: http://mky.be/font-face/bulletproof/ */
-@font-face {
-  font-family: 'Droid Serif';
-  src: url('/fonts/DroidSerif-Regular.eot?') format('eot'), url('/fonts/DroidSerif-Regular.woff') format('woff'), url('/fonts/DroidSerif-Regular.ttf') format('truetype');
- 
-  font-family: 'Droid Serif Italic';
-  src: url('/fonts/DroidSerif-Italic.eot?') format('eot'), url('/fonts/DroidSerif-Italic.woff') format('woff'), url('/fonts/DroidSerif-Italic.ttf') format('truetype');
- 
-  font-family: 'Droid Serif Bold Italic';
-  src: url('/fonts/DroidSerif-BoldItalic.eot?') format('eot'), url('/fonts/DroidSerif-BoldItalic.woff') format('woff'), url('/fonts/DroidSerif-BoldItalic.ttf') format('truetype');
- 
-  font-family: 'Droid Bold';
-  src: url('/fonts/DroidSerif-Bold.eot?') format('eot'), url('/fonts/DroidSerif-Bold.woff') format('woff'), url('/fonts/DroidSerif-Bold.ttf') format('truetype');
-
-}
-
-/* we like off-black for text */
-body, select, input, textarea {color: #333;}
-
-a {color: #cc9966; text-decoration:none;}
-a:hover {color: #cc9966;text-decoration:underline;}
-
-
-/* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
-::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
-::selection {background: #fcd700; color: #fff; text-shadow: none;} 
-
-/*	j.mp/webkit-tap-highlight-color */
-a:link {-webkit-tap-highlight-color: #fcd700;} 
-
-ins {background-color: #fcd700; color: #000; text-decoration: none;}
-mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
-
-
-
-/* Wordpress fun.
--------------------------------------------------------------------------------*/
-body{background-image:url('images/bg.jpg');-webkit-background-size:100%; /*Saf3-4*/-moz-background-size:100%;/* FF3.6 */background-size:100%;}
-.wrapper { background-image: url('images/paint.jpg'); background-repeat: no-repeat; background-position: top right;background-color: white;  -webkit-box-shadow: 0px 0px 30px #999; /* Saf3-4 */
-     -moz-box-shadow: 0px 0px 30px #999; /* FF3.5 - 3.6 */
-          box-shadow: 0px 0px 30px #999; }
-.nav {z-index:1000;background: url('images/navbar.png'); background-position:right; overflow:hidden; background-repeat: no-repeat; padding: 10px 0px 10px 0px;}
-.nav ul{margin:0px; padding: 0px; list-style-type: none;list-style-image: none;}
-.nav li {display: inline; padding: 2px }
-.nav li a {text-decoration: none; color:#4a4848; text-transform: uppercase; }
-.nav li a:hover {color:#b27557;
- }
-.nav .current_page_item{
-	font-weight:bold;
-}
-.nav { font: 14px "Droid Serif", serif;}
-.flexslider {border:none;}
-.flexbuttons {background-image: url(images/slidersidebar.jpg); }
-.flex-control-nav{width: 50px; position: relative;}
-.flexbuttons li {padding-bottom:  25px;}
-.flexbuttons li a{ font: 22px "Droid Serif Italic", serif; color:#b27557; text-decoration: none; font-style: italic; }
-.mini{text-align:center;}
-.description {padding-top: 15px;}
+html,body,body div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}
+article,aside,figure,footer,header,hgroup,nav,section{display:block;}
+img,object,embed{max-width:100%;}
+html{overflow-y:scroll;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:none;}
+a{font-size:100%;vertical-align:baseline;background:transparent;color:#c96;text-decoration:none;margin:0;padding:0;}
+del{text-decoration:line-through;}
+abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help;}
+table{border-collapse:collapse;border-spacing:0;font-size:inherit;font:100%;}
+th{font-weight:700;vertical-align:bottom;}
+td{font-weight:400;vertical-align:top;}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;padding:0;}
+input,select{vertical-align:middle;}
+pre{white-space:pre-line;word-wrap:break-word;}
+input[type="checkbox"]{vertical-align:baseline;}
+select,input,textarea{font:99% sans-serif;}
+a:hover,a:active{outline:none;}
+small{font-size:85%;}
+td,td img{vertical-align:top;}
+sub,sup{font-size:75%;line-height:0;position:relative;}
+sup{top:-.5em;}
+sub{bottom:-.25em;}
+pre,code,kbd,samp{font-family:monospace, sans-serif;}
+.clickable,label,input[type=button],input[type=submit],button{cursor:pointer;}
+button,input,select,textarea{margin:0;}
+button{width:auto;overflow:visible;}
+.ie7 img{-ms-interpolation-mode:bicubic;}
+.ie6 html{filter:expression(document.execCommand("BackgroundImageCache",false,true));}
+.clearfix:before,.clearfix:after{content:"\0020";display:block;height:0;overflow:hidden;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+body{font:16px "Droid Serif", serif;background-image:url(images/bg.jpg);-webkit-background-size:100%;-moz-background-size:100%;background-size:100%;}
+body p{text-indent:25px;margin:15px;}
+@font-face{font-family:'Droid Bold';src:url(/fonts/DroidSerif-Bold.eot?) format(eot), url(/fonts/DroidSerif-Bold.woff) format(woff), url(/fonts/DroidSerif-Bold.ttf) format(truetype);}
+body,select,input,textarea{color:#333;}
+a:hover{color:#c96;text-decoration:underline;}
+a:link{-webkit-tap-highlight-color:#fcd700;}
+ins{background-color:#fcd700;color:#000;text-decoration:none;}
+mark{background-color:#fcd700;color:#000;font-style:italic;font-weight:700;}
+.wrapper{background-image:url(images/paint.jpg);background-repeat:no-repeat;background-position:top right;background-color:#FFF;-webkit-box-shadow:0 0 30px #999;-moz-box-shadow:0 0 30px #999;box-shadow:0 0 30px #999;}
+.nav{z-index:1000;background:url(images/navbar.png);background-position:right;overflow:hidden;background-repeat:no-repeat;font:14px "Droid Serif", serif;padding:10px 0;}
+.nav ul{list-style-type:none;list-style-image:none;margin:0;padding:0;}
+.nav li a{text-decoration:none;color:#4a4848;text-transform:uppercase;}
+.nav li a:hover{color:#b27557;}
+.flexslider{border:none;}
+.flexbuttons{background-image:url(images/slidersidebar.jpg);}
+.flex-control-nav{width:50px;position:relative;}
+.flexbuttons li{padding-bottom:25px;}
+.description{padding-top:15px;}
 .menu{float:right;}
-.post {margin: 10px 10px 10px 20px;
-			line-height:160%;
-			}
-
- li.font{  font: 22px "Droid Serif Italic", serif; color:#b27557; text-decoration: none; font-style: italic; }
-.social ul {text-align:center;}
-.social li{display: inline; padding: 2px ;}
-#content hr{
-	border-bottom: 2px solid #ccc;
-	border-top: none;
-}
-.entry-content {}
-.entry-content a {}
-.entry-content a:hover {}
-.entry-title a {font-size: 30px; color: #333; text-decoration: none; font-weight: 100;}
-.entry-meta {font-size: 11pt; color: #999; font-weight: 100; font-style: italic;}
-.entry-meta a {text-decoration:none; color:#cc9966; text-transform:uppercase;}
-
-.sidebar{background: url('images/slidersidebar.jpg');overflow:hidden; background-repeat: repeat; padding: 10px 0px 10px 0px;}
-.sidebar ul {padding:10px;
-			line-height:180%;
-			}
-.sidebar h2 {padding:3px 5px 3px 5px;
-    font-style: italic;
-	color: #535253;
-	font-weight: normal;
-	font-size: 20px;
-	border-bottom: 1px dotted #898989;;
-	margin-left: 10px;
-	margin-right:  10px;
-	margin-top:10px;
-	text-shadow: 1px 2px 3px  #fff;
-}
-.sidebar h2:first-of-type{
-	margin-top:none;
-}
-.sidebar p {font-size: 11pt; color: #999; font-weight: 100; font-style: italic; text-indent: 0;}
-.sidebar p +a { margin-left:100px;
-padding:10px;
-background-color: #e9c497;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd5a6), to(#999999)); /* Saf4+, Chrome */
-  background-image: -webkit-linear-gradient(top, #ffd5a6, #fff); /* Chrome 10+, Saf5.1+, iOS 5+ */
-  background-image:    -moz-linear-gradient(top, #ffd5a6, #999999); /* FF3.6 */
-  background-image:     -ms-linear-gradient(top, #ffd5a6, #999999); /* IE10 */
-  background-image:      -o-linear-gradient(top, #ffd5a6, #999999); /* Opera 11.10+ */
-  background-image:         linear-gradient(top, #ffd5a6, #999999);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffd5a6', EndColorStr='#999999'); /* IE6-IE9 */
-               text-shadow: 1px 1px 3px #888;
-	color: #291b27;
-	 -webkit-border-radius: 12px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
-     -moz-border-radius: 12px; /* FF1-3.6 */
-          border-radius: 12px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
-          
-  /* useful if you don't want a bg color from leaking outside the border: */        
-  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
-  -webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
-     -moz-transition: all 0.3s ease-out;  /* FF4+ */
-      -ms-transition: all 0.3s ease-out;  /* IE10? */
-       -o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
-          transition: all 0.3s ease-out;  
-           -webkit-box-shadow: 0px 3px 6px #444; /* Saf3-4 */
-     -moz-box-shadow: 0px 3px 6px #444; /* FF3.5 - 3.6 */
-          box-shadow: 0px 3px 6px #444;
-	text-align: center;
-	position: relative;
-}
- 
-.sidebar p +a:hover{
-	  -webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
-     -moz-transition: all 0.3s ease-out;  /* FF4+ */
-      -ms-transition: all 0.3s ease-out;  /* IE10? */
-       -o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
-          transition: all 0.3s ease-out;   
-          -webkit-box-shadow: 0px 1px 1px #444; /* Saf3-4 */
-     -moz-box-shadow: 0px 1px 1px #444; /* FF3.5 - 3.6 */
-          box-shadow: 0px 1px 1px #444; /* Opera 10.5, IE9, FF4+, Chrome 10+ */
-color:#333;
-          } 
-
-.sidebar a{text-decoration:none; color:#C96; margin-left}
-.sidebar a:hover{color: #00d9ab; text-decoration:none;
-  -webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
-     -moz-transition: all 0.3s ease-out;  /* FF4+ */
-      -ms-transition: all 0.3s ease-out;  /* IE10? */
-       -o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
-          transition: all 0.3s ease-out; 
-}
-.sidebar img{ margin: 10px auto 10px auto; display:block;}
-#twitter{
-	margin: 10px;
-}          
-#twitter p{font-style: normal;
-	font-size: 10pt;
-	}
-	
-}
-#meta {}
-.postmetadata {}
-
-
-.navgation {}
-.next-posts {}
-.prev-posts {}
-
-#searchform {}
-#s {}
-#searchsubmt {}
-
-.comments{ color:#cc9966; t}
-.comments a{text-decoration:none; color:#cc9966; text-transform:uppercase;}	
-ol.commentlist {list-style: none;}
-ol.commentlist li {}
-ol.commentlist li.alt {}
-ol.commentlist li.bypostauthor {}
-ol.commentlist li.byuser {}
-ol.commentlist li.comment-author-admin {}
-ol.commentlist li.comment {border-bottom: 1px dotted #666; padding: 10px;}
-ol.commentlist li.comment div.comment-author {}
-ol.commentlist li.comment div.vcard {}
-ol.commentlist li.comment div.vcard cite.fn {font-style: normal;}
-ol.commentlist li.comment div.vcard cite.fn a.url {}
-ol.commentlist li.comment div.vcard img.avatar {float:right; margin: 0 0 10px 10px;}
-ol.commentlist li.comment div.vcard img.avatar-32 {}
-ol.commentlist li.comment div.vcard img.photo {}
-ol.commentlist li.comment div.vcard span.says {}
-ol.commentlist li.comment div.commentmetadata {}
-ol.commentlist li.comment div.comment-meta {font-size: 10px;}
-ol.commentlist li.comment div.comment-meta a {color: #ccc;}
-ol.commentlist li.comment p {}
-ol.commentlist li.comment ul {}
-ol.commentlist li.comment div.reply {font-size: 11px;}
-ol.commentlist li.comment div.reply a {font-weight: bold;}
-ol.commentlist li.comment ul.children {list-style: none; margin: 10px 0 0;}
-ol.commentlist li.comment ul.children li {}
-ol.commentlist li.comment ul.children li.alt {}
-ol.commentlist li.comment ul.children li.bypostauthor {}
-ol.commentlist li.comment ul.children li.byuser {}
-ol.commentlist li.comment ul.children li.comment {}
-ol.commentlist li.comment ul.children li.comment-author-admin {}
-ol.commentlist li.comment ul.children li.depth-2 {border-left: 5px solid #555; margin: 0 0 10px 10px;}
-ol.commentlist li.comment ul.children li.depth-3 {border-left: 5px solid #999; margin: 0 0 10px 10px;}
-ol.commentlist li.comment ul.children li.depth-4 {border-left: 5px solid #bbb; margin: 0 0 10px 10px;}
-ol.commentlist li.comment ul.children li.depth-5 {}
-ol.commentlist li.comment ul.children li.odd {}
-ol.commentlist li.even {background: #fff;}
-ol.commentlist li.odd {background: #f6f6f6;}
-ol.commentlist li.parent {border-left: 5px solid #111;}
-ol.commentlist li.thread-alt {}
-ol.commentlist li.thread-even {}
-ol.commentlist li.thread-odd {}
-
-/* Style Your Ssekos Page */
-#content h1 {
-	text-align:center;
-	font-size:50px;
-	font-weight:100;
-	margin-bottom:15px;
-	
-}
-
-#content img{
-
-	webkit-box-shadow: 0px 0px 4px #444; /* Saf3-4 */
-     -moz-box-shadow: 0px 0px 4px #444; /* FF3.5 - 3.6 */
-          box-shadow: 0px 0px 4px #444;
-	
-}
-#post-298 h2 {
-	font-style:italic;
-	text-align:center;
-	font-weight:100;
-	color:#333;
-	font-size:24px;
-	
-}
-
-/* Lightbox  */
-.lightbox  {  -webkit-border-radius: 12px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
-     -moz-border-radius: 12px; /* FF1-3.6 */
-          border-radius: 12px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
-          
-  /* useful if you don't want a bg color from leaking outside the border: */        
-  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
-  border: 3px solid #cccccc;
-  padding:10px;
-  background-color:white;
-	
-  
-}	
-
-.lightbox li {
-	font-size:16px;
-	max-width: 700px;
-	margin-bottom:30px;
-
-}
-.lightbox img {
-	border: 1px dotted #666;
-	display:inline;
-	float:left;
-}
-.lightbox ul{
-	margin-top:20px	
-}
-.lightbox li strong{
-	margin-right:10px;
-}
-.lightbox h1{
-	text-align:center;
-	font-size: 30pt;
-	font-weight:normal;
-	border-bottom: 1px dotted #666;
-}
-.lightbox h3{
-	text-align:center;
-	font-size: 20pt;
-	font-weight:normal;
-
-}
-.lightbox hr{
-	width: 35%;
-	border-bottom: 1px dotted #666;
-	border-top:0px;
-}
-
-/* Print styles!
--------------------------------------------------------------------------------*/
-@media print {
-
-
-
-}
-
-
-/* Media queries!
--------------------------------------------------------------------------------*/
-
-/* Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
-@media screen and (max-device-width: 480px) {
-	
-		
-}
-
-@media all and (orientation: portrait) {
-	
-}
-
-@media all and (orientation: landscape) {
-	
-}
+.post{line-height:160%;margin:10px 10px 10px 20px;}
+#content hr{border-bottom:2px solid #ccc;border-top:none;}
+.entry-title a{font-size:30px;color:#333;text-decoration:none;font-weight:100;}
+.entry-meta{font-size:11pt;color:#999;font-weight:100;font-style:italic;}
+.sidebar{background:url(images/slidersidebar.jpg);overflow:hidden;background-repeat:repeat;padding:10px 0;}
+.sidebar ul{line-height:180%;padding:10px;}
+.sidebar h2{font-style:italic;color:#535253;font-weight:400;font-size:20px;border-bottom:1px dotted #898989;margin-left:10px;margin-right:10px;margin-top:10px;text-shadow:1px 2px 3px #fff;padding:3px 5px;}
+.sidebar h2:first-of-type{margin-top:none;}
+.sidebar p{font-size:11pt;color:#999;font-weight:100;font-style:italic;text-indent:0;}
+.sidebar p +a{margin-left:100px;background-color:#e9c497;background-image:linear-gradient(top,#ffd5a6,#999999);filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffd5a6',EndColorStr='#999999');text-shadow:1px 1px 3px #888;color:#291b27;-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out;-webkit-box-shadow:0 3px 6px #444;-moz-box-shadow:0 3px 6px #444;box-shadow:0 3px 6px #444;text-align:center;position:relative;padding:10px;}
+.sidebar p +a:hover{-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out;-webkit-box-shadow:0 1px 1px #444;-moz-box-shadow:0 1px 1px #444;box-shadow:0 1px 1px #444;color:#333;}
+.sidebar a{text-decoration:none;color:#C96;}
+.sidebar a:hover{color:#00d9ab;text-decoration:none;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out;}
+.sidebar img{display:block;margin:10px auto;}
+#twitter{margin:10px;}
+#twitter p{font-style:normal;font-size:10pt;}
+.comments{color:#c96;}
+ol.commentlist li.comment{border-bottom:1px dotted #666;padding:10px;}
+ol.commentlist li.comment div.vcard cite.fn{font-style:normal;}
+ol.commentlist li.comment div.vcard img.avatar{float:right;margin:0 0 10px 10px;}
+ol.commentlist li.comment div.comment-meta{font-size:10px;}
+ol.commentlist li.comment div.comment-meta a{color:#ccc;}
+ol.commentlist li.comment div.reply{font-size:11px;}
+ol.commentlist li.comment ul.children{list-style:none;margin:10px 0 0;}
+ol.commentlist li.comment ul.children li.depth-2{border-left:5px solid #555;margin:0 0 10px 10px;}
+ol.commentlist li.comment ul.children li.depth-3{border-left:5px solid #999;margin:0 0 10px 10px;}
+ol.commentlist li.comment ul.children li.depth-4{border-left:5px solid #bbb;margin:0 0 10px 10px;}
+ol.commentlist li.even{background:#fff;}
+ol.commentlist li.odd{background:#f6f6f6;}
+ol.commentlist li.parent{border-left:5px solid #111;}
+#content h1{text-align:center;font-size:50px;font-weight:100;margin-bottom:15px;}
+#content img{webkit-box-shadow:0 0 4px #444;-moz-box-shadow:0 0 4px #444;box-shadow:0 0 4px #444;}
+#post-298 h2{font-style:italic;text-align:center;font-weight:100;color:#333;font-size:24px;}
+.lightbox{-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;border:3px solid #ccc;background-color:#FFF;padding:10px;}
+.lightbox li{font-size:16px;max-width:700px;margin-bottom:30px;}
+.lightbox img{border:1px dotted #666;display:inline;float:left;}
+.lightbox ul{margin-top:20px;}
+.lightbox li strong{margin-right:10px;}
+.lightbox h1{text-align:center;font-size:30pt;font-weight:400;border-bottom:1px dotted #666;}
+.lightbox h3{text-align:center;font-size:20pt;font-weight:400;}
+.lightbox hr{width:35%;border-bottom:1px dotted #666;border-top:0;}
+ul,ol.commentlist{list-style:none;}
+input[type="radio"],.ie6 input{vertical-align:text-bottom;}
+strong,th,.nav .current_page_item,ol.commentlist li.comment div.reply a{font-weight:700;}
+::-moz-selection,::selection{background:#fcd700;color:#fff;text-shadow:none;}
+.nav li,.social li{display:inline;padding:2px;}
+.flexbuttons li a,li.font{font:22px "Droid Serif Italic", serif;color:#b27557;text-decoration:none;font-style:italic;}
+.mini,.social ul{text-align:center;}
+.entry-meta a,.comments a{text-decoration:none;color:#c96;text-transform:uppercase;}

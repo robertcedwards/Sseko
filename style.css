@@ -1,27 +1,12 @@
 /*   
-Theme Name: The HTML5 Reset Theme
-Theme URI: http://html5reset.org
-Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own.
-Author: Monkey Do!
-Author URI: http://monkeydo.biz
+Theme Name: Sseko Designs
+Theme URI: http://ssekodesigns.com
+Description: A site built for Sseko Designs
+Author: We Creative
+Author URI: http://wecreativeagency.com
 Version: 1
 */
-
-/*
-	HTML5 Reset Wordpress Theme :: style.css
-	----------------------------------------------------------
-	We have learned much from/been inspired by/taken code where offered from:
-	
-	Eric Meyer					:: http://ericmeyer.com
-	HTML5 Doctor				:: http://html5doctor.com
-	and the HTML5 Boilerplate	:: http://html5boilerplate.com
-	
-	Special thanks: The Wordpress theme owes its start to an empty theme authored 
-		by Chris Coyier & Jeff Starr: http://digwp.com
-	
--------------------------------------------------------------------------------*/
-
-/* Let's default this puppy out
+/* Defaults
 -------------------------------------------------------------------------------*/
 
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
@@ -176,7 +161,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 
 
 
-/* And here begins the Wordpress fun.
+/* Wordpress fun.
 -------------------------------------------------------------------------------*/
 body{background-image:url('images/bg.jpg');-webkit-background-size:100%; /*Saf3-4*/-moz-background-size:100%;/* FF3.6 */background-size:100%;}
 .wrapper { background-image: url('images/paint.jpg'); background-repeat: no-repeat; background-position: top right;background-color: white;  -webkit-box-shadow: 0px 0px 30px #999; /* Saf3-4 */

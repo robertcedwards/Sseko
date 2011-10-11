@@ -4,6 +4,9 @@ Template Name: Women of Sseko
 */
 ?>
 <?php get_header(); ?>
+<div class="grid_9 nav">
+<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' ) ); ?>
+</div>
 	<div id="content">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			

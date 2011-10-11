@@ -145,18 +145,9 @@ var ADAPT_CONFIG = {
 				<span style="display:none;">Every Sandal has a story</span>
 				<img src="<?php bloginfo('template_directory'); ?>/images/description.png"/>
 			</div>
-			<?php if ( is_page_template('women.php') ) {
-				<div class="grid_9 nav">
+			<div class="grid_9 nav">
 				<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' ) ); ?>
-				</div>
-				<div class="grid_4 nav">
-				<?php wp_nav_menu( array('menu' => 'Women' )); ?>
-				</div>} 
-			       else {
-				<div class="grid_9 nav">
-				<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' ) ); ?>
-				</div>}
-			?>		 	
+			</div>		 	
 		 	
 			<div class="clear"></div> 
 		</header>

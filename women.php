@@ -22,7 +22,7 @@ Template Name: Women of Sseko
 										 echo "'/>";
 										 echo "<h3 class='grid_6'><hr>";
 										 echo get('name',1,$women);
-										 echo "</h3><hr>";	
+										 echo "</h3>";	
 										 echo "<ul class='grid_6'><li><strong>From:</strong>";
 										 echo get('from',1,$women);
 										 echo "</li>";

@@ -10,34 +10,7 @@ Template Name: Meet the Women
 		<article  id="post-<?php the_ID(); ?>">
 				<?php the_content(); ?>	
 				<h1><?php wp_title(' ','true','right'); ?></h1>						
-				<?php $womens = getFieldOrder('image'); 
-									if(is_array($womens))
-									{foreach($womens as $women)
-										{echo "<a rel='women' href='#info$women'class='grid_3 inlineimg'>"; 
-										 echo get_image('image',1,$women); 
-										 echo "</a>";
-										 echo "<div style='display:none'><div id='info$women' class='grid_8 lightbox women'>";
-										 echo "<img class='grid_2'src='";
-										 echo get('image',1,$women);
-										 echo "'/>";
-										 echo "<h3>";
-										 echo get('name',1,$women);
-										 echo "</h3><hr>";	
-										 echo "<ul><li><strong>From:</strong>";
-										 echo get('from',1,$women);
-										 echo "</li>";
-										 echo "<li><strong>Educational Goals:</strong>";
-										 echo get('educational_goals',1,$women);
-										 echo "</li>";
-										 echo "<li><strong>Message to the Sseko Family:</strong>";
-										 echo get('message',1,$women);
-										 echo "</li>";
-										 echo "</ul>";
-										 echo "</div></div>";
-
-										}
-									}
-				?>
+				<img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0u.png" alt="" /><img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0z.png" alt="" /><img class="grid_4" title="Sseko Graduates" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0t.png" alt="" /><img class="grid_4" title="Full Time Veteran" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0s.png" alt="" />
 		<div class="clear"></div>	
 		</article>
 		<?php endwhile; endif; ?>

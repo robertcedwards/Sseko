@@ -17,21 +17,21 @@
                 var f = e.top;
                 var j = e.left;
                 var g = d.css("marginTop");
-                
+                var k = d.css("marginLeft");
                 a(window).scroll(function () {
                     var b = a(window).scrollTop();
                     var e = b + c.marginTop;
                     if (e >= f) {
                         d.css({
                             marginTop: c.marginTop,
-                            
+                            marginLeft: 15%,
                             position: "fixed"
                         })
                     }
                     if (e < f) {
                         d.css({
                             marginTop: g,
-                            
+                            marginLeft: 15%,
                             position: "relative"
                         })
                     }

@@ -24,14 +24,14 @@
                     if (e >= f) {
                         d.css({
                             marginTop: c.marginTop,
-                            marginLeft: 15%,
+                            marginLeft: "15%",
                             position: "fixed"
                         })
                     }
                     if (e < f) {
                         d.css({
                             marginTop: g,
-                            marginLeft: 15%,
+                            marginLeft: "15%",
                             position: "relative"
                         })
                     }

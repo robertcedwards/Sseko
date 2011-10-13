@@ -11,12 +11,12 @@ Template Name: Meet the Women
 				<?php the_content(); ?>	
 				<h1><?php wp_title(' ','true','right'); ?></h1>						
 				<img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0u.png" alt="" />
-				<img class="grid_4" title="Sseko Graduates" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0t.png" alt="" />
 				<img class="grid_4" title="Full Time Veteran" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0s.png" alt="" />
+				<img class="grid_4" title="Sseko Graduates" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0t.png" alt="" />
+				<img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0z.png" alt="" />
 				<img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0y.png" alt="" />
 				<img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0x.png" alt="" />
-				<img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0x.png" alt="" />
-				<img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0y.png" alt="" />
+	
 
 		<div class="clear"></div>	
 		</article>

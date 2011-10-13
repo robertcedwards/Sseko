@@ -18,7 +18,7 @@ Template Name: Home Page
 										{echo "<li>"; 
 										 echo "<a href='";
 										 echo get('slider_button_link',1,$image);
-										 echo "'";
+										 echo "'>";
 										 echo get_image('slider_image',1,$image); 
 										 echo "</a>";
 										 echo "</li>";

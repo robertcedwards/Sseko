@@ -10,12 +10,12 @@ Template Name: Meet the Women
 		<article  id="post-<?php the_ID(); ?>">
 				<?php the_content(); ?>	
 				<h1><?php wp_title(' ','true','right'); ?></h1>						
-				<a href="/university-bound"><img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0u.png" alt="" /></a>
-				<a href="/veteran"><img class="grid_4" title="Full Time Veteran" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0s.png" alt="" /></a>
-				<a href="/sseko-graduates"><img class="grid_4" title="Sseko Graduates" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0t.png" alt="" /></a>
-				<img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0z.png" alt="" />
-				<img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0x.png" alt="" />
-				<img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0y.png" alt="" />
+				<a class="grid_4 alpha" href="/university-bound"><img  src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0u.png" alt="" /><img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0z.png" alt="" /></a>
+				<a class="grid_4" href="/veteran"><img  title="Full Time Veteran" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0s.png" alt="" /><img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0x.png" alt="" /></a>
+				<a class="grid_4 omega" href="/sseko-graduates"><img  title="Sseko Graduates" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0t.png" alt="" /><img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0y.png" alt="" /></a>
+				
+				
+				
 	
 
 		<div class="clear"></div>	

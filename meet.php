@@ -12,7 +12,7 @@ Template Name: Meet the Women
 				<h1><?php wp_title(' ','true','right'); ?></h1>						
 				<a href="/university-bound"><img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0u.png" alt="" /></a>
 				<a href="/veteran"><img class="grid_4" title="Full Time Veteran" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0s.png" alt="" /></a>
-				<a href="/graduate"><img class="grid_4" title="Sseko Graduates" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0t.png" alt="" /></a>
+				<a href="/sseko-graduates"><img class="grid_4" title="Sseko Graduates" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0t.png" alt="" /></a>
 				<img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0z.png" alt="" />
 				<img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0x.png" alt="" />
 				<img class="grid_4" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0y.png" alt="" />

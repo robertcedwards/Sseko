@@ -123,7 +123,7 @@ var ADAPT_CONFIG = {
 			<?php 
 				if ( is_page_template('women.php') || is_page_template('meet.php') || is_page_template('page.php')){
 								echo("<div class='grid_9 subnav'>");
-								wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' , 'menu' => 'Women' )); 
+								wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_id' => 'menu' , 'menu' => 'Women' )); 
 								echo("</div>");
 				} 
 				else {

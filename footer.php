@@ -42,7 +42,7 @@
 <script type="text/javascript">
     $(document).ready(function(){
         var timer;
-        $('#menu-item li').hover(
+        $('#menu li').hover(
             function() {
                 if(timer){
                     clearTimeout(timer);

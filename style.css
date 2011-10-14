@@ -56,7 +56,7 @@ mark{background-color:#fcd700;color:#000;font-style:italic;font-weight:700;}
 .nav ul{list-style-type:none;list-style-image:none;margin:0;padding:0;}
 .nav li a{text-decoration:none;color:#4a4848;text-transform:uppercase;}
 .nav li a:hover{color:#b27557;}
-.slider{margin-top:30px}
+header {margin-bottom:20px;}
 .flexslider{border:none;}
 .flexbuttons{background-image:url(images/slidersidebar.jpg);}
 .flex-control-nav{width:50px;position:relative;}

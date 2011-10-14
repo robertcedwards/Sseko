@@ -120,7 +120,7 @@ var ADAPT_CONFIG = {
 				<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' ) ); ?>
 			</div>
 			<?php 
-				if ( is_page_template('women.php') && is_page_template('meet.php') ) {
+				if ( is_page_template('women.php') || is_page_template('meet.php') ) {
 								wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' ) ); 
 
 				} 

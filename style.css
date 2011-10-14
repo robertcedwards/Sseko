@@ -117,10 +117,3 @@ strong,th,.nav .current_page_item,ol.commentlist li.comment div.reply a{font-wei
 .flexbuttons li a,li.font{font:22px "Droid Serif Italic", serif;color:#b27557;text-decoration:none;font-style:italic;}
 .mini,.social ul{text-align:center;margin-top: 20px;}
 .entry-meta a,.comments a{text-decoration:none;color:#c96;text-transform:uppercase;}
-.menu-top-nav-container { clear: both; min-height: 54px; }
-.menu-item a { margin-left: 20px;}
-.menu-item a:link { text-decoration: none; }
-.menu-item a:hover { text-decoration:none;}
-.menu ul { margin: 0; padding: 0 list-style-type: none; }
-.menu li { display: inline; position: relative;}
-.sub-menu { list-style-type:none; display: none; position: absolute; width:450px; height: 54px; }

@@ -121,7 +121,8 @@ var ADAPT_CONFIG = {
 			</div>
 			<?php 
 				if ( is_page_template('women.php') ) {
-					
+									<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' ) ); ?>
+
 				} 
 				else {
 					

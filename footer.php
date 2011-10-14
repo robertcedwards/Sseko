@@ -39,7 +39,26 @@
 <script>$(window).load(function() {$('.blueberry').blueberry();});</script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/_/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 <script type="text/javascript">$(document).ready(function() {$("a.inlineimg").fancybox({'hideOnContentClick': true});});</script>
-
+<script type="text/javascript">
+var $j = jQuery.noConflict();
+    $j(document).ready(function(){
+        var timer;
+        $j('#menu-top-nav li').hover(
+            function() {
+                if(timer){
+                    clearTimeout(timer);
+                    timer = null;
+                }
+                $j(this).children('.sub-menu').fadeIn();
+            },
+            function() {
+                timer = setTimeout(function(){
+                    $j('.sub-menu').fadeOut();
+                    }, 1000);
+                }
+           );
+        });
+</script>
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	
 </body>

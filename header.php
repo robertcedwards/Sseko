@@ -127,13 +127,13 @@ var ADAPT_CONFIG = {
 								echo("</div>");
 				} 
 				else {
-					echo("<div class='grid_9 subnav women'>");
+					echo("<div class='grid_9 subnav women' style='display:none;'>");
 				wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' , 'menu' => 'Women' ));
 				echo("</div>");
-					echo("<div class='grid_9 subnav blog'>");
+					echo("<div class='grid_9 subnav blog'style='display:none;'>");
 				wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' , 'menu' => 'Blog' ));
 				echo("</div>");
-					echo("<div class='grid_9 subnav store'>");
+					echo("<div class='grid_9 subnav store'style='display:none;'>");
 				wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' , 'menu' => 'Store' ));
 				echo("</div>");
 

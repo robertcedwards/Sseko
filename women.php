@@ -7,7 +7,7 @@ Template Name: Women of Sseko
 	<div id="content">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			
-		<article  id="post-<?php the_ID(); ?>" class="grid_12">
+		<article  id="post-<?php the_ID(); ?>">
 				<?php the_content(); ?>	
 				<h1><?php wp_title(' ','true','right'); ?></h1>						
 				<?php $womens = getFieldOrder('image'); 

@@ -119,25 +119,6 @@ var ADAPT_CONFIG = {
 			<div class="grid_9 nav">
 				<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_id' => 'menu' ) ); ?>
 			</div>
-			
-			<?php 
-				if ( is_page_template('women.php') || is_page_template('meet.php') || is_page_template('page.php')){
-								echo("<div class='grid_9 subnav'>");
-								wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' , 'menu' => 'Women' )); 
-								echo("</div>");
-				} 
-				else {
-					echo("<div class='grid_9 subnav women' style='display:none;'>");
-				wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' , 'menu' => 'Women' ));
-				echo("</div>");
-					echo("<div class='grid_9 subnav blog'style='display:none;'>");
-				wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' , 'menu' => 'Blog' ));
-				echo("</div>");
-					echo("<div class='grid_9 subnav store'style='display:none;'>");
-				wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' , 'menu' => 'Store' ));
-				echo("</div>");
-
-				}
-			?>
+	
 			<div class="clear"></div> 
 		</header>

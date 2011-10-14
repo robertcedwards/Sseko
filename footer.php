@@ -38,15 +38,7 @@
 <script>$(window).load(function() {$('.blueberry').blueberry();});</script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/_/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 <script type="text/javascript">$(document).ready(function() {$("a.inlineimg").fancybox({'hideOnContentClick': true});});</script>
-<script>
-$(document).ready(function() {
-$(".womenbutton").hover(
-      function() { $(this).children('.women').show(); },
-      function() { $(this).children('.women').hide(); }
- );
 
-});
-</script>
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	
 </body>

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
  
-	<div id="content" class="grid_8">
+	<div id="content" class="grid_9">
 
  
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>

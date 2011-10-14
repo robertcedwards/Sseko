@@ -4,7 +4,7 @@
 
  
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
- 		<article <?php post_class('grid_8') ?> id="post-<?php the_ID(); ?>">
+ 		<article <?php post_class('grid_9') ?> id="post-<?php the_ID(); ?>">
 
             <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             	<span class="entry-meta"><?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?></span>

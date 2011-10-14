@@ -34,26 +34,7 @@
 <script src="<?php bloginfo('template_directory'); ?>/_/js/adapt.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-<script type="text/javascript">
-var $j = jQuery.noConflict();
-    $j(document).ready(function(){
-        var timer;
-        $j('#menu-top-nav li').hover(
-            function() {
-                if(timer){
-                    clearTimeout(timer);
-                    timer = null;
-                }
-                $j(this).children('.sub-menu').fadeIn();
-            },
-            function() {
-                timer = setTimeout(function(){
-                    $j('.sub-menu').fadeOut();
-                    }, 1000);
-                }
-           );
-        });
-</script>
+
 <script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.blueberry.js"></script>
 <script>$(window).load(function() {$('.blueberry').blueberry();});</script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/_/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>

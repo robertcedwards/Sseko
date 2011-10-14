@@ -121,7 +121,7 @@ var ADAPT_CONFIG = {
 			</div>
 			<?php 
 				if ( is_page_template('women.php') ) {
-					aslkdjlk
+					
 				} 
 				else {
 					

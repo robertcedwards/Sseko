@@ -4,10 +4,10 @@ Template Name: Meet the Women
 */
 ?>
 <?php get_header(); ?>
-	<div id="content">
+	<div id="content" class="grid_12">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			
-		<article  id="post-<?php the_ID(); ?>">
+		<article  id="post-<?php the_ID(); ?>" cla>
 				<?php the_content(); ?>	
 				<h1><?php wp_title(' ','true','right'); ?></h1>						
 				<a class="grid_4 alpha" href="/university-bound" alt="University Bound"><img src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0u.png" alt="University Bound" title="University Bound" /><img src="http://sseko.welovewebsit.es/wp-content/uploads/2011/10/0z.png" alt="University Bound" title="University Bound" /></a>

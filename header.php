@@ -118,7 +118,14 @@ var ADAPT_CONFIG = {
 			</div>
 			<div class="grid_9 nav">
 				<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' ) ); ?>
-			</div>		 	
-		 	
+			</div>
+			<?php 
+				if ( is_page_template('women.php') ) {
+					aslkdjlk
+				} 
+				else {
+					
+				}
+			?>
 			<div class="clear"></div> 
 		</header>

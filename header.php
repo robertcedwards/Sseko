@@ -119,6 +119,7 @@ var ADAPT_CONFIG = {
 			<div class="grid_9 nav">
 				<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' ) ); ?>
 			</div>
+			<div class="grid_9 nav">
 			<?php 
 				if ( is_page_template('women.php') || is_page_template('meet.php') ) {
 								wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' ) ); 
@@ -128,5 +129,6 @@ var ADAPT_CONFIG = {
 					
 				}
 			?>
+			</div>
 			<div class="clear"></div> 
 		</header>

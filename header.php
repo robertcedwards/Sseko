@@ -127,7 +127,16 @@ var ADAPT_CONFIG = {
 								echo("</div>");
 				} 
 				else {
-					
+					echo("<div class='grid_9 subnav women'>");
+				wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' , 'menu' => 'Women' ));
+				echo("</div>");
+					echo("<div class='grid_9 subnav blog'>");
+				wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' , 'menu' => 'Blog' ));
+				echo("</div>");
+					echo("<div class='grid_9 subnav store'>");
+				wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu' , 'menu' => 'Store' ));
+				echo("</div>");
+
 				}
 			?>
 			<div class="clear"></div> 

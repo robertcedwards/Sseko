@@ -53,7 +53,7 @@ ins{background-color:#fcd700;color:#000;text-decoration:none;}
 mark{background-color:#fcd700;color:#000;font-style:italic;font-weight:700;}
 .wrapper{background-image:url(images/paint.jpg);background-repeat:no-repeat;background-position:top right;background-color:#FFF;-webkit-box-shadow:0 0 30px #999;-moz-box-shadow:0 0 30px #999;box-shadow:0 0 30px #999;}
 .nav{z-index:1000;background:url(images/navbar.png);background-position:right;overflow:hidden;background-repeat:no-repeat;font:14px "Droid Serif", serif;padding:10px 0;}
-.nav ul{list-style-type:none;list-style-image:none;margin:0;padding:0;}
+.nav ul{list-style-type:none;list-style-image:none;}
 .nav li a{text-decoration:none;color:#4a4848;text-transform:uppercase;}
 .nav li a:hover{color:#b27557;}
 header {margin-bottom:20px;}
@@ -118,4 +118,4 @@ strong,th,.nav .current_page_item,ol.commentlist li.comment div.reply a{font-wei
 .mini,.social ul{text-align:center;margin-top: 20px;}
 .entry-meta a,.comments a{text-decoration:none;color:#c96;text-transform:uppercase;}
 .menu-main-nav-container { clear: both; min-height: 54px; }
-.sub-menu { list-style-type:none; display: none; position: absolute; width:450px; height: 54px; }
+.sub-menu { list-style-type:none; display: none; position: absolute; width:450px; height: 54px; padding:10px;}

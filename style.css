@@ -118,4 +118,5 @@ strong,th,.nav .current_page_item,ol.commentlist li.comment div.reply a{font-wei
 .mini,.social ul{text-align:center;margin-top: 20px;}
 .entry-meta a,.comments a{text-decoration:none;color:#c96;text-transform:uppercase;}
 .menu-main-nav-container { clear: both; min-height: 54px; }
-.sub-menu { list-style-type:none; display: none; position: absolute; width:450px; height: 54px; padding:10px;}
+.sub-menu { list-style-type:none; display: none; position: absolute; width:450px;border-top: 1px solid #b27557;border-bottom: 1px solid #b27557;}
+ul.sub-menu{padding-top:5px;padding-bottom:5px;margin-top:17px;}

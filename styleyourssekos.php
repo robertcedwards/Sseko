@@ -8,9 +8,9 @@ Template Name: Style your Ssekos
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			
 		<article  id="post-<?php the_ID(); ?>">
-		<div id="note"><img src="<?php bloginfo('template_directory'); ?>/images/paper.png"style="float:left;"/></div>
+
 				<?php the_content(); ?>	
-				<h1><?php wp_title(' ','true','right'); ?></h1>					
+				<div id="note" class="grid_12 last"><img src="<?php bloginfo('template_directory'); ?>/images/paper.png"style="float:left;"/><h1><?php wp_title(' ','true','right'); ?></h1></div>					
 				<?php $styles = getFieldOrder('image'); 
 									if(is_array($styles))
 									{foreach($styles as $style)

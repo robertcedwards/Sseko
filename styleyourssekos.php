@@ -8,6 +8,7 @@ Template Name: Style your Ssekos
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			
 		<article  id="post-<?php the_ID(); ?>">
+		<img src="images/notepaper.png"style="float:left;"/>
 				<?php the_content(); ?>	
 				<h1><?php wp_title(' ','true','right'); ?></h1>					
 				<?php $styles = getFieldOrder('image'); 

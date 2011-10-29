@@ -116,6 +116,7 @@ div#note img{box-shadow: 0 0 0px #FFF;}
 ul,ol.commentlist{list-style:none;}
 input[type="radio"],.ie6 input{vertical-align:text-bottom;}
 strong,th,.nav .current_page_item,ol.commentlist li.comment div.reply a{font-weight:700;}
+.sub-menu .current_page_item{font-weight:400;}
 ::-moz-selection,::selection{background:#fcd700;color:#fff;text-shadow:none;}
 .nav li,.social li{display:inline;padding:2px;}
 .flexbuttons li a,li.font{font:22px "Droid Serif Italic", serif;color:#b27557;text-decoration:none;font-style:italic;}

@@ -15,7 +15,7 @@ Template Name: Style your Ssekos
 									if(is_array($styles))
 									{foreach($styles as $style)
 										{
-										 echo "<div class='grid_4'>";
+										 echo "<div class='grid_3'>";
 										 echo "<a rel='styles' href='#info$style'class='inlineimg'>"; 
 										 echo get_image('image',1,$style); 
 										 echo "</a>";

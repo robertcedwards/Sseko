@@ -21,7 +21,7 @@ Template Name: Women of Sseko
 										 echo get('image',1,$women);
 										 echo "'/>";
 										 echo "<p>";
-										 echo get('post',1,$women);
+										 echo get('woman',1,$women);
 										 echo "</p><hr>";	
 																		 echo "</div></div>";
 

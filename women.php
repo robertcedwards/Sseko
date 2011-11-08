@@ -21,9 +21,10 @@ Template Name: Women of Sseko
 										 echo "<img class='grid_2 right'src='";
 										 echo get('image',1,$women);
 										 echo "'/>";
-										 echo "<p class='grid_6'>";
+
+										 echo "<div class='grid_6'>";
 										 echo get('woman',1,$women);
-										 echo "</p><hr>";	
+										 echo "</div><hr>";	
 																		 echo "</div></div>";
 
 										}

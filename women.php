@@ -17,8 +17,8 @@ Template Name: Women of Sseko
 										{echo "<a rel='women' href='#info$women'class='grid_3 inlineimg'>"; 
 										 echo get_image('image',1,$women); 
 										 echo "</a>";
-										 echo "<div style='display:none'><div id='info$women' class='grid_8 lightbox women'>";
-										 echo "<img class='grid_2 right'src='";
+										 echo "<div style='display:none'><div id='info$women' class='grid_8 lightbox women container_12'>";
+										 echo "<img class='grid_5 right'src='";
 										 echo get('image',1,$women);
 										 echo "'/>";
 

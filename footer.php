@@ -17,7 +17,7 @@
     <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/js/widget/css/ui-lightness/jquery-ui-1.8.16.custom.css" />
     <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/js/widget/css/lightbox.min.css" />
 
-<script type="text/javascript">$(document).ready(function() {$( 'a.inlineimg' ).rlightbox();});</script>
+<script type="text/javascript">$(document).ready(function() {$( '.inlineimg' ).rlightbox();});</script>
 <script type="text/javascript">
     $(document).ready(function(){
         var timer;

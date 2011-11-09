@@ -70,32 +70,13 @@
 	<meta name="DC.creator" content="WeCreativeAgency.com">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<script src="<?php bloginfo('template_directory'); ?>/_/js/adapt.min.js"></script>
+<script> var ADAPT_CONFIG = {path: '<?php bloginfo('template_directory'); ?>/_/js/css/' , dynamic: true, range:['0px    to 760px  = mobile.min.css','760px  to 960px  = 720.min.css','960px  to 5000px = 960.min.css',]};</script> 
 	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
 	<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/_/img/apple-touch-icon.png">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/js/blueberry.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-
-<script> 
-// Edit to suit your needs.
-var ADAPT_CONFIG = {
-  // Where is your CSS?
-  path: '<?php bloginfo('template_directory'); ?>/_/js/css/',
- 
-  // false = Only run once, when page first loads.
-  // true = Change on window resize and page tilt.
-  dynamic: true,
- 
-  // First range entry is the minimum.
-  // Last range entry is the maximum.
-  // Separate ranges by "to" keyword.
-  range: [
-    '0px    to 760px  = mobile.min.css',
-    '760px  to 960px  = 720.min.css',
-    '960px  to 5000px = 960.min.css',
-  ]
-};
-</script> 
 
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 

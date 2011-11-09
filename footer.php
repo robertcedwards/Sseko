@@ -9,7 +9,7 @@
 <script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.blueberry.js"></script>
-<script type="text/javascript">$(document).ready(function() {$( "a.inlineimg" ).rlightbox();});</script>
+<script type="text/javascript">$(document).ready(function() {$( "a.inlineimg" ).lightbox_me();});</script>
 <script type="text/javascript">
     $(document).ready(function(){
         var timer;

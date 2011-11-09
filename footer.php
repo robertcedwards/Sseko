@@ -11,7 +11,12 @@
 
 <script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.blueberry.js"></script>
 <script>$(window).load(function() {$('.blueberry').blueberry();});</script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/_/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/_/js/widget/lib/jquery.ui.core.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/_/js/widget/lib/jquery.ui.widget.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/_/js/widget/lib/jquery.ui.rlightbox.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/js/widget/css/ui-lightness/jquery-ui-1.8.16.custom.css" />
+    <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/js/widget/css/lightbox.min.css" />
+
 <script type="text/javascript">$(document).ready(function() {$( '.lb_flowers' ).rlightbox();});</script>
 <script type="text/javascript">
     $(document).ready(function(){
@@ -32,6 +37,7 @@
            );
         });
 </script>
+
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	
 </body>

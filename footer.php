@@ -12,7 +12,7 @@
 <script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.blueberry.js"></script>
 <script>$(window).load(function() {$('.blueberry').blueberry();});</script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/_/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-<script type="text/javascript">$(document).ready(function() {$("a.inlineimg").fancybox({'hideOnContentClick': true , 'autoScale' : true; });});</script>
+<script type="text/javascript">$(document).ready(function() {$("a.inlineimg").fancybox({'hideOnContentClick': true , 'autoScale' : true });});</script>
 <script type="text/javascript">
     $(document).ready(function(){
         var timer;

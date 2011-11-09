@@ -10,7 +10,7 @@ Template Name: Women of Sseko
 		<article  id="post-<?php the_ID(); ?>"	>
 				<?php the_content(); ?>	
 				<h1><?php wp_title(' ','true','right'); ?></h1>
-				<img class="flat grid_3" height="330px"src="<?php bloginfo('template_directory'); ?>/images/womennote.png"/>
+				<img class="flat grid_3" height="335px"src="<?php bloginfo('template_directory'); ?>/images/womennote.png"/>
 				<?php $womens = getFieldOrder('image'); 
 									if(is_array($womens))
 									{foreach($womens as $women)

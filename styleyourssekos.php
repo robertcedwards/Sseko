@@ -16,10 +16,17 @@ Template Name: Style your Ssekos
 									{foreach($styles as $style)
 										{
 										 echo "<div class='grid_3'>";
-										 echo "<a rel='styles' href='#info$style'class='inlineimg'>"; 
-										 echo get_image('image',1,$style); 
+										 echo "<a rel='styles' href='#info$style'class='inlineimg'>";
+										 echo "<img src='" 
+										 echo get_image_url('image',1,$style);
+										 echo "class='grid_3' title='"
+										 echo get('name',1,$style);
+										 echo "'"
+										 echo "alt='"
+										 echo get('name',1,$style);
+										 echo "'/>"
 										 echo "</a>";
-										 echo "<h2>";
+										 echo "<h2 class="grid_3">";
 										 echo get('name',1,$style);
 										 echo "</h2></div>";
 										 echo "<div style='display:none'><div id='info$style' class='grid_8 lightbox'>";

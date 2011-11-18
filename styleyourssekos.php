@@ -10,7 +10,7 @@ Template Name: Style your Ssekos
 		<article  id="post-<?php the_ID(); ?>">
 
 				<?php the_content(); ?>	
-				<div id="note" class="grid_12 last"><p class="note">There are so many ways to tie your Ssekos. <br>Watch videos and learn here.</p><img src="<?php bloginfo('template_directory'); ?>/images/paper.png"style="float:left;"/><h1><?php wp_title(' ','true','right'); ?></h1></div>					
+				<div id="note" class="grid_12 last"><p class="note grid_5"><span class="special">Style your Ssekos!</span> There are so many ways to tie your Ssekos. Watch the videos and learn how to style your Ssekos! Then, come up with your own!</p><img src="<?php bloginfo('template_directory'); ?>/images/paper.png"style="float:left;"/><h1><?php wp_title(' ','true','right'); ?></h1></div>					
 				<?php $styles = getFieldOrder('image'); 
 									if(is_array($styles))
 									{foreach($styles as $style)

@@ -39,7 +39,7 @@
     }
   )
  var hideDropdownTimer2 = null
-  var dropdown2 = $(".sub-menu2", this)
+  var dropdown2 = $(".sub-menu", this)
   var menu2 = $("#menu-item-14", this)
 
   dropdown2.hide();

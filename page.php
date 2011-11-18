@@ -12,7 +12,6 @@ Template Name: Seeko Story pages
 
 			<h2><?php the_title(); ?></h2>
 
-			<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
 
 			<div class="entry">
 
@@ -22,11 +21,9 @@ Template Name: Seeko Story pages
 
 			</div>
 
-			<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 
 		</article>
 		
-		<?php comments_template(); ?>
 
 		<?php endwhile; endif; ?>
 

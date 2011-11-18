@@ -73,8 +73,6 @@ header {margin-bottom:20px;}
 .sidebar h2{font-style:italic;color:#535253;font-weight:400;font-size:20px;border-bottom:1px dotted #898989;margin-left:10px;margin-right:10px;margin-top:10px;text-shadow:1px 2px 3px #fff;padding:3px 5px;}
 .sidebar h2:first-of-type{margin-top:none;}
 .sidebar p{font-size:11pt;color:#666;font-weight:100;font-style:italic;text-indent:0;}
-.sidebar p +a{margin:10px auto; background-color:#e9c497;background-image:linear-gradient(top,#ffd5a6,#999999);filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffd5a6',EndColorStr='#999999');text-shadow:1px 1px 3px #888;color:#291b27;-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out;-webkit-box-shadow:0 3px 6px #444;-moz-box-shadow:0 3px 6px #444;box-shadow:0 3px 6px #444;text-align:center;position:relative;padding:10px;display:block;max-width:50%}
-.sidebar p +a:hover{-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out;-webkit-box-shadow:0 1px 1px #444;-moz-box-shadow:0 1px 1px #444;box-shadow:0 1px 1px #444;color:#333;}
 .sidebar a{text-decoration:none;color:#b17556;}
 .sidebar a:hover{color:#00d9ab;text-decoration:none;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out;}
 .sidebar img{display:block;margin:10px auto;max-width:95%}
@@ -126,28 +124,5 @@ strong,th,.nav .current_page_item,ol.commentlist li.comment div.reply a{font-wei
 .menu-main-nav-container { clear: both; min-height: 54px; }
 .sub-menu { list-style-type:none; display: none; position: absolute;border-top: 1px solid #b27557;border-bottom: 1px solid #b27557;}
 ul.sub-menu{padding-top:5px;padding-bottom:5px;margin-top:17px;}
-.button{background: #c96;margin-right:10px;font: inherit;background-repeat: repeat-x;color: #fff;text-decoration: none;position: relative;cursor: pointer;border: 0;font-style: normal;font-weight: bold;line-height: 1;padding: 5px 10px 6px;font-size: 13px;border-bottom: 1px solid transparent\9;
-text-shadow: 0 -1px 1px rgba(0,0,0,0.25), -2px 0 1px rgba(0,0,0,0.25);border-radius: 5px;
--moz-border-radius: 5px;
--webkit-border-radius: 5px;
--moz-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
--webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
-box-shadow: 0 1px 2px rgba(0,0,0,0.5); 
-background-image: url('http://sseko.welovewebsit.es/wp-content/uploads/2011/11/awesome-overlay-sprite.png');
-background-position: 0 0;
-/* cross browser inline block hack
-see http://blog.mozilla.com/webdev/2009/02/20/cross-browser-inline-block/ */
-display: -moz-inline-stack;
-display: inline-block;
-vertical-align: middle;
-*display: inline !important;
-position: relative;
-/* help IE to calm down a bit */
-zoom: 1;
-/*disable text selection (Firefox only)*/
--moz-user-select: none;}
-.button::selection{background: transparent;}
-.button:hover{background-position: 0 -50px;color: #fff;}
-.button:active{background-position: 0 100%;-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.7);-webkit-box-shadow: none;border-bottom: 0\9;border-top: 1px solid #666\9;}
 #description{margin-top:20px;}
 .special{font-style:italic;font-weight:bold;}

@@ -12,25 +12,68 @@
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/_/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 <script type="text/javascript">$(document).ready(function() {$("a.inlineimg").fancybox({'hideOnContentClick': true , 'autoScale' : true , 'autoDimensions' : true });});</script>
 <script type="text/javascript">$(document).ready(function() {$("a.fancybox").fancybox({'hideOnContentClick': true , 'autoScale' : true , 'autoDimensions' : true });});</script>
-
 <script type="text/javascript">
     $(document).ready(function(){
-        var timer;
-        $('#menu li').hover(
-            function() {
-                if(timer){
-                    clearTimeout(timer);
-                    timer = null;
-                }
-                $(this).children('.sub-menu').fadeIn();
-            },
-            function() {
-                timer = setTimeout(function(){
-                    $('.sub-menu').fadeOut();
-                    }, 1000);
-                }
-           );
-        });
+ var hideDropdownTimer = null
+  var dropdown = $(".sub-menu1", this)
+  var menu = $("#menu-item-8", this)
+
+  dropdown.hide();
+
+  $([dropdown[0], menu[0]]).hover(
+    function() {
+      if (hideDropdownTimer)
+        clearTimeout(hideDropdownTimer);
+
+      dropdown.show();
+      dropdown2.hide();
+
+    },
+    function() {
+      if (hideDropdownTimer)
+        clearTimeout(hideDropdownTimer);
+
+      hideDropdownTimer = setTimeout(function() {
+        dropdown.hide()
+      }, 300)
+    }
+  )
+ var hideDropdownTimer2 = null
+  var dropdown2 = $(".sub-menu2", this)
+  var menu2 = $("#menu-item-14", this)
+
+  dropdown2.hide();
+
+  $([dropdown2[0], menu2[0]]).hover(
+    function() {
+      if (hideDropdownTimer2)
+        clearTimeout(hideDropdownTimer2);
+
+      dropdown2.show();
+      dropdown.hide();
+
+    },
+    function() {
+      if (hideDropdownTimer2)
+        clearTimeout(hideDropdownTimer2);
+
+      hideDropdownTimer2 = setTimeout(function() {
+        dropdown2.hide()
+      }, 300)
+    }
+  )
+    
+
+        $("a.box").live("mouseover focus", function() {
+    $("a.box").fancybox( {
+        'width'         : 'auto',
+        'height'        : 'auto',
+        'titleShow'     : false
+    });
+});
+
+       }); 
+      });
 </script>
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	

@@ -17,7 +17,7 @@ img.alignleft{float:left;margin-right:10px}
 html{overflow-y:scroll;}
 blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:none;}
-a{font-size:100%;vertical-align:baseline;background:transparent;color:##b17556;text-decoration:none;margin:0;padding:0;}
+a{font-size:100%;vertical-align:baseline;background:transparent;color:#b17556;text-decoration:none;margin:0;padding:0;}
 del{text-decoration:line-through;}
 abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help;}
 table{border-collapse:collapse;border-spacing:0;font-size:inherit;font:100%;}
@@ -47,7 +47,7 @@ body{font:16px "Droid Serif", serif;background-image:url(images/bg.jpg);-webkit-
 body p{text-indent:25px;margin:15px;}
 @font-face{font-family:'Droid Bold';src:url(/fonts/DroidSerif-Bold.eot?) format(eot), url(/fonts/DroidSerif-Bold.woff) format(woff), url(/fonts/DroidSerif-Bold.ttf) format(truetype);}
 body,select,input,textarea{color:#333;}
-a:hover{color:#c96;text-decoration:underline;}
+a:hover{color:#b17556;text-decoration:underline;}
 a:link{-webkit-tap-highlight-color:#fcd700;}
 ins{background-color:#fcd700;color:#000;text-decoration:none;}
 mark{background-color:#fcd700;color:#000;font-style:italic;font-weight:700;}
@@ -74,12 +74,12 @@ header {margin-bottom:20px;}
 .sidebar p{font-size:11pt;color:#666;font-weight:100;font-style:italic;text-indent:0;}
 .sidebar p +a{mmargin:10px auto; background-color:#e9c497;background-image:linear-gradient(top,#ffd5a6,#999999);filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffd5a6',EndColorStr='#999999');text-shadow:1px 1px 3px #888;color:#291b27;-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out;-webkit-box-shadow:0 3px 6px #444;-moz-box-shadow:0 3px 6px #444;box-shadow:0 3px 6px #444;text-align:center;position:relative;padding:10px;display:block;max-width:50%}
 .sidebar p +a:hover{-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out;-webkit-box-shadow:0 1px 1px #444;-moz-box-shadow:0 1px 1px #444;box-shadow:0 1px 1px #444;color:#333;}
-.sidebar a{text-decoration:none;color:#C96;}
+.sidebar a{text-decoration:none;color:#b17556;}
 .sidebar a:hover{color:#00d9ab;text-decoration:none;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out;}
 .sidebar img{display:block;margin:10px auto;max-width:95%}
 #twitter{margin:10px;}
 #twitter p{font-style:normal;font-size:10pt;}
-.comments{color:#c96;}
+.comments{color:#b17556;}
 ol.commentlist li.comment{border-bottom:1px dotted #666;padding:10px;}
 ol.commentlist li.comment div.vcard cite.fn{font-style:normal;}
 ol.commentlist li.comment div.vcard img.avatar{float:right;margin:0 0 10px 10px;}
@@ -121,7 +121,7 @@ strong,th,.nav .current_page_item,ol.commentlist li.comment div.reply a{font-wei
 .nav li,.social li{display:inline;padding:2px;}
 .flexbuttons li a,li.font{font:22px "Droid Serif Italic", serif;color:#b27557;text-decoration:none;font-style:italic;}
 .mini,.social ul{text-align:center;margin-top: 20px;}
-.entry-meta a,.comments a{text-decoration:none;color:#c96;text-transform:uppercase;}
+.entry-meta a,.comments a{text-decoration:none;color:#b17556;text-transform:uppercase;}
 .menu-main-nav-container { clear: both; min-height: 54px; }
 .sub-menu { list-style-type:none; display: none; position: absolute;border-top: 1px solid #b27557;border-bottom: 1px solid #b27557;}
 ul.sub-menu{padding-top:5px;padding-bottom:5px;margin-top:17px;}

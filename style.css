@@ -43,7 +43,7 @@ button{width:auto;overflow:visible;}
 .clearfix:before,.clearfix:after{content:"\0020";display:block;height:0;overflow:hidden;}
 .clearfix:after{clear:both;}
 .clearfix{zoom:1;}
-body{font:16px "Droid Serif", serif;background-image:url(images/bg.jpg);-webkit-background-size:100%;-moz-background-size:100%;background-size:100%;}
+body{font:14px "Droid Serif", serif;background-image:url(images/bg.jpg);-webkit-background-size:100%;-moz-background-size:100%;background-size:100%;}
 body p{text-indent:25px;margin:15px;}
 @font-face{font-family:'Droid Bold';src:url(/fonts/DroidSerif-Bold.eot?) format(eot), url(/fonts/DroidSerif-Bold.woff) format(woff), url(/fonts/DroidSerif-Bold.ttf) format(truetype);}
 body,select,input,textarea{color:#333;}
@@ -126,3 +126,4 @@ strong,th,.nav .current_page_item,ol.commentlist li.comment div.reply a{font-wei
 ul.sub-menu{padding-top:5px;padding-bottom:5px;margin-top:17px;}
 #description{margin-top:20px;}
 .special{font-style:italic;font-weight:bold;}
+#text-3 div.textwidget a.button {text-align: center;display:block;}

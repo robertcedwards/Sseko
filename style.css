@@ -63,7 +63,7 @@ header {margin-bottom:20px;}
 .flexbuttons li{padding-bottom:25px;}
 .description{padding-top:15px;}
 .menu{float:right;}
-.post{line-height:160%;margin:10px 0px 10px 0px;}
+.post{line-height:160%;}
 #content hr{border-bottom:2px solid #ccc;border-top:none;}
 .entry-title a{font-size:30px;color:#333;text-decoration:none;font-weight:100;}
 .entry-meta{font-size:11pt;color:#999;font-weight:100;font-style:italic;}

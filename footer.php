@@ -17,6 +17,8 @@
  var hideDropdownTimer = null
   var dropdown = $(".sub-menu1", this)
   var menu = $("#menu-item-8", this)
+$('.submenu').addClass('submenu1');
+
 
   dropdown.hide();
 

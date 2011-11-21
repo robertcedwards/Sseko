@@ -23,7 +23,8 @@ abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help;}
 table{border-collapse:collapse;border-spacing:0;font-size:inherit;font:100%;}
 th{font-weight:700;vertical-align:bottom;}
 td{font-weight:400;vertical-align:top;}
-hr{display:block;height:1px;border:0;border-top:1px solid #ccc;padding:0;width:95%}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;padding:0;width:95%} 
+hr.grid_12{margin-left: 0px;}
 input,select{vertical-align:middle;}
 pre{white-space:pre-line;word-wrap:break-word;}
 input[type="checkbox"]{vertical-align:baseline;}

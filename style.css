@@ -92,8 +92,8 @@ ol.commentlist li.comment ul.children li.depth-4{border-left:5px solid #bbb;marg
 ol.commentlist li.even{background:#fff;}
 ol.commentlist li.odd{background:#f6f6f6;}
 ol.commentlist li.parent{border-left:5px solid #111;}
-#content h1{text-align:center;font-size:50px;font-weight:100;margin-bottom:15px;}
-#content img{webkit-box-shadow:0 0 4px #444;-moz-box-shadow:0 0 4px #444;box-shadow:0 0 4px #444;}
+#content h1{text-align:center;font-size:30px;font-weight:100;margin-bottom:15px;}
+#content img{}
 img.flat{-webkit-box-shadow:none; -moz-box-shadow: none; box-shadow:none;}
 a.inlineimg {float:right;}
 #post-298 h2{font-style:italic;;font-weight:100;color:#333;font-size:14px;margin-bottom:10px}
@@ -101,9 +101,10 @@ a.inlineimg {float:right;}
 p.note{position:absolute; text-indent:0px;}
 #note{padding-bottom:15px;}
 div#note img{box-shadow: 0 0 0px #FFF;}
-.post img{webkit-box-shadow:0 0 4px #444;-moz-box-shadow:0 0 4px #444;box-shadow:0 0 4px #444;max-width:95%}
+.post img{max-width:95%}
 .post h2{font-style:italic;font-weight:100;color:#333;font-size:24px;padding-bottom:10px}
 .post h3{ color: #8c8c8c;font-weight:100;font-variant:small-caps;font-style:italic;font-size:18px}
+.post ul li{list-style-type:disc;list-style-position:inside;margin:15px;}
 .lightbox{-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;border:3px solid #ccc;background-color:#FFF;padding:10px;}
 .lightbox li{font-size:16px;max-width:700px;margin-bottom:30px;}
 .lightbox img{border:1px dotted #666;display:inline;float:left;}
@@ -130,4 +131,4 @@ ul.sub-menu{padding-top:5px;padding-bottom:5px;margin-top:17px;}
 #post-709 div.entry p, #post-427 div.entry p{text-indent:0px;margin: 0px;max-width:100%;}  
 #post-709 div.entry h3{margin:15px 0px 5px 0px;}
 #post-709 div.entry ul h3{margin:0px 0px 5px 0px}
-#post-709 div.entry ul li a{margin-left:10px;}
+#post-709 div.entry ul li a{margin-left:10px;list-style-type:none;}

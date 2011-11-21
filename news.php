@@ -23,6 +23,13 @@ Template Name: News
                
  
 				<?php the_content(); ?>
+				<div id="authorbio"><?php if ( get_the_author_meta( 'description' ) ) : // If a user has filled out their description, show a bio on their entries  ?>
+                                <?php echo get_avatar( get_the_author_meta( 'user_email' ), 60 ); ?>
+                                <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>" title="View all posts by <?php echo get_the_author(); ?>"><?php the_author(); ?>
+                                <?php the_author_meta( 'description' ); ?>
+                                <a href="<?php the_author_meta('user_url' );?>"><?php the_author_meta('user_url' );?></a>
+                                <a href="http://twitter.com/<?php the_author_meta('twitter' );?>"><?php the_author_meta('twitter' );?></a>
+                                <?php endif; ?></div>
   		<span class="comments"><?php comments_popup_link(__('0 comments','example'),__('1 comment','example'),__('% comments','example')); ?></span>
         </div><!-- /#post-<?php get_the_ID(); ?> -->
         <hr class="grid_8">

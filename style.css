@@ -44,7 +44,7 @@ button{width:auto;overflow:visible;}
 .clearfix:after{clear:both;}
 .clearfix{zoom:1;}
 body{font:14px "Droid Serif", serif;background-image:url(images/bg.jpg);-webkit-background-size:100%;-moz-background-size:100%;background-size:100%;}
-body p{text-indent:25px;margin:15px;}
+body p{margin:15px;}
 @font-face{font-family:'Droid Bold';src:url(/fonts/DroidSerif-Bold.eot?) format(eot), url(/fonts/DroidSerif-Bold.woff) format(woff), url(/fonts/DroidSerif-Bold.ttf) format(truetype);}
 body,select,input,textarea{color:#333;}
 a:hover{color:#b17556;text-decoration:underline;}

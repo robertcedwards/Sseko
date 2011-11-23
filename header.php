@@ -70,7 +70,10 @@
 	<meta name="DC.creator" content="WeCreativeAgency.com">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<script> var ADAPT_CONFIG = {path: '<?php bloginfo('template_directory'); ?>/_/js/css/' , dynamic: true, range:['0px    to 760px  = mobile.min.css','760px  to 960px  = 720.min.css','960px  to 5000px = 960.min.css',]};</script> 
+<script> var ADAPT_CONFIG = {path: '<?php bloginfo('template_directory'); ?>/_/js/css/' , dynamic: true, range:[ '0px    to 760px  = mobile.css',
+    '760px  to 980px  = 720.css',
+    '980px  to 1280px = 960.css',
+    '1280px to 1600px = 1200.css',]};</script> 
 	<script src="<?php bloginfo('template_directory'); ?>/_/js/adapt.min.js"></script>
 	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
 	<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/_/img/apple-touch-icon.png">

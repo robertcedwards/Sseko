@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Women of Sseko
+Template Name: University Bound
 */
 ?>
 <?php get_header(); ?>
@@ -11,7 +11,7 @@ Template Name: Women of Sseko
 				<?php the_content(); ?>	
 				<h1><?php wp_title(' ','true','right'); ?></h1>
 				<p></p>
-				<img id="note" class="flat grid_3" height="335px"src="<?php bloginfo('template_directory'); ?>/images/womennote.png"/>
+				<img id="note" class="flat grid_3" height="335px"src="wp-content/uploads/2011/11/screenshot20111010at10.10.17pm-1.png"/>
 				<?php $womens = getFieldOrder('image'); 
 									if(is_array($womens))
 									{foreach($womens as $women)

@@ -18,7 +18,12 @@
     }
     add_action('init', 'removeHeadLinks');
     remove_action('wp_head', 'wp_generator');
-    
+    function my_custom_login_logo() {
+    echo '<style type="text/css">
+        h1 a { background-image:url('.get_bloginfo('template_directory').'/images/logo.png) !important; }
+    </style>';}
+
+	add_action('login_head', 'my_custom_login_logo');
     if (function_exists('register_sidebar')) {
     	register_sidebar(array(
     		'name' => __('Sidebar Widgets','html5reset' ),

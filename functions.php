@@ -20,7 +20,7 @@
     remove_action('wp_head', 'wp_generator');
     function my_custom_login_logo() {
     echo '<style type="text/css">
-        h1 a { background-image:url('.get_bloginfo('template_directory').'/images/logo.png) !important; }
+        h1 a { height:140px; background-image:url('.get_bloginfo('template_directory').'/images/logo.png) !important; }
     </style>';}
 
 	add_action('login_head', 'my_custom_login_logo');

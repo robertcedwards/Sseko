@@ -70,7 +70,7 @@
   )
   var hideDropdownTimer3 = null
   var dropdown3 = $(".sub-menu3", this)
-  var menu3 = $("#menu-item-18", this)
+  var menu3 = $("#menu-item-19", this)
 
   dropdown3.hide();
 

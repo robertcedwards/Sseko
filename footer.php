@@ -68,6 +68,31 @@
       }, 300)
     }
   )
+  var hideDropdownTimer3 = null
+  var dropdown3 = $(".sub-menu3", this)
+  var menu3 = $("#menu-item-18", this)
+
+  dropdown3.hide();
+
+  $([dropdown3[0], menu3[0]]).hover(
+    function() {
+      if (hideDropdownTimer3)
+        clearTimeout(hideDropdownTimer3);
+
+      dropdown3.show();
+      dropdown2.hide();
+      dropdown.hide();
+
+    },
+    function() {
+      if (hideDropdownTimer3)
+        clearTimeout(hideDropdownTimer3);
+
+      hideDropdownTimer3 = setTimeout(function() {
+        dropdown3.hide()
+      }, 300)
+    }
+  )
     
 
         $("a.box").live("mouseover focus", function() {

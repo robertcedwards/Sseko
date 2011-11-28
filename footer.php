@@ -18,7 +18,7 @@
 <script type="text/javascript">
     $(document).ready(function(){
  var hideDropdownTimer = null
-  var dropdown = $(".sub-menu", this)
+  var dropdown = $(".sub-menu1", this)
   var menu = $("#menu-item-8", this)
 
 
@@ -43,7 +43,7 @@
     }
   )
  var hideDropdownTimer2 = null
-  var dropdown2 = $(".sub-menu", this)
+  var dropdown2 = $(".sub-menu2", this)
   var menu2 = $("#menu-item-14", this)
 
   dropdown2.hide();

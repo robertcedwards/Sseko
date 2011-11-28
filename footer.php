@@ -33,6 +33,8 @@
 
       dropdown.show();
       dropdown2.hide();
+      dropdown3.hide();
+
 
     },
     function() {
@@ -56,6 +58,7 @@
         clearTimeout(hideDropdownTimer2);
 
       dropdown2.show();
+      dropdown3.hide();
       dropdown.hide();
 
     },

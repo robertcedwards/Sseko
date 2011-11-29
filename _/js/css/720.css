@@ -18,6 +18,8 @@ body {
 }
 #note{background-image: url(http://sseko.welovewebsit.es/wp-content/themes/Sseko/images/paper.png);
 background-repeat: no-repeat;!important}
+p.note{position:relative;}
+
 /* `Containers
 ----------------------------------------------------------------------------------------------------*/
 

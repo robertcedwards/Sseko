@@ -16,7 +16,8 @@
 body {
   min-width: 720px;
 }
-
+#note{background-image: url(http://sseko.welovewebsit.es/wp-content/themes/Sseko/images/paper.png);
+background-repeat: no-repeat;!important}
 /* `Containers
 ----------------------------------------------------------------------------------------------------*/
 

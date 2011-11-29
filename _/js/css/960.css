@@ -16,7 +16,7 @@
 body {
   min-width: 960px;
 }
-note{width: 360px!important;}
+.note{width: 360px!important;}
 
 /* `Containers
 ----------------------------------------------------------------------------------------------------*/

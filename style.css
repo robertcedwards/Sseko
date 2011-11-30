@@ -69,7 +69,7 @@ header {margin-bottom:20px;}
 .entry-title a{font-size:30px;color:#333;text-decoration:none;font-weight:100;}
 .entry-meta{font-size:11pt;color:#999;font-weight:100;font-style:italic;}
 .entry div ul li {list-style-type: disc;color:#666 ;list-style-position: outside;font-size:14px;margin-left:50px;margin-right:10px;}
-.sidebar{background:url(images/slidersidebar.jpg);overflow:hidden;background-repeat:repeat;padding:10px 0;}
+.sidebar{background:url(images/slidersidebar.jpg);overflow:hidden;background-repeat:repeat;padding:10px 0;margin-top:30px;}
 .sidebar ul{line-height:180%;padding:10px;}
 .sidebar h2{font-style:italic;color:#535253;font-weight:400;font-size:20px;border-bottom:1px dotted #898989;margin-left:10px;margin-right:10px;margin-top:10px;text-shadow:1px 2px 3px #fff;padding:3px 5px;}
 .sidebar h2:first-of-type{margin-top:none;}

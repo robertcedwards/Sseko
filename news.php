@@ -17,7 +17,7 @@ Template Name: News
  
                 <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                 <span class="entry-meta"></span>
-	        	<hr class="grid_4">
+	        	
  				<div class="clear"></div>
  
                

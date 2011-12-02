@@ -59,7 +59,7 @@
 	<meta name="description" content="<?php bloginfo('description'); ?>">
 	
 	<meta name="google-site-verification" content="">
-	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
+	<!-- Here's a git comment Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
 	
 	<meta name="author" content="Sseko Designs">
 	<meta name="Copyright" content="Copyright Sseko Designs 2011. All Rights Reserved.">

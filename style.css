@@ -64,7 +64,7 @@ header {margin-bottom:20px;}
 .flexbuttons li{padding-bottom:25px;}
 .description{padding-top:15px;}
 .menu{float:right;}
-.post{line-height:160%;}
+.post{line-height:160%;margin-top:20px;min-height:700px;}
 #content hr{border-bottom:2px solid #ccc;border-top:none;}
 .entry-title a{font-size:30px;color:#333;text-decoration:none;font-weight:100;}
 .entry-meta{font-size:11pt;color:#999;font-weight:100;font-style:italic;}
@@ -141,3 +141,8 @@ ul.sub-menu{padding-top:5px;padding-bottom:5px;margin-top:17px;}
 #authorbio h3{font-size:14px;display:inline}
 #authorbio img {display:none;}
 #authorbio h4{font-weight:normal;}
+ul.share li {background-color: #efefef;min-height:40px; padding:10px 0px 0px 30px ;margin:10px;list-style-type:none;}
+ul.share {font-style:italic;position:relative;left:-50px;margin-top:15p;list-style-type:none;}
+.twitter-share-button{position:relative;top:5px;left:-4px}
+ul.share li a{color: #666666;}
+

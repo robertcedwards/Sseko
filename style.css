@@ -65,7 +65,7 @@ header {margin-bottom:20px;}
 .description{padding-top:15px;}
 .menu{float:right;}
 .post{line-height:160%;margin-top:20px;min-height:700px;}
-#content hr{border-bottom:2px solid #ccc;border-top:none;}
+#content hr{border-bottom:2px solid #ccc;border-top:none;padding-top:20px;}
 .entry-title a{font-size:30px;color:#333;text-decoration:none;font-weight:100;}
 .entry-meta{font-size:11pt;color:#999;font-weight:100;font-style:italic;}
 .entry div ul li {list-style-type: disc;color:#666 ;list-style-position: outside;font-size:14px;margin-left:50px;margin-right:10px;}

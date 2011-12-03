@@ -141,7 +141,8 @@ ul.sub-menu{padding-top:5px;padding-bottom:5px;margin-top:17px;}
 #authorbio img {display:none;}
 #authorbio h4{font-weight:normal;}
 ul.share li {background-color: #efefef;min-height:40px; padding:10px 0px 0px 30px ;margin:10px;list-style-type:none;}
-ul.share {font-style:italic;position:relative;left:-50px;margin-top:15p;list-style-type:none;}
+ul.share {font-style:italic;position:relative;left:-50px;margin-top:15p;list-style-type:none !important;}
 .twitter-share-button{position:relative;top:5px;left:-4px}
 ul.share li a{color: #666666;}
+ul.share img{vertical-align:middle;}
 

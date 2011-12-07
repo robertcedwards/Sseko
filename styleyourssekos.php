@@ -23,7 +23,7 @@ Template Name: Style your Ssekos
 										 echo get('name',1,$style);
 										 echo "'alt='";
 										 echo get('name',1,$style);
-										 echo "'</a>";
+										 echo "</a>";
 										 echo "<h2 class='grid_3'>";
 										 echo get('name',1,$style);
 										 echo "</h2></div>";

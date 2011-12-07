@@ -19,7 +19,11 @@ Template Name: Style your Ssekos
 										 echo "<a rel='styles' href='#info$style'class='inlineimg grid_3'>";
 										 echo "<img src='";
 										 echo get_image('image',1,$style,$tag_img=0);
-										 echo "'class='grid_3';"
+										 echo "'class='grid_3' title='";
+										 echo get('name',1,$style);
+										 echo "'alt='";
+										 echo get('name',1,$style);
+										 echo "'";										 
 										 echo "</a>";
 										 echo "<h2 class='grid_3'>";
 										 echo get('name',1,$style);

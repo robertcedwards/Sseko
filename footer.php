@@ -1,4 +1,4 @@
-		<footer id="footer" class="grid_12 source-org vcard copyright">
+		<footer id="footer" class="source-org vcard copyright">
           <hr class="grid_12">
 <ul id="customer-service" class="grid_3">
   customer service

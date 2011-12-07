@@ -16,9 +16,9 @@
 body {
   min-width: 1200px;
 }
-.note {
-width: 365px!important;
-}
+.note {width: 365px!important;}
+.nav{padding: 10px 0 !important;}
+
 /* `Containers
 ----------------------------------------------------------------------------------------------------*/
 

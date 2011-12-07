@@ -125,7 +125,7 @@ strong,th,.nav .current_page_item,ol.commentlist li.comment div.reply a{font-wei
 .entry-meta a,.comments a{text-decoration:none;color:#b17556;text-transform:uppercase;}
 .menu-main-nav-container { clear: both; min-height: 54px; }
 .sub-menu { list-style-type:none; display: none; position: absolute;border-top: 1px solid #b27557;border-bottom: 1px solid #b27557;}
-ul.sub-menu{padding-top:5px;padding-bottom:5px;margin-top:17px;}
+ul.sub-menu{padding-top:5px;padding-bottom:5px;margin-top:17px;z-index: 1000;}
 #description{margin-top:20px;}
 .special{font-style:italic;font-weight:bold;}
 #text-3 div.textwidget a.button {text-align: center;display:block;}

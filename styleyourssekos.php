@@ -19,9 +19,10 @@ Template Name: Style your Ssekos
 										 echo "<a rel='styles' href='#info$style'class='inlineimg grid_3'>";
 										 echo "<img src='";
 										 echo get_image('image',1,$style,$tag_img=0);
-										 echo "'class='grid_3';
+										 echo "'class='grid_3';"
 										 echo get('name',1,$style);
-										 echo "</a>";										 echo "<h2 class='grid_3'>";
+										 echo "</a>";
+										 echo "<h2 class='grid_3'>";
 										 echo get('name',1,$style);
 										 echo "</h2></div>";
 										 echo "<div style='display:none'><div id='info$style' class='grid_8 lightbox'>";

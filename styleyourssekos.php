@@ -34,7 +34,6 @@ Template Name: Style your Ssekos
 
 										}
 									}
-									endif;
 									?>
 		<div class="clear"></div>	
 		</article>

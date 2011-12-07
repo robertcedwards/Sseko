@@ -1,5 +1,5 @@
-		<footer id="footer" class="source-org vcard copyright">
-          <hr class="grid_12">
+		<footer id="footer" class="source-org vcard copyright grid_12">
+          <hr />
 <ul id="customer-service" class="grid_3">
   customer service
   <li><a href="/help.php?section=contactus&amp;mode=update">contact us</a></li>

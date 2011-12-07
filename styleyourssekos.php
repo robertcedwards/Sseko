@@ -38,5 +38,5 @@ Template Name: Style your Ssekos
 		<div class="clear"></div>	
 		</article>
 		<?php endwhile; endif; ?>
-		</div>
+
 <?php get_footer(); ?>

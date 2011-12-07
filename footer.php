@@ -1,4 +1,5 @@
-		<footer id="footer" class="source-org vcard copyright grid_12">
+		</div>
+	<footer id="footer" class="source-org vcard copyright grid_12">
           <hr />
 <ul id="customer-service" class="grid_3">
   customer service
@@ -31,7 +32,7 @@
 </ul>
 </footer>
 
-	</div>
+
 
 	<?php wp_footer(); ?>
 <script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>

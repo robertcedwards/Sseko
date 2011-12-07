@@ -1,6 +1,35 @@
 		<footer id="footer" class="grid_12 source-org vcard copyright">
-			<small>&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?></small>
-		</footer>
+          <hr class="grid_12">
+<ul id="customer-service" class="grid_3">
+  customer service
+  <li><a href="/help.php?section=contactus&amp;mode=update">contact us</a></li>
+  <li><a href="/returns.php">shipping &amp; returns</a></li>
+  <li><a href="/pages.php?pageid=2">sizing</a></li>
+  <li><a href="">faqs</a></li>
+</ul>
+<ul id="shop" class="grid_3">
+  shop
+  <li><a href="">create your ssekos</a></li>
+  <li><a href="/home.php?cat=250">buy new straps</a></li>
+  <li><a href="/home.php?cat=258">sseko weddings</a></li>
+  <li><a href="">find a retailer</a></li>
+</ul>
+<ul id="about" class="grid_3">
+  about
+  <li><a href="">our mission &amp; impact</a></li>
+  <li><a href="">meet the women</a></li>
+  <li><a href="">the sseko story</a></li>
+  <li><a href="">customer testimonials</a></li>
+  <li><a href="">media</a></li>
+</ul>
+<ul id="get-involved" class="grid_3">
+  get involved
+  <li><a href="">host a party</a></li>
+  <li><a href="">jobs &amp; internships</a></li>
+  <li><a href="">wholesale inquires</a></li>
+  <li><a href="">press inquires</a></li>
+</ul>
+</footer>
 
 	</div>
 

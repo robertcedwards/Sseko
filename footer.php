@@ -44,7 +44,14 @@
 <script type="text/javascript">$(document).ready(function() {$("#menu-item-8 ul").addClass("sub-menu1");});</script>
 <script type="text/javascript">$(document).ready(function() {$("#menu-item-14 ul").addClass("sub-menu2");});</script>
 <script type="text/javascript">$(document).ready(function() {$("#menu-item-19 ul").addClass("sub-menu3");});</script>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=101926499924394";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <script type="text/javascript">
     $(document).ready(function(){

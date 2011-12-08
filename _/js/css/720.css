@@ -19,7 +19,7 @@ body {
 #note{background-image: url(http://sseko.welovewebsit.es/wp-content/themes/Sseko/images/paper.png);
 background-repeat: no-repeat;!important}
 p.note{position:relative;}
-
+.paypal{text-align: center;position: relative;bottom: 214px;left: 220px;}
 /* `Containers
 ----------------------------------------------------------------------------------------------------*/
 

@@ -63,6 +63,6 @@ Template Name: Home Page
 						
 						<div class="clear"></div>	
 		</article>
-	</div>	
+	
 		<?php endwhile; endif; ?>
 <?php get_footer(); ?>

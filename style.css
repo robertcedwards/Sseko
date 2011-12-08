@@ -145,4 +145,14 @@ ul.share {font-style:italic;position:relative;left:-50px;margin-top:15p;list-sty
 .twitter-share-button{position:relative;top:5px;left:-4px}
 ul.share li a{color: #666666;}
 ul.share img{vertical-align:middle;}
-
+#fancybox-left, #fancybox-right {
+position: absolute;
+bottom: 0px;
+height: 66%;
+width: 12%;
+cursor: pointer;
+outline: none;
+background: transparent url('blank.gif');
+z-index: 1102;
+display: none;
+}

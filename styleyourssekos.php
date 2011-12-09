@@ -18,7 +18,7 @@ Template Name: Style your Ssekos
 										 echo "<div class='grid_3'>";
 										 echo "<a rel='styles' href='#info$style'class='inlineimg grid_3'>";
 										 echo "<img src='";
-										 echo get_image('image',1,$style,$tag_img=0);
+										 echo get('image',1,$style,$tag_img=0);
 										 echo "'class='grid_3' title='";
 										 echo get('name',1,$style);
 										 echo "'alt='";

@@ -10,7 +10,7 @@ Template Name: Seeko Story pages
 			
 		<article class="post grid_12" id="post-<?php the_ID(); ?>">
 
-			<h2><?php the_title(); ?></h2>
+			<span id="title"><h2><?php the_title(); ?></h2></span>
 
 
 			<div class="entry">

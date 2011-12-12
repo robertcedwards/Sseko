@@ -22,7 +22,7 @@ Template Name: Full-Time Veterans
 									if(is_array($womens))
 									{foreach($womens as $women)
 										{echo "<a rel='women' href='#info$women'class='grid_3 inlineimg'>"; 
-										 echo "<div class='womenimg'";
+										 echo "<div class='womenimg'>";
 										 echo get_image('image',1,$women); 
 										 echo "</div>";
 										 echo "</a>";

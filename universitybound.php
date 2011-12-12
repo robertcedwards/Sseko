@@ -12,11 +12,12 @@ Template Name: University Bound
 				<h1><?php wp_title(' ','true','right'); ?></h1>
 				<p></p>
 				<div id="pagenote" class="flat grid_3">
-					<img class="special" src="/wp-content/themes/Sseko/images/pagenote.jpg">
 					<div class="notetext">
 						<h2 class="notetitle">University Bound</h2>
 						<p>Our university bound team members have recently graduated high school and work with us during the 9 months in between high school and university to earn money towards college.</p>
 					</div>
+					<img class="special" src="/wp-content/themes/Sseko/images/pagenote.jpg">
+
 				</div>
 				<?php $womens = getFieldOrder('image'); 
 									if(is_array($womens))

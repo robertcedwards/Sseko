@@ -33,7 +33,7 @@ Template Name: News
                                 <?php endif; ?></div>
   		<span class="comments"><?php comments_popup_link(__('0 comments','example'),__('1 comment','example'),__('% comments','example')); ?></span>
         </div><!-- /#post-<?php get_the_ID(); ?> -->
-        <hr />
+        <hr class="grid_8"/>
  		<div class="clear"></div>
         <?php endwhile; ?>
 
@@ -47,7 +47,6 @@ Template Name: News
  
 	<?php endif; wp_reset_query(); ?>
  
- 	<?php get_sidebar(); ?>
- 	
+<?php get_sidebar(); ?>	
 <?php get_footer() ?>
 </div><!-- /#content -->

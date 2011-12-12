@@ -17,7 +17,7 @@ body {
   min-width: 720px;
 }
 #note{background-image: url(http://sseko.welovewebsit.es/wp-content/themes/Sseko/images/paper.png);}
-#pagenote{background-image: url(http://sseko.welovewebsit.es/wp-content/themes/Sseko/images/pagenote.jpg);}
+#pagenote{background-image: url(http://sseko.welovewebsit.es/wp-content/themes/Sseko/images/pagenote.jpg);background-repeat: repeat-x;height:472px;}
 .noteimage{display:none;}
 background-repeat: no-repeat;!important}
 p.note{position:relative;}

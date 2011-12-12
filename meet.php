@@ -22,7 +22,9 @@ Template Name: Meet the Women
 						<img title="Full Time Veteran" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/11/0s.jpg" alt="Full Time Veterans" title="Full Time Veterans"class="grid_4" />
 					</a>
 					<br />
-					<div class="meetnote"><p>Our veteran team members work for Sseko full-time, year round. From mothers to managers, read about the dreams each of these women is working towards. </p><br /></div>
+					<div class="meetnote"><p>Our veteran team members work for Sseko full-time, year round. From mothers to managers, read about the dreams each of these women is working towards. </p><br />
+											<img src="http://sseko.welovewebsit.es/wp-content/images/womenlandingnote.jpg"/>
+</div>
 				</div>
 				<div class="grid_4 omega notes">
 					<a href="/sseko-graduates" alt="Sseko Graduates">

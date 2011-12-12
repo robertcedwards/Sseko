@@ -10,9 +10,14 @@ Template Name: Graduates
 		<article  id="post-<?php the_ID(); ?>"	>
 				<?php the_content(); ?>	
 				<h1><?php wp_title(' ','true','right'); ?></h1>
-				<p></p>
-				<img id="note" class="flat grid_3" src="../wp-content/uploads/2011/11/ssekog.png"/>
-				<?php $womens = getFieldOrder('image'); 
+				<div id="pagenote" class="flat grid_3">
+					<div class="notetext">
+						<h2 class="notetitle">Sseko Graduates</h2>
+						<p>Read about the progress Sseko Graduates have made since graduating from our program. These women are in college and beyond, pursuing their dreams and becoming leaders.</p>
+					</div>
+					<img class="noteimage" src="/wp-content/themes/Sseko/images/pagenote.jpg">
+
+				</div>				<?php $womens = getFieldOrder('image'); 
 									if(is_array($womens))
 									{foreach($womens as $women)
 										{echo "<a rel='women' href='#info$women'class='grid_3 inlineimg'>"; 

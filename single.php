@@ -1,6 +1,6 @@
 <?php get_header(); ?>
  
-	<div id="content" class="grid_9">
+	<div id="content">
 
  
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -18,7 +18,7 @@
                                 <h3>Follow <?php the_author(); ?> on twitter</h3>
                                 <a href="http://twitter.com/<?php the_author_meta('twitter' );?>"><?php the_author_meta('twitter' );?></a>
                                 <?php endif; ?></div>
-        	<hr class="grid_8">
+        	<hr />
  			<div class="clear"></div>
  		</article>
 	

@@ -10,14 +10,14 @@ Template Name: Full-Time Veterans
 		<article  id="post-<?php the_ID(); ?>"	>
 				<?php the_content(); ?>	
 				<h1><?php wp_title(' ','true','right'); ?></h1>
-				<div id="pagenote" class="flat grid_3">
+				<div id="pagenote" class="flat grid_3 alpha">
 					<div class="notetext">
 						<h2 class="notetitle">Full Time Veterans</h2>
 						<p>Our veteran team members work for Sseko full-time, year round. From mothers to managers, read about the dreams each of these women are working towards.</p>
 					</div>
 					<img class="noteimage" src="/wp-content/themes/Sseko/images/pagenote.jpg">
 				</div>	
-				<div class="womencolumn grid_9">
+				<div class="womencolumn grid_9 omega">
 				<?php $womens = getFieldOrder('image'); 
 									if(is_array($womens))
 									{foreach($womens as $women)

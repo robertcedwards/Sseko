@@ -17,14 +17,12 @@ Template Name: Full-Time Veterans
 					</div>
 					<img class="noteimage" src="/wp-content/themes/Sseko/images/pagenote.jpg">
 				</div>	
-
+				<div class="womencolumn grid_9">
 				<?php $womens = getFieldOrder('image'); 
 									if(is_array($womens))
 									{foreach($womens as $women)
 										{echo "<a rel='women' href='#info$women'class='grid_3 inlineimg'>"; 
-										 echo "<div class='womenimg'>";
 										 echo get_image('image',1,$women); 
-										 echo "</div>";
 										 echo "</a>";
 										 echo "<div style='display:none'><div id='info$women' class='grid_8 lightbox women container_12'>";
 										 echo "<img class='grid_5 right'src='";
@@ -39,6 +37,7 @@ Template Name: Full-Time Veterans
 										}
 									}
 				?>
+		</div>
 		<div class="clear"></div>	
 		</article>
 		<?php endwhile; endif; ?>

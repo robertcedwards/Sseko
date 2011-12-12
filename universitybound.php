@@ -11,7 +11,7 @@ Template Name: University Bound
 				<?php the_content(); ?>	
 				<h1><?php wp_title(' ','true','right'); ?></h1>
 				<p></p>
-				<img id="note" class="flat grid_3" src="../wp-content/uploads/2011/11/screenshot20111010at10.10.17pm-1.png"/>
+				<div id="pagenote" class="flat grid_3"><p>Our university bound team members have recently graduated high school and work with us during the 9 months in between high school and university to earn money towards college.</p></div>
 				<?php $womens = getFieldOrder('image'); 
 									if(is_array($womens))
 									{foreach($womens as $women)

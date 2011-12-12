@@ -5,7 +5,7 @@ Template Name: News
 ?>
 <?php get_header(); ?>
  
-	<div id="content" class="grid_9">
+	<div id="content">
 
         <?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
  
@@ -33,7 +33,7 @@ Template Name: News
                                 <?php endif; ?></div>
   		<span class="comments"><?php comments_popup_link(__('0 comments','example'),__('1 comment','example'),__('% comments','example')); ?></span>
         </div><!-- /#post-<?php get_the_ID(); ?> -->
-        <hr class="grid_8">
+        <hr />
  		<div class="clear"></div>
         <?php endwhile; ?>
 

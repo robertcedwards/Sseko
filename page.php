@@ -27,5 +27,5 @@ Template Name: Seeko Story pages
 
 		<?php endwhile; endif; ?>
 
-
+<div>
 <?php get_footer(); ?>

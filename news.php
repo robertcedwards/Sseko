@@ -36,6 +36,7 @@ Template Name: News
         <hr class="grid_8"/>
  		<div class="clear"></div>
         <?php endwhile; ?>
+<?php get_sidebar(); ?>	
 
 	<?php else: ?>
  
@@ -44,9 +45,9 @@ Template Name: News
 		    <p><?php _e('None found.','example'); ?></p>
  
 	    </div><!-- /#post-404 -->
- 
+ <?php get_sidebar(); ?>	
+
 	<?php endif; wp_reset_query(); ?>
  
-<?php get_sidebar(); ?>	
 <?php get_footer() ?>
 </div><!-- /#content -->

@@ -21,11 +21,11 @@
         	<hr class="grid_8">
  			<div class="clear"></div>
  		</article>
-	<?php comments_template(); ?>
 	
 	<?php endwhile; endif; ?>
 
  	<?php get_sidebar(); ?>
- 	
+ 	<?php comments_template(); ?>
+
 <?php get_footer() ?>
 </div><!-- /#content  -->

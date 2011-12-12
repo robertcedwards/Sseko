@@ -47,7 +47,7 @@ Template Name: News
  
 	<?php endif; wp_reset_query(); ?>
  
-	</div><!-- /#content -->
  	<?php get_sidebar(); ?>
  	
 <?php get_footer() ?>
+</div><!-- /#content -->

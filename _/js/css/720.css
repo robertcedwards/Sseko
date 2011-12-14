@@ -23,11 +23,11 @@ background-repeat: no-repeat;!important}
 p.note{position:relative;}
 .paypal{text-align: center;position: relative;bottom: 214px;left: 220px;}
 .womencolumn{width:540px;}
-.meetnote{padding-bottom: 40px;
-background-repeat: no-repeat;
-background-position: bottom;
-background-position-y: 313px;
-background-position-x: 9px;}
+.meetnote{padding-bottom: 40px!important;
+background-repeat: no-repeat!important;
+background-position: bottom!important;
+background-position-y: 313px!important;
+background-position-x: 9px;!important   }
 /* `Containers
 ----------------------------------------------------------------------------------------------------*/
 

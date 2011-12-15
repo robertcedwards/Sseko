@@ -23,10 +23,20 @@ background-repeat: no-repeat;!important}
 p.note{position:relative;}
 .paypal{text-align: center;position: relative;bottom: 214px;left: 220px;}
 .womencolumn{width:540px;}
-.meetnote{padding-bottom: 40px!important;
+.meetnote{padding-bottom: 0px!important;
 background-repeat: no-repeat!important;
 background-position-y: 313px!important;
 background-position-x: 9px;!important   }
+.meetnote p{
+  margin: 0px;
+	padding:0px;
+	position:absolute;
+	top: .2em !important;
+}
+.sub-menu{
+	position:relative;
+top:120px;
+}
 /* `Containers
 ----------------------------------------------------------------------------------------------------*/
 

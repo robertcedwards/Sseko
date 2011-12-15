@@ -43,7 +43,7 @@ button{width:auto;overflow:visible;}
 .clearfix:before,.clearfix:after{content:"\0020";display:block;height:0;overflow:hidden;}
 .clearfix:after{clear:both;}
 .clearfix{zoom:1;}
-body{font:14px "Droid Serif", serif;background-image:url(images/bg.jpg);-webkit-background-size:100%;-moz-background-size:100%;background-size:100%;}
+body{font:14px "Droid Serif", "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;background-image:url(images/bg.jpg);-webkit-background-size:100%;-moz-background-size:100%;background-size:100%;}
 body p{margin:15px;}
 @font-face{font-family:'Droid Bold';src:url(/fonts/DroidSerif-Bold.eot?) format(eot), url(/fonts/DroidSerif-Bold.woff) format(woff), url(/fonts/DroidSerif-Bold.ttf) format(truetype);}
 body,select,input,textarea{color:#333;}
@@ -52,7 +52,7 @@ a:link{-webkit-tap-highlight-color:#fcd700;}
 ins{background-color:#fcd700;color:#000;text-decoration:none;}
 mark{background-color:#fcd700;color:#000;font-style:italic;font-weight:700;}
 .wrapper{background-image:url(images/paint.jpg);background-repeat:no-repeat;background-position:top right;background-color:#FFF;-webkit-box-shadow:0 0 30px #999;-moz-box-shadow:0 0 30px #999;box-shadow:0 0 30px #999;}
-.nav{z-index:1000;background:url(images/navbar.png);background-position:right;overflow:hidden;background-repeat:no-repeat;font:14px "Droid Serif", serif;padding:10px 0;}
+.nav{z-index:1000;background:url(images/navbar.png);background-position:right;overflow:hidden;background-repeat:no-repeat;font:14px "Droid Serif", "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;padding:10px 0;}
 .nav ul{list-style-type:none;list-style-image:none;}
 .nav li a{text-decoration:none;color:#4a4848;text-transform:uppercase;}
 .nav li a:hover{color:#b27557;}
@@ -119,7 +119,7 @@ strong,th,.nav .current_page_item,ol.commentlist li.comment div.reply a{font-wei
 .sub-menu .current_page_item{font-weight:400;}
 ::-moz-selection,::selection{background:#fcd700;color:#fff;text-shadow:none;}
 .nav li,.social li{display:inline;padding:2px;}
-.flexbuttons li a,li.font{font:22px "Droid Serif Italic", serif;color:#b27557;text-decoration:none;font-style:italic;}
+.flexbuttons li a,li.font{font:22px "Droid Serif Italic", "Palatino Linotype Italic", Palatino Italic, Palladio Italic, "URW Palladio L Italic", "Book Antiqua Italic", Baskerville Italic, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond Italic, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia Italic, serif Italic;color:#b27557;text-decoration:none;font-style:italic;}
 .mini,.social ul{text-align:center;margin-top: 20px;}
 .entry-meta a,.comments a{text-decoration:none;color:#b17556;text-transform:uppercase;}
 .menu-main-nav-container { clear: both; min-height: 54px; }

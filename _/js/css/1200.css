@@ -12,6 +12,10 @@
 
   Note: IE6 works fine without this fix.
 */
+.product-images{max-width:400px !important;  }
+#products{
+	max-width:99%
+}
 
 body {
   min-width: 1200px;

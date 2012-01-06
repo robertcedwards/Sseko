@@ -11,6 +11,7 @@
 Feel free to contact us if you still need help
 </div>
 
-<div class="grid_3"><?php get_sidebar(); ?></div>
-
+<div class="grid_3"><?php get_sidebar(); ?>
 <?php get_footer(); ?>
+</div>
+

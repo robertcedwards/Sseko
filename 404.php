@@ -8,7 +8,7 @@
 <li><a href="https://www.facebook.com/ssekodesigns">Like us on Facebook!</a></li>
 </ul>
 
-Feel free to contact us if you still need help
+Feel free to <a href="http://shop.sseko.com/help.php?section=contactus&mode=update">contact us</a> if you still need help
 </div>
 
 <div class="grid_3"><?php get_sidebar(); ?>

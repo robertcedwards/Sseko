@@ -42,7 +42,7 @@
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/_/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 <script type="text/javascript">$(document).ready(function() {$("a.inlineimg").fancybox({'hideOnContentClick': true , 'autoScale' : true , 'autoDimensions' : true });});</script>
 <script type="text/javascript">$(document).ready(function() {$("a.fancybox").fancybox({'hideOnContentClick': true , 'autoScale' : true , 'autoDimensions' : true });});</script>
-<script type="text/javascript">$(document).ready(function() {$(".gallery-icon a").fancybox({'hideOnContentClick': true , 'autoScale' : true , 'autoDimensions' : true });});</script>
+<script type="text/javascript">$(document).ready(function() {$("dt.gallery-icon a").fancybox({'hideOnContentClick': true , 'autoScale' : true , 'autoDimensions' : true });});</script>
 <script type="text/javascript">$(document).ready(function() {$("#menu-item-8 ul").addClass("sub-menu1");});</script>
 <script type="text/javascript">$(document).ready(function() {$("#menu-item-14 ul").addClass("sub-menu2");});</script>
 <script type="text/javascript">$(document).ready(function() {$("#menu-item-19 ul").addClass("sub-menu3");});</script>

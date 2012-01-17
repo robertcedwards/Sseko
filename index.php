@@ -95,10 +95,8 @@ Template Name: Home Page
   <li><a href="">wholesale inquires</a></li>
   <li><a href="">press inquires</a></li>
 </ul>
-<div class="clear"></div> 
-<br>
 <hr class="grid_12">
-<p>Copyright &copy; 2012<a href="http://www.ssekodesigns.com/" >Sseko Designs L.L.C. All Rights Reserved.</a></p>
+<span class="grid_12 copyright">Copyright &copy; 2012<a href="http://www.ssekodesigns.com/" >Sseko Designs L.L.C. All Rights Reserved.</a></span>
 </footer>
 
 

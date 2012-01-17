@@ -1,5 +1,5 @@
 		</div>
-	<footer id="footer" class="source-org vcard copyright">
+	<footer id="footer" class="source-org vcard">
           <hr class="grid_12"/>
 <ul id="about" class="grid_3">
   about

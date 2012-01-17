@@ -64,7 +64,7 @@ Template Name: Home Page
 	
 		<?php endwhile; endif; ?>
 		</div>
-	<footer id="footer" class="source-org vcard copyright">
+	<footer id="footer" class="source-org vcard">
           <hr class="grid_12"/>
 <ul id="customer-service" class="grid_3">
   customer service

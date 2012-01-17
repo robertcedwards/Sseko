@@ -35,7 +35,14 @@
     		'after_title'   => '</h2>'
     	));
     }
-    
+    if ( function_exists( 'register_nav_menus' ) ) {
+    register_nav_menus(
+        array(
+          'main_menu' => 'Main Menu'  
+          'footer_menu' => 'Footer Menu',
+        )
+    );
+}
     add_theme_support( 'post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'status', 'audio', 'chat', 'video')); // Add 3.1 post format theme support.
 
 ?>

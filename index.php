@@ -49,7 +49,7 @@ Template Name: Home Page
 								<!--End mc_embed_signup-->
 									<span class="social">
 										<ul>
-											<li><a href="http://www.youtube.com"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/youtube.png"/></a></li>
+											<li><a href="http://www.youtube.com/user/SsekoDesigns"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/youtube.png"/></a></li>
 											<li><a href="http://www.ssekodesigns.com/rss"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/rss.png"/></a></li>
 											<li><a href="http://www.facebook.com/ssekodesigns"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/facebook.png"/></a></li>
 											<li><a href="http://twitter.com/#!/ssekodesigns"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/twitter.png"/></a></li>

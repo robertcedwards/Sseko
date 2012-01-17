@@ -15,14 +15,15 @@ Template Name: Meet the Women
 						<img src="/wp-content/uploads/2011/11/0u.jpg" alt="University Bound" title="University Bound" class="grid_4" />
 					</a>
 				<br />
-					<div class="meetnote"><p>Our university bound team members have recently graduated from Sseko and work with us during the 9 months in between high school and university to earn money towards college.</p></div>
+					<div class="meetnote"><p>Our university bound team members have recently graduated from high school and work with us during the 9 months before university starts to earn money towards college.</p></div>
 				</div>
 				<div class="grid_4 notes">
 					<a href="/veteran">
-						<img title="Full Time Veteran" src="http://sseko.welovewebsit.es/wp-content/uploads/2011/11/0s.jpg" alt="Full Time Veterans" title="Full Time Veterans"class="grid_4" />
+						<img title="Full Time Veteran" src="/wp-content/uploads/2011/11/0s.jpg" alt="Full Time Veterans" title="Full Time Veterans"class="grid_4" />
 					</a>
 					<br />
-					<div class="meetnote"><p>Our veteran team members work for Sseko full-time, year round. From mothers to managers, read about the dreams each of these women is working towards. </p></div>
+					<div class="meetnote"><p>Our veteran team members work for Sseko full-time, year round. From mothers to managers, read about the dreams each of these women is working towards. </p><br />
+</div>
 				</div>
 				<div class="grid_4 omega notes">
 					<a href="/sseko-graduates" alt="Sseko Graduates">

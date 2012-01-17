@@ -1,12 +1,17 @@
 		</div>
 	<footer id="footer" class="source-org vcard copyright">
           <hr class="grid_12"/>
-<ul id="customer-service" class="grid_3">
-  customer service
+<ul id="about" class="grid_3">
+  about
   <li><a href="/help.php?section=contactus&amp;mode=update">contact us</a></li>
   <li><a href="/returns.php">shipping &amp; returns</a></li>
   <li><a href="/pages.php?pageid=2">sizing</a></li>
   <li><a href="">faqs</a></li>
+  <li><a href="">our mission &amp; impact</a></li>
+  <li><a href="">meet the women</a></li>
+  <li><a href="">the sseko story</a></li>
+  <li><a href="">customer testimonials</a></li>
+  <li><a href="">media</a></li>
 </ul>
 <ul id="shop" class="grid_3">
   shop
@@ -15,14 +20,6 @@
   <li><a href="/home.php?cat=258">sseko weddings</a></li>
   <li><a href="">find a retailer</a></li>
 </ul>
-<ul id="about" class="grid_3">
-  about
-  <li><a href="">our mission &amp; impact</a></li>
-  <li><a href="">meet the women</a></li>
-  <li><a href="">the sseko story</a></li>
-  <li><a href="">customer testimonials</a></li>
-  <li><a href="">media</a></li>
-</ul>
 <ul id="get-involved" class="grid_3">
   get involved
   <li><a href="">host a party</a></li>
@@ -30,11 +27,16 @@
   <li><a href="">wholesale inquires</a></li>
   <li><a href="">press inquires</a></li>
 </ul>
+<span class="social">
+  <ul>
+    <li><a href="http://www.youtube.com"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/youtube.png"/></a></li>
+    <li><a href="http://www.ssekodesigns.com/rss"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/rss.png"/></a></li>
+    <li><a href="http://www.facebook.com/ssekodesigns"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/facebook.png"/></a></li>
+    <li><a href="http://twitter.com/#!/ssekodesigns"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/twitter.png"/></a></li>
+  </ul>
+</span>
 </footer>
-
-
-
-	<?php wp_footer(); ?>
+<?php wp_footer(); ?>
 <script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.blueberry.js"></script>

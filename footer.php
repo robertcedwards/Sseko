@@ -46,7 +46,9 @@
                       <li><a href="http://twitter.com/#!/ssekodesigns"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/twitter.png"/></a></li>
 
                     </ul>
-                  </span></footer>
+                  </span>
+<hr class="grid_12">
+<p>Copyright &copy; 2012<a href="http://www.ssekodesigns.com/" >&middot;Sseko Designs L.L.C All Rights Reserved&middot;</a></p>                  </footer>
 <?php wp_footer(); ?>
 <script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>

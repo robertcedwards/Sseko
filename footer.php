@@ -27,15 +27,26 @@
   <li><a href="">wholesale inquires</a></li>
   <li><a href="">press inquires</a></li>
 </ul>
-<span class="social">
-  <ul>
-    <li><a href="http://www.youtube.com"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/youtube.png"/></a></li>
-    <li><a href="http://www.ssekodesigns.com/rss"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/rss.png"/></a></li>
-    <li><a href="http://www.facebook.com/ssekodesigns"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/facebook.png"/></a></li>
-    <li><a href="http://twitter.com/#!/ssekodesigns"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/twitter.png"/></a></li>
-  </ul>
-</span>
-</footer>
+                <li class="grid_3 mini font">
+                <hr style="border-top-color:#c67655; margin:0px;">
+                <!-- Begin MailChimp Signup Form -->
+                  <form action="http://ssekodesigns.us2.list-manage.com/subscribe/post?u=918f13b2195c1a617550a626a&amp; id=b87be29ca1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                  <label for="mce-EMAIL" style="text-transform:uppercase;">Sign up</label><br><span style="font-size:smaller;">for our newsletter:</span>
+                  <input style="width:80%;" type="email" value="" name="EMAIL" class="required email " id="mce-EMAIL">
+                  <input type="image" src="wp-content/themes/Sseko/images/go.png" alt="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                  </form>
+                  <br>
+                  <hr style="border-top-color:#c67655;margin:0px; padding-top: 10px;">
+                <!--End mc_embed_signup-->
+                  <span class="social">
+                    <ul>
+                      <li><a href="http://www.youtube.com/user/SsekoDesigns"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/youtube.png"/></a></li>
+                      <li><a href="http://www.ssekodesigns.com/rss"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/rss.png"/></a></li>
+                      <li><a href="http://www.facebook.com/ssekodesigns"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/facebook.png"/></a></li>
+                      <li><a href="http://twitter.com/#!/ssekodesigns"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/twitter.png"/></a></li>
+
+                    </ul>
+                  </span></footer>
 <?php wp_footer(); ?>
 <script src="<?php bloginfo('template_directory'); ?>/_/js/modernizr-1.7.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>

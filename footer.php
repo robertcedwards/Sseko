@@ -41,14 +41,18 @@
                   <span class="social">
                     <ul>
                       <li><a href="http://www.youtube.com/user/SsekoDesigns"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/youtube.png"/></a></li>
-                      <li><a href="http://www.ssekodesigns.com/rss"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/rss.png"/></a></li>
+                      <li><a href="/news"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/rss.png"/></a></li>
                       <li><a href="http://www.facebook.com/ssekodesigns"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/facebook.png"/></a></li>
                       <li><a href="http://twitter.com/#!/ssekodesigns"><img src="<?php bloginfo('template_directory'); ?>/images/buttons/twitter.png"/></a></li>
 
                     </ul>
                   </span>
+<<<<<<< HEAD
                   </li>
 
+=======
+                </li>
+>>>>>>> updating to include blog link, not rss
 <hr class="grid_12">
 <span class="grid_12 copyright">Copyright &copy; 2012 <a href="http://www.ssekodesigns.com/" >Sseko Designs L.L.C. All Rights Reserved.</a></span>
 

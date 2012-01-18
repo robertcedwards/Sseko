@@ -86,12 +86,9 @@
     function() {
       if (hideDropdownTimer)
         clearTimeout(hideDropdownTimer);
-
       dropdown.show();
       dropdown2.hide();
       dropdown3.hide();
-
-
     },
     function() {
       if (hideDropdownTimer)
@@ -99,7 +96,7 @@
 
       hideDropdownTimer = setTimeout(function() {
         dropdown.hide()
-      }, 300)
+      }, 600)
     }
   )
  var hideDropdownTimer2 = null
@@ -124,7 +121,7 @@
 
       hideDropdownTimer2 = setTimeout(function() {
         dropdown2.hide()
-      }, 300)
+      }, 600)
     }
   )
   var hideDropdownTimer3 = null
@@ -149,7 +146,7 @@
 
       hideDropdownTimer3 = setTimeout(function() {
         dropdown3.hide()
-      }, 300)
+      }, 600)
     }
   )
     

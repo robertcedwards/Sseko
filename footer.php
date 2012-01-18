@@ -47,12 +47,8 @@
 
                     </ul>
                   </span>
-<<<<<<< HEAD
                   </li>
 
-=======
-                </li>
->>>>>>> updating to include blog link, not rss
 <hr class="grid_12">
 <span class="grid_12 copyright">Copyright &copy; 2012 <a href="http://www.ssekodesigns.com/" >Sseko Designs L.L.C. All Rights Reserved.</a></span>
 

@@ -145,7 +145,7 @@ Template Name: Home Page
 
       hideDropdownTimer = setTimeout(function() {
         dropdown.hide()
-      }, 300)
+      }, 600)
     }
   )
  var hideDropdownTimer2 = null
@@ -170,7 +170,7 @@ Template Name: Home Page
 
       hideDropdownTimer2 = setTimeout(function() {
         dropdown2.hide()
-      }, 300)
+      }, 600)
     }
   )
   var hideDropdownTimer3 = null
@@ -195,7 +195,7 @@ Template Name: Home Page
 
       hideDropdownTimer3 = setTimeout(function() {
         dropdown3.hide()
-      }, 300)
+      }, 600)
     }
   )
     

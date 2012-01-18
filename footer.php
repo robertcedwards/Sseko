@@ -33,7 +33,7 @@
                   <form action="http://ssekodesigns.us2.list-manage.com/subscribe/post?u=918f13b2195c1a617550a626a&amp; id=b87be29ca1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
                   <label for="mce-EMAIL" style="text-transform:uppercase;">Sign up</label><br><span style="font-size:smaller;">for our newsletter:</span>
                   <input style="width:80%;" type="email" value="" name="EMAIL" class="required email " id="mce-EMAIL">
-                  <input type="image" src="wp-content/themes/Sseko/images/go1.png" alt="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                  <input type="image" src="<?php bloginfo('template_directory'); ?>/images/buttons/go.png" alt="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
                   </form>
                   <br>
                   <hr style="border-top-color:#c67655;margin:0px; padding-top: 10px;">
@@ -47,6 +47,7 @@
 
                     </ul>
                   </span>
+                  </li>
 
 <hr class="grid_12">
 <span class="grid_12 copyright">Copyright &copy; 2012 <a href="http://www.ssekodesigns.com/" >Sseko Designs L.L.C. All Rights Reserved.</a></span>

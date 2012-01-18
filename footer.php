@@ -3,29 +3,29 @@
           <hr class="grid_12"/>
 <ul id="about" class="grid_3">
   about
-  <li><a href="help.php?section=contactus&amp;mode=update">contact us</a></li>
-  <li><a href="returns.php">shipping &amp; returns</a></li>
-  <li><a href="size-chart/">sizing</a></li>
-  <li><a href="faqs/">faqs</a></li>
-  <li><a href="what-we-do/">our mission &amp; impact</a></li>
-  <li><a href="meet-the-women/">meet the women</a></li>
-  <li><a href="the-sseko-story/">the sseko story</a></li>
-  <li><a href="">customer testimonials</a></li>
-  <li><a href="media-coverage/">media</a></li>
+  <li><a href="/help.php?section=contactus&amp;mode=update">contact us</a></li>
+  <li><a href="/returns.php">shipping &amp; returns</a></li>
+  <li><a href="/size-chart/">sizing</a></li>
+  <li><a href="/faqs/">faqs</a></li>
+  <li><a href="/what-we-do/">our mission &amp; impact</a></li>
+  <li><a href="/meet-the-women/">meet the women</a></li>
+  <li><a href="/the-sseko-story/">the sseko story</a></li>
+  <li><a href="/">customer testimonials</a></li>
+  <li><a href="/media-coverage/">media</a></li>
 </ul>
 <ul id="shop" class="grid_3">
   shop
-  <li><a href="">create your ssekos</a></li>
-  <li><a href="home.php?cat=250">buy new straps</a></li>
-  <li><a href="home.php?cat=258">sseko weddings</a></li>
-  <li><a href="find-a-retailer/">find a retailer</a></li>
+  <li><a href="/">create your ssekos</a></li>
+  <li><a href="/home.php?cat=250">buy new straps</a></li>
+  <li><a href="/home.php?cat=258">sseko weddings</a></li>
+  <li><a href="/find-a-retailer/">find a retailer</a></li>
 </ul>
-<ul id="get-involved" class="grid_3">
+<ul id="/get-involved" class="grid_3">
   get involved
-  <li><a href="host-a-party/">host a party</a></li>
-  <li><a href="jobs-internships/">jobs &amp; internships</a></li>
-  <li><a href="contact-us-retail-inquiry">wholesale inquires</a></li>
-  <li><a href="contact-us/">press inquires</a></li>
+  <li><a href="/host-a-party/">host a party</a></li>
+  <li><a href="/jobs-internships/">jobs &amp; internships</a></li>
+  <li><a href="/contact-us-retail-inquiry">wholesale inquires</a></li>
+  <li><a href="/contact-us/">press inquires</a></li>
 </ul>
                 <li class="grid_3 mini font">
                 <hr style="border-top-color:#c67655; margin:0px;">

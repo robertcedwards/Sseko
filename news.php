@@ -33,7 +33,7 @@ Template Name: News
                                 <?php endif; ?></div>
   		<span class="comments"><?php comments_popup_link(__('0 comments','example'),__('1 comment','example'),__('% comments','example')); ?></span>
         </div><!-- /#post-<?php get_the_ID(); ?> -->
-        <hr class="grid_8"/>
+        <hr class="grid_9"/>
  		<div class="clear"></div>
         <?php endwhile; ?>
         </div>

@@ -30,7 +30,7 @@ Template Name: News
                                 <a href="<?php the_author_meta('user_url' );?>"><?php the_author_meta('user_url' );?><h4>View all posts by <?php the_author(); ?> </h4></a>
                                 <h3>Follow <?php the_author(); ?> on twitter</h3>
                                 <a href="http://twitter.com/<?php the_author_meta('twitter' );?>"><?php the_author_meta('twitter' );?></a>
-                                <?php endif; ?></div>
+                                <?php endif; ?></div></br>
   		<span class="comments"><?php comments_popup_link(__('0 comments','example'),__('1 comment','example'),__('% comments','example')); ?></span>
         </div><!-- /#post-<?php get_the_ID(); ?> -->
         <hr class="grid_9"/>
@@ -38,7 +38,7 @@ Template Name: News
         <?php endwhile; ?>
         </div>
 <?php get_sidebar(); ?>	
-<div style="text-align:center;">
+<div class="grid_12"style="text-align:center;">
 <?php posts_nav_link(' &#183; ', 'previous page', 'next page'); ?>
 </div>
 	<?php else: ?>

@@ -16,7 +16,7 @@ Template Name: News
  
  
                 <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                <span class="entry-meta"><small>Posted on: <?php the_time('l, F jS, Y') ?> in <?php the_category(', ') ?><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>" title=" by <?php echo get_the_author(); ?>"><?php the_author(); ?>
+                <span class="entry-meta"><small>Posted on: <?php the_time('l, F jS, Y') ?> in <?php the_category(', ') ?> by <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>" title=" by <?php echo get_the_author(); ?>"><?php the_author(); ?>
 	<a href="<?php the_author_meta('user_url' );?>"><?php the_author_meta('user_url' );?></a>
 </small></span>
 	        	

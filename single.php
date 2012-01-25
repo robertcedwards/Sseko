@@ -7,6 +7,9 @@
  		<article <?php post_class('grid_9') ?> id="post-<?php the_ID(); ?>">
 
             <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+             <span class="entry-meta"><small>Posted on: <?php the_time('l, F jS, Y') ?> in <?php the_category(', ') ?> by <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>" title=" by <?php echo get_the_author(); ?>"><?php the_author(); ?>
+	<a href="<?php the_author_meta('user_url' );?>"><?php the_author_meta('user_url' );?></a>
+</small></span>
 	        <div class="clear"></div>
 			
 			<?php the_content(); ?>
@@ -26,6 +29,9 @@
 
  	<?php get_sidebar(); ?>
  	<?php comments_template(); ?>
+<div class="grid_12"style="text-align:center;">
+<?php posts_nav_link(' &#183; ', 'previous page', 'next page'); ?>
+</div>
 
 <?php get_footer() ?>
 </div><!-- /#content  -->

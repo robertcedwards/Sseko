@@ -38,7 +38,9 @@ Template Name: News
         <?php endwhile; ?>
         </div>
 <?php get_sidebar(); ?>	
-
+<div style="text-align:center;">
+<?php posts_nav_link(' &#183; ', 'previous page', 'next page'); ?>
+</div>
 	<?php else: ?>
  
 		<div id="post-404" class="noposts">

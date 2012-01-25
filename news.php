@@ -16,7 +16,8 @@ Template Name: News
  
  
                 <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                <span class="entry-meta"><small>Posted on: <?php the_time('l, F jS, Y') ?> in <?php the_category(', ') ?>.</small></span>
+                <span class="entry-meta"><small>Posted on: <?php the_time('l, F jS, Y') ?> in <?php the_category(', ') ?> by 	<a href="<?php the_author_meta('user_url' );?>"><?php the_author_meta('user_url' );?></a>
+</small></span>
 	        	
  				<div class="clear"></div>
  

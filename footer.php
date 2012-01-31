@@ -49,7 +49,6 @@
                   </span>
                   </li>
 
-<hr class="grid_12">
 <span class="grid_12 copyright">Copyright &copy; 2012 <a href="http://www.ssekodesigns.com/" >Sseko Designs L.L.C. All Rights Reserved.</a></span>
 
 <?php wp_footer(); ?>

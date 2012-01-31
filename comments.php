@@ -12,14 +12,14 @@
 
 <?php if ( have_comments() ) : ?>
 	
-	<h2 id="comments" class="grid_8"><?php comments_number('No Responses', 'One Response', '% Responses' );?></h2>
+	<h2 id="comments" class="grid_9"><?php comments_number('No Responses', 'One Response', '% Responses' );?></h2>
 
 	<div class="navigation">
 		<div class="next-posts"><?php previous_comments_link() ?></div>
 		<div class="prev-posts"><?php next_comments_link() ?></div>
 	</div>
 
-	<ol class="commentlist">
+	<ol class="commentlist grid_9">
 		<?php wp_list_comments(); ?>
 	</ol>
 

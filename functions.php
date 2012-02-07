@@ -22,6 +22,22 @@
     echo '<style type="text/css">
         h1 a { height:140px; background-image:url('.get_bloginfo('template_directory').'/images/logo.png) !important; }
     </style>';}
+    
+    
+<?php //Add Twitter in Author Profile and remove Yahoo IM, Jabber, AIM
+function add_twitter_contactmethod( $contactmethods ) {
+    // Add Twitter
+    $contactmethods['twitter'] = 'Twitter';
+    // Remove Yahoo IM
+    unset($contactmethods['yim']);
+    // Remove Jabber
+    unset($contactmethods['jabber']);
+ 
+    // Remove AIM
+    unset($contactmethods['aim']);
+    return $contactmethods;
+}
+add_filter('user_contactmethods','add_twitter_contactmethod',10,1); ?>
 
 	add_action('login_head', 'my_custom_login_logo');
     if (function_exists('register_sidebar')) {

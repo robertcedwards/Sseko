@@ -17,7 +17,7 @@ Template Name: Full-Time Veterans
 					</div>
 					<img class="noteimage" src="/wp-content/themes/Sseko/images/pagenote.jpg">
 				</div>	
-				<div class="womencolumn grid_9 omega">
+				
 				<?php $womens = getFieldOrder('image'); 
 									if(is_array($womens))
 									{foreach($womens as $women)
@@ -37,7 +37,7 @@ Template Name: Full-Time Veterans
 										}
 									}
 				?>
-		</div>
+	
 		<div class="clear"></div>	
 		</article>
 		<?php endwhile; endif; ?>

@@ -35,7 +35,7 @@ Template Name: Home Page
 							<ul class="minifeatured">
 								<li class="grid_3 mini"><a href="<?php echo get('mini_featured_link',1,1); ?>"><img src="<?php echo get('mini_featured_image',1,1); ?>"/></a></li>
 								<li class="grid_3 mini"><a href="<?php echo get('mini_featured_link',1,2); ?>"><img src="<?php echo get('mini_featured_image',1,2); ?>"/></a></li>
-								<li class="grid_3 mini"><a href="<?php echo get('mini_featured_link',1,3); ?>"><img src="<?php echo get('mini_featured_image',1,3); ?>"/></a></li>
+								<li class="grid_3 mini"><a class="iframe" href="<?php echo get('mini_featured_link',1,3); ?>"><img src="<?php echo get('mini_featured_image',1,3); ?>"/></a></li>
                 <li class="grid_3 mini font">
                 <hr style="border-top-color:#c67655; margin:0px;"/>
                 <!-- Begin MailChimp Signup Form -->

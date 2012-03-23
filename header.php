@@ -102,21 +102,21 @@
    			 <div id="auth" class="grid_4">
         		<div id="inside">
         			<span><a href="http://eepurl.com/bEuBj"target="_blank">email sign-up </a>//</span>
-        			<span><a id="login" href="/orders.php">login </a>//</span>
+        			<span><a id="login" href="http://shop.ssekodesigns.com/orders.php">login </a>//</span>
         			<span>  
-					<a href="/cart.php">Cart (0)</a>
+					<a href="http://shop.ssekodesigns.com/cart.php">Cart (0)</a>
   					</span>
   				</div>	
         	</div>
      		 <div id="shipping" class="grid_4">
         		<div id="inside">
         			<span id="shipping">$7 Flat Rate Ground Shipping!</span><br>
-        			<span id="returns"><a href="/pages.php?pageid=7">shipping & returns info</a></span>
+        			<span id="returns"><a href="http://shop.ssekodesigns.com/pages.php?pageid=7">shipping & returns info</a></span>
         		</div>
 			</div>
 			<div class="clear"></div> 	
 
-			<div class="grid_9 nav">
+			<div class="grid_9 nav omega">
 				<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_id' => 'menu' ) ); ?>
 			</div>
 

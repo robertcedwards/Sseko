@@ -3,8 +3,8 @@
           <hr class="grid_12"/>
 <ul id="about" class="grid_3">
   about
-  <li><a href="/help.php?section=contactus&amp;mode=update">contact us</a></li>
-  <li><a href="/returns.php">shipping &amp; returns</a></li>
+  <li><a href="http://shop.ssekodesigns.com/help.php?section=contactus&amp;mode=update">contact us</a></li>
+  <li><a href="http://shop.ssekodesigns.com/returns.php">shipping &amp; returns</a></li>
   <li><a href="/size-chart/">sizing</a></li>
   <li><a href="/faqs/">faqs</a></li>
   <li><a href="/what-we-do/">our mission &amp; impact</a></li>
@@ -15,9 +15,9 @@
 </ul>
 <ul id="shop" class="grid_3">
   shop
-  <li><a href="/">create your ssekos</a></li>
-  <li><a href="/home.php?cat=250">buy new straps</a></li>
-  <li><a href="/home.php?cat=258">sseko weddings</a></li>
+  <li><a href="http://shop.ssekodesigns.com/">create your ssekos</a></li>
+  <li><a href="http://shop.ssekodesigns.com/home.php?cat=250">buy new straps</a></li>
+  <li><a href="http://shop.ssekodesigns.com/home.php?cat=258">sseko weddings</a></li>
   <li><a href="/find-a-retailer/">find a retailer</a></li>
 </ul>
 <ul id="/get-involved" class="grid_3">

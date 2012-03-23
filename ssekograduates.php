@@ -10,7 +10,7 @@ Template Name: Graduates
 		<article  id="post-<?php the_ID(); ?>"	>
 				<?php the_content(); ?>	
 				<h1><?php wp_title(' ','true','right'); ?></h1>
-				<div id="pagenote" class="flat grid_3">
+				<div id="pagenote" class="flat grid_3 alpha">
 					<div class="notetext">
 						<h2 class="notetitle">Sseko Graduates</h2>
 						<p>Read about the progress Sseko Graduates have made since graduating from our program. These women are in college and beyond, pursuing their dreams and becoming leaders.</p>

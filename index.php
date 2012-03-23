@@ -78,7 +78,7 @@ Template Name: Home Page
   <li><a href="">create your ssekos</a></li>
   <li><a href="/home.php?cat=250">buy new straps</a></li>
   <li><a href="/home.php?cat=258">sseko weddings</a></li>
-  <li><a href="">find a retailer</a></li>
+  <li><a href="/find-a-retailer/">find a retailer</a></li>
 </ul>
 <ul id="about" class="grid_3">
   about

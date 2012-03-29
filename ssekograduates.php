@@ -15,7 +15,7 @@ Template Name: Graduates
 						<h2 class="notetitle">Sseko Graduates</h2>
 						<p>Read about the progress Sseko Graduates have made since graduating from our program. These women are in college and beyond, pursuing their dreams and becoming leaders.</p>
 					</div>
-					<img class="noteimage" src="/wp-content/themes/Sseko/images/pagenote.jpg">
+					<img class="noteimage" src="<?php echo site_url(); ?>/wp-content/themes/Sseko/images/pagenote.jpg">
 
 				</div>				<?php $womens = getFieldOrder('image'); 
 									if(is_array($womens))

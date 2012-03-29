@@ -15,7 +15,7 @@ Template Name: University Bound
 						<h2 class="notetitle">University Bound</h2>
 						<p>Our university bound team members have recently graduated high school and work with us during the 9 months in between high school and university to earn money towards college.</p>
 					</div>
-					<img class="noteimage" src="/wp-content/themes/Sseko/images/pagenote.jpg">
+					<img class="noteimage" src="<?php echo site_url(); ?>/wp-content/themes/Sseko/images/pagenote.jpg">
 
 				</div>
 				<?php $womens = getFieldOrder('image'); 

@@ -15,7 +15,7 @@ Template Name: Full-Time Veterans
 						<h2 class="notetitle">Full Time Veterans</h2>
 						<p>Our veteran team members work for Sseko full-time, year round. From mothers to managers, read about the dreams each of these women are working towards.</p>
 					</div>
-					<img class="noteimage" src="/wp-content/themes/Sseko/images/pagenote.jpg">
+					<img class="noteimage" src="<?php echo site_url(); ?>/wp-content/themes/Sseko/images/pagenote.jpg">
 				</div>	
 				
 				<?php $womens = getFieldOrder('image'); 
